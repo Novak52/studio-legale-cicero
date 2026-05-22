@@ -68,7 +68,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </div>
 
       {/* TOP BAR */}
-      <div className="relative z-40 border-b border-white/5 bg-[#0b1220] text-white text-sm">
+      <div className="hidden md:block relative z-40 border-b border-white/5 bg-[#0b1220] text-white text-sm">
         <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row justify-between items-center gap-3">
           <div className="flex items-center gap-6 text-white/60 uppercase tracking-[0.18em] text-xs">
             <span>Studio Legale Palermo</span>
