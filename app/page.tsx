@@ -68,14 +68,14 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </div>
 
       {/* TOP BAR */}
-      <div className="hidden md:block relative z-40 border-b border-white/5 bg-[#0b1220] text-white text-sm">
-        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-col md:flex-row justify-between items-center gap-3">
-          <div className="flex items-center gap-6 text-white/60 uppercase tracking-[0.18em] text-xs">
+      <div className="relative z-40 border-b border-white/5 bg-[#0b1220] text-white text-xs md:text-sm">
+        <div className="max-w-7xl mx-auto px-4 py-2 md:px-6 md:py-3 flex flex-col md:flex-row justify-between items-center gap-2">
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-6 text-white/60 uppercase tracking-[0.12em] text-[10px] sm:text-xs text-center">
             <span>Studio Legale Palermo</span>
             <span>Assistenza Civile e Penale</span>
           </div>
 
-          <div className="flex items-center gap-6 text-white/60">
+          <div className="flex flex-col sm:flex-row items-center gap-1 sm:gap-6 text-white/60 text-center">
             <span>📞 +39 339 164 4668</span>
             <span>📍 Palermo, Via Houel 4</span>
           </div>
