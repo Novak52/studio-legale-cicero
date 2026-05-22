@@ -56,12 +56,12 @@ export default function Home() {
       </div>
 
       {/* WHATSAPP FLOAT */}
-      <div className="fixed bottom-4 right-4 lg:bottom-6 lg:right-6 z-50">
+      <div className="fixed bottom-8 right-4 lg:bottom-6 lg:right-6 z-50">
         <a
   href="https://wa.me/393391644668"
   target="_blank"
   rel="noopener noreferrer"
-  className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-7 sm:py-4 rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
+className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 max-w-[220px] rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
 >
   WhatsApp Diretto
 </a>
@@ -117,7 +117,7 @@ export default function Home() {
 
           <a
   href="mailto:studiolegalegiuseppinacicero@gmail.com"
-  className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
+  className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
 >
   Richiedi Consulenza
 </a>
@@ -422,7 +422,7 @@ export default function Home() {
                 Aree Legali
               </p>
 
-              <h2 className="text-5xl lg:text-7xl font-serif leading-[0.98] max-w-4xl text-[#101826]">
+              <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif leading-[0.98] max-w-4xl text-[#101826]">
                 Aree di specializzazione.
               </h2>
             </div>
@@ -536,7 +536,7 @@ export default function Home() {
             Studio Legale Giuseppina Cicero
           </p>
 
-          <h2 className="text-6xl lg:text-7xl font-serif leading-[0.95] mb-10">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-serif leading-[0.95] mb-10">
             Parla direttamente con
             <br />
             lo studio.
@@ -559,7 +559,7 @@ export default function Home() {
   href="https://wa.me/393391644668"
   target="_blank"
   rel="noopener noreferrer"
-  className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-7 sm:py-4 rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
+  className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
 >
   WhatsApp Diretto
 </a>
