@@ -22,7 +22,7 @@ export default function Home() {
     {
       title: 'Diritto di Famiglia',
       description:
-        'Separazioni, divorzi, affidamento figli e tutela familiare con approccio riservato, strategico e professionale.'
+        'Separazioni, divorzi, affidamento figli e tutela familiare con approccio riservato, autorevole e professionale.'
     },
     {
       title: 'Malasanità e Responsabilità Medica',
@@ -44,7 +44,7 @@ export default function Home() {
   const strengths = [
     'Strategie legali personalizzate',
     'Tutela concreta dei diritti',
-    'Assistenza professionale continua',
+    'Assistenza dedicata continua',
     'Approccio rigoroso e autorevole'
   ]
 
@@ -232,7 +232,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       <br />
       autorevole,
       <br />
-      moderna e strategica.
+      moderna e rigorosa.
     </h1>
 
     <p className="text-white/70 text-lg xl:text-xl leading-relaxed mb-10 max-w-lg">
@@ -291,15 +291,15 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
     </div>
     <div className="mt-6 px-2">
   <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-3">
-    Diritto Civile
+    Diritto Civile e Penale
   </p>
 
   <h3 className="text-2xl md:text-3xl font-serif text-white leading-tight mb-4">
-    Tutela professionale orientata ai risultati.
+    Tutela legale orientata ai risultati.
   </h3>
 
   <p className="text-white/70 text-sm md:text-lg leading-relaxed max-w-xl">
-    Esperienza, riservatezza e gestione rigorosa delle pratiche legali.
+    Esperienza giuridica, riservatezza e gestione rigorosa delle pratiche legali.
   </p>
 </div>
   </motion.div>
@@ -339,14 +339,14 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
     <div className="text-center max-w-4xl mx-auto mb-20">
 
       <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
-        Assistenza Professionale
+        Assistenza Dedicata
       </p>
 
       <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif leading-[1.02] text-[#101826] mb-8">
-        Esperienza legale costruita su metodo,
+        Esperienza giuridica costruita su metodo,
         gestione diretta e continuità.
         <p className="text-[#8a8f98] text-sm tracking-[0.12em] uppercase mt-6">
-  Diritto civile • Approccio strategico • Tutela professionale
+  Diritto civile • Approccio strategico • Tutela legale
 </p>
       </h2>
 
@@ -429,8 +429,8 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
             </div>
 
             <p className="max-w-xl text-[#5d6470] text-xl leading-relaxed">
-              Lo studio opera nelle principali aree del diritto civile con approccio professionale,
-              strategico e orientato alla tutela concreta della persona.
+              Lo studio opera nelle principali aree del diritto civile con approccio giuridico,
+              orientato alla tutela concreta della persona.
             </p>
           </div>
 
@@ -544,7 +544,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
           </h2>
 
           <p className="text-white/65 text-xl leading-relaxed max-w-3xl mx-auto mb-16">
-            Contatta lo studio per ricevere supporto professionale,
+            Contatta lo studio per ricevere supporto,
             consulenza riservata e tutela concreta dei tuoi diritti.
           </p>
 
@@ -603,7 +603,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
         </div>
 
         <p className="text-white/60 leading-relaxed text-lg">
-          Assistenza legale professionale, tutela personalizzata e approccio strategico orientato ai risultati.
+          Assistenza legale professionale, tutela personalizzata e approccio diretto orientato ai risultati.
         </p>
 
       </div>
