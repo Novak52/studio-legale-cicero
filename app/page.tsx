@@ -287,12 +287,12 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
       <div className="absolute inset-0 bg-gradient-to-t from-[#07101d]/95 via-[#07101d]/20 to-transparent" />
 
-      <div className="absolute bottom-8 left-1 right-1 bg-black/30 backdrop-blur-xl border border-white/10 rounded-2xl p-5">
+      <div className="absolute bottom-4 left-4 right-4 bg-black/30 backdrop-blur-xl border border-white/10 rounded-2xl p-5 md:p-8">
         <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-3">
           Diritto Civile
         </p>
 
-        <h3 className="text-2xl xl:text-3xl font-serif leading-tight mb-3">
+        <h3 className="text-xl md:text-3xl font-serif leading-tight mb-3">
           Tutela professionale orientata ai risultati.
         </h3>
 
