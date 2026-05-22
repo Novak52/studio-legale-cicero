@@ -210,7 +210,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 <section className="relative bg-[#0b1220] text-white overflow-hidden">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(200,169,107,0.16),transparent_34%)]" />
 
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center px-6 py-16 lg:py-28">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center px-6 py-16 lg:py-16 md:py-28">
 
   {/* LEFT */}
   <motion.div
