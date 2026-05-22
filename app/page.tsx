@@ -210,7 +210,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 <section className="relative bg-[#0b1220] text-white overflow-hidden">
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(200,169,107,0.16),transparent_34%)]" />
 
-  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 xl:gap-20 items-center px-6 py-16 lg:py-28">
+  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center px-6 py-16 lg:py-28">
 
   {/* LEFT */}
   <motion.div
@@ -227,7 +227,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
     </p>
     <div className="w-24 h-px bg-[#c8a96b]/40 mt-6 mb-10" />
 
-    <h1 className="text-[58px] md:text-[72px] xl:text-[82px] font-serif leading-[0.9] tracking-[-0.04em] mb-8">
+    <h1 className="text-[42px] md:text-[72px] xl:text-[82px] font-serif leading-[0.9] tracking-[-0.04em] mb-8">
       Tutela legale
       <br />
       autorevole,
@@ -241,7 +241,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       Assistenza legale in successioni e divisioni ereditarie.
     </p>
 
-    <div className="relative z-30 flex flex-col sm:flex-row gap-4">
+    <div className="relative z-30 flex flex-col sm:flex-row gap-4 max-w-[320px] sm:max-w-none">
       <a
   href="tel:+393391644668"
   className="relative z-20 bg-[#c8a96b] text-[#101826] px-7 py-3 rounded-full hover:scale-[1.015] active:scale-[0.98] hover:shadow-[0_15px_40px_rgba(200,169,107,0.25)] transition-all duration-500 shadow-2xl shadow-black/30 uppercase tracking-[0.08em] text-xs font-medium inline-flex items-center justify-center cursor-pointer"
@@ -277,11 +277,11 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
     <div className="absolute -inset-6 bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
     <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl">
-      <div className="relative w-full h-[520px]">
+      <div className="relative w-full h-[420px] md:h-[560px] lg:h-[700px]">
   <img
   src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1600&auto=format&fit=crop"
   alt="Studio Legale"
-  className="w-full h-[620px] xl:h-[300px] object-cover"
+  className="w-full h-[420px] md:h-[560px] lg:h-[700px] object-cover object-center"
 />
 </div>
 
