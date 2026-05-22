@@ -412,7 +412,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   
       </motion.section>
       {/* SERVICES */}
-      <section className="relative py-32 px-6 bg-[#f3eee6] overflow-hidden">
+      <section className="relative py-20 px-6 bg-[#f3eee6] overflow-hidden">
         <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
         <div className="relative max-w-7xl mx-auto">
@@ -499,7 +499,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </section>
 
       {/* TESTIMONIAL */}
-      <section className="relative py-32 px-6 bg-white overflow-hidden">
+      <section className="relative py-20 px-6 bg-white overflow-hidden">
         <div className="absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')]" />
         <div className="max-w-5xl mx-auto text-center">
           <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
