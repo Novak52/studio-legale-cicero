@@ -75,6 +75,7 @@ export default function RootLayout({
     className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
   >
     <head>
+      <meta name="google-site-verification" content="UoekwG77YY3ETdVrk7HsDy33kMqTBXnnkP9n8AT3zR0" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link
         rel="preconnect"
