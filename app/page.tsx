@@ -324,7 +324,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 <section className="bg-[#f7f4ee] text-[#101826] px-6 py-16 md:py-24">
   <div className="max-w-7xl mx-auto">
 
-    <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
 
       <div>
         <h3 className="text-5xl md:text-6xl font-serif mb-4">
