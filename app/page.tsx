@@ -319,6 +319,72 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
   
   </section>
+  {/* STATS */}
+
+<section className="bg-[#f7f4ee] text-[#101826] px-6 py-16 md:py-24">
+  <div className="max-w-7xl mx-auto">
+
+    <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
+
+      <div>
+        <h3 className="text-5xl md:text-6xl font-serif mb-4">
+          20+
+        </h3>
+
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+          Anni di esperienza
+        </p>
+
+        <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
+          Tutela civile e penale con gestione diretta delle pratiche.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl md:text-6xl font-serif mb-4">
+          2200+
+        </h3>
+
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+          Pratiche seguite
+        </p>
+
+        <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
+          Assistenza riservata e orientata alla tutela concreta.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl md:text-6xl font-serif mb-4">
+          98%
+        </h3>
+
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+          Gestione diretta
+        </p>
+
+        <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
+          Rapporto personale e continuità nella gestione dei casi.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="text-5xl md:text-6xl font-serif mb-4">
+          Palermo
+        </h3>
+
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+          Operatività
+        </p>
+
+        <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
+          Assistenza in Sicilia in ambito civile, familiare, medico, infortunistico ed ereditario.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
         
       {/* TRUST */}
       
