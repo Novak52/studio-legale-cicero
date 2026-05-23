@@ -34,9 +34,10 @@ export const metadata = {
     "Studio Legale Giuseppina Cicero | Palermo",
     
   description:
-    "Tutela legale professionale, strategica e personalizzata.",
+    "Assistenza legale civile e familiare a Palermo con gestione diretta, riservatezza e attenzione concreta al cliente.",
 
   url: "https://avvocatocicero.it",
+  
 
   siteName: "Studio Legale Giuseppina Cicero",
 
@@ -51,9 +52,12 @@ robots: {
   index: true,
   follow: true,
 },
+
 authors: [{ name: "Studio Legale Giuseppina Cicero" }],
 creator: "Studio Legale Giuseppina Cicero",
 publisher: "Studio Legale Giuseppina Cicero",
+
+metadataBase: new URL("https://avvocatocicero.it"),
 };
 
 export const viewport = {
