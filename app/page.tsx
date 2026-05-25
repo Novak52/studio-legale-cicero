@@ -634,6 +634,68 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
         </div>
       </section>
 
+      {/* AREE LEGALI */}
+<div className="mt-24 bg-[#f5f1ea] text-[#0b1220] rounded-[40px] p-16">
+
+  <div className="mb-12">
+    <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-sm mb-4">
+      Aree Legali
+    </p>
+
+    <h2 className="text-[#0b1220] font-serif text-4xl md:text-5xl leading-tight max-w-3xl">
+      Assistenza legale civile e tutela risarcitoria a Palermo.
+    </h2>
+  </div>
+
+  <div className="grid md:grid-cols-2 gap-6">
+
+    <a
+      href="/diritto-civile-palermo"
+      className="group border border-black/10 rounded-[2rem] p-8 bg-white hover:-translate-y-1 transition-all duration-500 shadow-sm hover:shadow-xl"
+    >
+      <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-5">
+        Area Civile
+      </p>
+
+      <h3 className="text-[#0b1220] font-serif text-3xl mb-4">
+        Diritto Civile Palermo
+      </h3>
+
+      <p className="text-[#475569] leading-relaxed mb-8">
+        Assistenza legale in controversie civili, successioni,
+        responsabilità civile, tutela patrimoniale e diritto di famiglia.
+      </p>
+
+      <span className="text-[#c8a96b] group-hover:translate-x-1 transition-transform inline-block">
+        →
+      </span>
+    </a>
+
+    <a
+      href="/risarcimento-danni-palermo"
+      className="group border border-black/10 rounded-[2rem] p-8 bg-white hover:-translate-y-1 transition-all duration-500 shadow-sm hover:shadow-xl"
+    >
+      <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-5">
+        Tutela Risarcitoria
+      </p>
+
+      <h3 className="text-[#0b1220] font-serif text-3xl mb-4">
+        Risarcimento Danni Palermo
+      </h3>
+
+      <p className="text-[#475569] leading-relaxed mb-8">
+        Supporto legale per richieste risarcitorie,
+        responsabilità civile, incidenti stradali e danni patrimoniali.
+      </p>
+
+      <span className="text-[#c8a96b] group-hover:translate-x-1 transition-transform inline-block">
+        →
+      </span>
+    </a>
+
+  </div>
+</div>
+
       
       {/* PREMIUM FOOTER */}
 <footer className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
@@ -668,7 +730,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
         </div>
 
-        <p className="text-white/60 leading-relaxed text-lg">
+        <p className="text-[#475569] leading-relaxed text-lg">
           Assistenza legale professionale, tutela personalizzata e approccio diretto orientato ai risultati.
         </p>
 
@@ -681,7 +743,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
           Aree Legali
         </h4>
 
-        <div className="space-y-4 text-white/60">
+        <div className="space-y-4 text-[#475569] leading-relaxed">
 
           <p>Diritto di Famiglia</p>
           <p>Malasanità</p>
@@ -692,6 +754,8 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
       </div>
 
+      
+
       {/* CONTATTI */}
       <div>
 
@@ -699,7 +763,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
           Contatti
         </h4>
 
-        <div className="space-y-4 text-white/60">
+        <div className="space-y-4 text-[#475569] leading-relaxed">
 
           <p>Palermo, Via Houel 4, 90138</p>
           <p><a href="mailto:studiolegalegiuseppinacicero@gmail.com">
@@ -722,7 +786,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
           Gratuito Patrocinio
         </h4>
 
-        <p className="text-white/60 leading-relaxed">
+        <p className="text-[#475569] leading-relaxed">
           Lo studio assiste i clienti anche tramite patrocinio a spese dello Stato nei casi previsti dalla legge.
         </p>
 
