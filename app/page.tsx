@@ -412,7 +412,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
         Esperienza giuridica costruita su metodo,
         gestione diretta e continuità.
         <p className="text-[#8a8f98] text-sm tracking-[0.12em] uppercase mt-6">
-  Diritto civile • Approccio strategico • Tutela legale
+  Diritto civile e penale • Approccio strategico • Tutela legale
 </p>
       </h2>
 
