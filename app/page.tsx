@@ -22,22 +22,26 @@ export default function Home() {
     {
       title: 'Diritto di Famiglia',
       description:
-        'Separazioni, divorzi, affidamento figli e tutela familiare con approccio riservato, autorevole e professionale.'
+        'Separazioni, divorzi, affidamento figli e tutela familiare con approccio riservato, autorevole e professionale.',
+        href: "/avvocato-famiglia-palermo",
     },
     {
       title: 'Malasanità e Responsabilità Medica',
       description:
-        'Tutela nei casi di errore medico, responsabilità sanitaria, malpractice e accesso al gratuito patrocinio nei casi previsti dalla legge.'
+        'Tutela nei casi di errore medico, responsabilità sanitaria, malpractice e accesso al gratuito patrocinio nei casi previsti dalla legge.',
+        href: "/malasanita-palermo",
     },
     {
       title: 'Infortunistica',
       description:
-        'Assistenza legale per incidenti stradali o sul lavoro, danno biologico e richieste di risarcimento.'
+        'Assistenza legale per incidenti stradali o sul lavoro, danno biologico e richieste di risarcimento.',
+        href: "/avvocato-incidenti-stradali-palermo",
     },
     {
   title: "Diritto Ereditario e Successorio",
   description:
     "Assistenza legale in successioni, eredità, divisioni ereditarie, impugnazioni testamentarie e tutela patrimoniale.",
+    href: "#",
 },
   ]
 
@@ -555,9 +559,9 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
                     {service.description}
                   </p>
 
-                  <button className="mt-10 border border-[#101826] text-[#101826] px-8 py-4 rounded-full uppercase tracking-[0.15em] text-xs hover:bg-[#101826] hover:text-white transition-all duration-500">
+                  <a href={service.href} className="mt-10 border border-[#101826] text-[#101826] px-8 py-4 rounded-full uppercase tracking-[0.15em] text-xs hover:bg-[#101826] hover:text-white transition-all duration-500">
                     Approfondisci
-                  </button>
+                  </a>
                 </div>
               </motion.div>
             ))}
@@ -634,67 +638,10 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
         </div>
       </section>
 
-      {/* AREE LEGALI */}
-<div className="mt-24 bg-[#f5f1ea] text-[#0b1220] rounded-[40px] p-16">
+      
 
-  <div className="mb-12">
-    <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-sm mb-4">
-      Aree Legali
-    </p>
+  
 
-    <h2 className="text-[#0b1220] font-serif text-4xl md:text-5xl leading-tight max-w-3xl">
-      Assistenza legale civile e tutela risarcitoria a Palermo.
-    </h2>
-  </div>
-
-  <div className="grid md:grid-cols-2 gap-6">
-
-    <a
-      href="/diritto-civile-palermo"
-      className="group border border-black/10 rounded-[2rem] p-8 bg-white hover:-translate-y-1 transition-all duration-500 shadow-sm hover:shadow-xl"
-    >
-      <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-5">
-        Area Civile
-      </p>
-
-      <h3 className="text-[#0b1220] font-serif text-3xl mb-4">
-        Diritto Civile Palermo
-      </h3>
-
-      <p className="text-[#475569] leading-relaxed mb-8">
-        Assistenza legale in controversie civili, successioni,
-        responsabilità civile, tutela patrimoniale e diritto di famiglia.
-      </p>
-
-      <span className="text-[#c8a96b] group-hover:translate-x-1 transition-transform inline-block">
-        →
-      </span>
-    </a>
-
-    <a
-      href="/risarcimento-danni-palermo"
-      className="group border border-black/10 rounded-[2rem] p-8 bg-white hover:-translate-y-1 transition-all duration-500 shadow-sm hover:shadow-xl"
-    >
-      <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-xs mb-5">
-        Tutela Risarcitoria
-      </p>
-
-      <h3 className="text-[#0b1220] font-serif text-3xl mb-4">
-        Risarcimento Danni Palermo
-      </h3>
-
-      <p className="text-[#475569] leading-relaxed mb-8">
-        Supporto legale per richieste risarcitorie,
-        responsabilità civile, incidenti stradali e danni patrimoniali.
-      </p>
-
-      <span className="text-[#c8a96b] group-hover:translate-x-1 transition-transform inline-block">
-        →
-      </span>
-    </a>
-
-  </div>
-</div>
 
       
       {/* PREMIUM FOOTER */}
