@@ -41,7 +41,7 @@ export default function Home() {
   title: "Diritto Ereditario e Successorio",
   description:
     "Assistenza legale in successioni, eredità, divisioni ereditarie, impugnazioni testamentarie e tutela patrimoniale.",
-    href: "#",
+    href: "/avvocato-successioni-palermo",
 },
   ]
 
