@@ -1,3 +1,4 @@
+import Link from "next/link"
 export const metadata = {
   title: "Avvocato Successioni Palermo | Studio Legale",
   description:
@@ -46,12 +47,12 @@ export default function SeparazioneDivorzioPalermo() {
                testamenti e controversie patrimoniali.
             </p>
 
-            <a
+            <Link
               href="/#contatti"
               className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-[#0b1220] font-medium hover:opacity-90 transition"
             >
               Prenota consulenza
-            </a>
+            </Link>
           </div>
 
         </div>

@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export const metadata = {
   title: "Separazione e Divorzio Palermo | Studio Legale",
   description:
@@ -48,12 +50,12 @@ export default function SeparazioneDivorzioPalermo() {
               e tutela familiare.
             </p>
 
-            <a
-              href="/#contatti"
-              className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-[#0b1220] font-medium hover:opacity-90 transition"
+            <Link
+  href="/#contatti"
+  className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-black text-lg hover:opacity-90 transition"
             >
-              Prenota consulenza
-            </a>
+  Prenota consulenza
+</Link>
           </div>
 
         </div>

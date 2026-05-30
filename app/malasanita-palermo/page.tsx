@@ -1,3 +1,4 @@
+import Link from "next/link"
 export const metadata = {
   title: "Malasanità Palermo | Studio Legale Giuseppina Cicero",
   description:
@@ -50,12 +51,12 @@ export default function MalasanitaPalermo() {
               di malpractice sanitaria e richieste risarcitorie.
             </p>
 
-            <a
+            <Link
               href="/#contatti"
               className="inline-block bg-[#c8a96b] text-black px-8 py-4 rounded-full text-lg hover:opacity-90 transition"
             >
               Prenota consulenza
-            </a>
+            </Link>
           </div>
 
         </div>

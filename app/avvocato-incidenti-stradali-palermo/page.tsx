@@ -1,3 +1,4 @@
+import Link from "next/link"
 export const metadata = {
   title: "Avvocato Incidenti Stradali Palermo | Studio Legale Palermo",
   description:
@@ -45,12 +46,12 @@ export default function IncidentiStradaliPalermoPage() {
               di incidenti stradali e richieste di risarcimento danni.
             </p>
 
-            <a
+            <Link
               href="/#contatti"
               className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-black text-lg hover:opacity-90 transition"
             >
               Prenota consulenza
-            </a>
+            </Link>
           </div>
         </div>
 

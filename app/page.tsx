@@ -6,6 +6,44 @@ import { motion, AnimatePresence } from "framer-motion"
 import { useState,useEffect } from "react"
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
+const [activeSection] = useState("home")
+  const scrollToSection = (id: string) => {
+  const element = document.getElementById(id)
+
+  if (!element) return
+
+  const start = window.scrollY
+  const end = element.offsetTop - 80
+  const distance = end - start
+  const duration = 1600
+
+  let startTime: number |null = null
+
+  const easeInOutCubic = (t: number) => {
+    return t < 0.5
+      ? 4 * t * t * t
+      : 1 - Math.pow(-2 * t + 2, 3) / 2
+  }
+
+  const animation = (currentTime: number) => {
+    if (startTime === null) startTime = currentTime
+
+    const timeElapsed = currentTime - startTime
+    const progress = Math.min(timeElapsed / duration, 1)
+
+    const ease = easeInOutCubic(progress)
+
+    window.scrollTo(0, start + distance * ease)
+
+    if (timeElapsed < duration) {
+      requestAnimationFrame(animation)
+    }
+  }
+
+  requestAnimationFrame(animation)
+}
+
+  
   useEffect(() => {
   if (menuOpen) {
     document.body.style.overflow = "hidden"
@@ -45,12 +83,7 @@ export default function Home() {
 },
   ]
 
-  const strengths = [
-    'Strategie legali personalizzate',
-    'Tutela concreta dei diritti',
-    'Assistenza dedicata continua',
-    'Approccio rigoroso e autorevole'
-  ]
+  
 
   return (
     <main className="bg-[#f7f4ee] text-[#101826] overflow-x-hidden">
@@ -87,11 +120,12 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </div>
 
       {/* HEADER */}
-      <header className="sticky top-0 z-40 backdrop-blur-2xl bg-[#f7f4ee]/85 border-b border-black/5 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
+      <header className="sticky top-0 z-40 backdrop-blur-2xl bg-[#f8f6f2] border-b border-black/5 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
+      <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto px-5 xl:px-8 py-5 flex items-center justify-between gap-4">
           <div>
             <div className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
-              <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/30 flex items-center justify-center text-[#c8a96b] text-lg font-serif">
+              <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/60 flex items-center justify-center text-[#b88d3b] text-lg font-serif">
   GC
 </div>
               Studio Legale
@@ -102,14 +136,90 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
             </p>
           </div>
 
-          <nav className="hidden xl:flex items-center gap-12 uppercase tracking-[0.22em] text-[11px] text-[#101826]">
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Home</a>
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Studio</a>
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Aree Legali</a>
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Risultati</a>
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Blog</a>
-            <a href="#" className="relative hover:text-[#8f6b33] transition-all duration-300 after:absolute after:left-0 after:-bottom-2 after:h-px after:w-0 after:bg-[#8f6b33] after:transition-all after:duration-300 hover:after:w-full">Contatti</a>
-          </nav>
+          <nav className="hidden xl:flex items-center gap-12 uppercase tracking-[0.22em] text-[11px]">
+
+  <button
+    onClick={() => scrollToSection("home")}
+    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+      activeSection === "home" ? "text-[#c8a96b]" : "text-[#101826]"
+    }`}
+  >
+    HOME
+    <span
+      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+        activeSection === "home" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </button>
+
+  <button
+    onClick={() => scrollToSection("studio")}
+    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+      activeSection === "studio" ? "text-[#c8a96b]" : "text-[#101826]"
+    }`}
+  >
+    STUDIO
+    <span
+      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+        activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </button>
+
+  <button
+    onClick={() => scrollToSection("aree-legali")}
+    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+      activeSection === "aree-legali" ? "text-[#c8a96b]" : "text-[#101826]"
+    }`}
+  >
+    AREE LEGALI
+    <span
+      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+        activeSection === "aree-legali" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </button>
+
+  <button
+    onClick={() => scrollToSection("risultati")}
+    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+      activeSection === "risultati" ? "text-[#c8a96b]" : "text-[#101826]"
+    }`}
+  >
+    RISULTATI
+    <span
+      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+        activeSection === "risultati" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </button>
+
+  <button
+    onClick={() => scrollToSection("contatti")}
+    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+      activeSection === "contatti" ? "text-[#c8a96b]" : "text-[#101826]"
+    }`}
+  >
+    CONTATTI
+    <span
+      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+        activeSection === "contatti" ? "w-full" : "w-0 group-hover:w-full"
+      }`}
+    />
+  </button>
+
+  <button
+  onClick={() => (window.location.href = "/blog")}
+  className="group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] text-[#101826]"
+>
+  BLOG
+
+  <span
+    className="absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 w-0 group-hover:w-full"
+  />
+</button>
+
+</nav>
           <button
   onClick={() => setMenuOpen(true)}
   className="xl:hidden flex flex-col gap-1.5"
@@ -120,7 +230,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 </button>
 
           <a
-  href="mailto:studiolegalegiuseppinacicero@gmail.com"
+  href="tel:+393391644668"
   className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
 >
   Richiedi Consulenza
@@ -168,7 +278,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
           "Studio",
           "Aree Legali",
           "Risultati",
-          "Blog",
+          
           ].map((item, index) => (
 
           <motion.a
@@ -211,10 +321,13 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
 
   {/* HERO */}
-<section className="relative bg-[#0b1220] text-white overflow-hidden">
+<section
+  id="home"
+  className="relative bg-[#0b1220] text-white overflow-hidden"
+>
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(200,169,107,0.16),transparent_34%)]" />
 
-  <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center px-6 py-16 lg:py-16 md:py-28">
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center py-16 lg:py-16 md:py-28">
 
   {/* LEFT */}
   <motion.div
@@ -282,10 +395,13 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
     <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl">
       <div className="relative w-full h-[420px] md:h-[560px] lg:h-[700px]">
-  <img
+  <Image
   src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1600&auto=format&fit=crop"
   alt="Studio Legale"
-  className="w-full h-[420px] md:h-[560px] lg:h-[700px] object-cover object-center"
+  fill
+  priority
+  sizes="(max-width: 768px) 100vw, 50vw"
+  className="object-cover object-center"
 />
 </div>
 
@@ -323,10 +439,20 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
   
   </section>
+
+  {/* RISULTATI */}
+
+ 
+
+{/* BLOG */}
+
+
   {/* STATS */}
 
-<section className="bg-[#f7f4ee] text-[#101826] px-6 py-16 md:py-24">
-  <div className="max-w-7xl mx-auto">
+<section
+id="risultati"
+ className="bg-[#f7f4ee] text-[#101826] px-6 py-16 md:py-24">
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
 
@@ -394,7 +520,8 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       
 {/* PREMIUM TRUST SECTION */}
 <motion.section
-  className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
+id="studio"
+className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
   initial={{ opacity: 0, y: 120, scale: 0.92 }}
   whileInView={{ opacity: 1, y: 0, scale: 1 }}
   transition={{ duration: 1.4, ease: "easeOut" }}
@@ -403,7 +530,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
   <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
-  <div className="relative max-w-7xl mx-auto">
+  <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
 
     {/* TITLE */}
     <div className="text-center max-w-4xl mx-auto mb-20">
@@ -483,10 +610,10 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   
       </motion.section>
       {/* SERVICES */}
-      <section className="relative py-20 px-6 bg-[#f3eee6] overflow-hidden">
+      <section id="aree-legali" className="relative py-20 px-6 bg-[#f3eee6] overflow-hidden">
         <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
-        <div className="relative max-w-7xl mx-auto">
+        <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row justify-between gap-14 mb-24">
             <div>
               <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
@@ -570,7 +697,9 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </section>
 
       {/* TESTIMONIAL */}
-      <section className="relative py-20 px-6 bg-white overflow-hidden">
+      <section
+      
+  className="relative py-20 px-6 bg-white overflow-hidden">
         <div className="absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')]" />
         <div className="max-w-5xl mx-auto text-center">
           <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
@@ -599,7 +728,8 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </section>
 
       {/* CTA */}
-      <section className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden">
+      <section
+className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(200,169,107,0.18),transparent_28%)]" />
 
         <div className="relative max-w-5xl mx-auto text-center">
@@ -645,7 +775,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
       
       {/* PREMIUM FOOTER */}
-<footer className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
+<footer id="contatti" className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
 
   <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c8a96b] to-transparent" />
 
@@ -712,17 +842,37 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
         <div className="space-y-4 text-[#475569] leading-relaxed">
 
-          <p>Palermo, Via Houel 4, 90138</p>
-          <p><a href="mailto:studiolegalegiuseppinacicero@gmail.com">
-  studiolegalegiuseppinacicero@gmail.com
-</a></p>
-          <p>Pec: giuseppinacicero@pecavvpa.it</p>
-          <p>Tel. <a href="tel:+393391644668">
-  +39 339 1644668
-</a></p>
-          <p></p>
+  <a
+    href="https://www.google.com/maps/dir/?api=1&destination=Via+Houel+4,+90138+Palermo"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block hover:text-[#c8a96b] transition-colors duration-300"
+  >
+    Palermo, Via Houel 4, 90138
+  </a>
 
-        </div>
+  <a
+    href="mailto:studiolegalegiuseppinacicero@gmail.com"
+    className="block hover:text-[#c8a96b] transition-colors duration-300"
+  >
+    studiolegalegiuseppinacicero@gmail.com
+  </a>
+
+  <a
+    href="mailto:giuseppinacicero@pecavvpa.it"
+    className="block hover:text-[#c8a96b] transition-colors duration-300"
+  >
+    Pec: giuseppinacicero@pecavvpa.it
+  </a>
+
+  <a
+    href="tel:+393391644668"
+    className="block hover:text-[#c8a96b] transition-colors duration-300"
+  >
+    Tel. +39 339 1644668
+  </a>
+
+</div>
 
       </div>
 

@@ -1,3 +1,4 @@
+import Link from "next/link"
 export const metadata = {
   title: "Risarcimento Danni Palermo | Studio Legale Giuseppina Cicero",
   description:
@@ -51,12 +52,12 @@ export default function RisarcimentoDanniPalermo() {
               nella valutazione della tua posizione risarcitoria.
             </p>
 
-            <a
+            <Link
               href="/#contatti"
               className="inline-block bg-[#c8a96b] text-[#101826] px-8 py-4 rounded-full"
             >
               Prenota consulenza
-            </a>
+            </Link>
           </div>
 
         </div>
