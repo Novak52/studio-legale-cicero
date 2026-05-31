@@ -13,7 +13,7 @@ const [activeSection] = useState("home")
   if (!element) return
 
   const start = window.scrollY
-  const end = element.offsetTop - 20
+  const end = element.offsetTop
   const distance = end - start
   const duration = 1600
 
