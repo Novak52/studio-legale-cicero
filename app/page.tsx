@@ -274,17 +274,19 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       <div className="flex-1 flex flex-col justify-center px-8">
 
         {[
-          "Home",
-          "Studio",
-          "Aree Legali",
-          "Risultati",
-          
-          ].map((item, index) => (
+  { label: "Home", id: "home" },
+  { label: "Studio", id: "studio" },
+  { label: "Aree Legali", id: "aree-legali" },
+  { label: "Risultati", id: "risultati" },
+  { label: "Contatti", id: "contatti" },
+].map((item, index) => (
 
-          <motion.a
-            key={item}
-            href="#"
-            onClick={() => setMenuOpen(false)}
+          <motion.button
+  key={item.id}
+  onClick={() => {
+    scrollToSection(item.id)
+    setMenuOpen(false)
+  }}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
@@ -292,8 +294,8 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
             }}
             className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
           >
-            {item}
-          </motion.a>
+            {item.label}
+          </motion.button>
         ))}
         <a
   href="mailto:studiolegalegiuseppinacicero@gmail.com"
