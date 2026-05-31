@@ -271,7 +271,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       </div>
 
       {/* LINKS */}
-      <div className="flex-1 flex flex-col justify-center px-8">
+      <div className="flex-1 flex flex-col justify-start px-8 overflow-y-auto">
 
         {[
   { label: "Home", id: "home" },
