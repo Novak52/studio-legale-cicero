@@ -279,14 +279,20 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   { label: "Aree Legali", id: "aree-legali" },
   { label: "Risultati", id: "risultati" },
   { label: "Contatti", id: "contatti" },
+  { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
           <motion.button
   key={item.id}
   onClick={() => {
+  if (item.id === "blog") {
+    window.location.href = "/blog"
+  } else {
     scrollToSection(item.id)
-    setMenuOpen(false)
-  }}
+  }
+
+  setMenuOpen(false)
+}}
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
