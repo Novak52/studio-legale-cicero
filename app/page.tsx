@@ -315,9 +315,12 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
       {/* FOOTER */}
       <div className="px-8 pb-12 sm:pb-10">
 
-        <button className="w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs">
-          Richiedi Consulenza
-        </button>
+        <a
+  href="tel:+393391644668"
+  className="block w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs text-center"
+>
+  Richiedi Consulenza
+</a>
 
       </div>
 
