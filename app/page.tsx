@@ -36,8 +36,10 @@ const [activeSection] = useState("home")
     window.scrollTo(0, start + distance * ease)
 
     if (timeElapsed < duration) {
-      requestAnimationFrame(animation)
-    }
+  requestAnimationFrame(animation)
+} else {
+  window.scrollTo(0, end)
+}
   }
 
   requestAnimationFrame(animation)
