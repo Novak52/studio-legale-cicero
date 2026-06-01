@@ -16,7 +16,7 @@ export default function MalasanitaPalermo() {
           Studio Legale Palermo
         </p>
 
-        <h1 className="font-serif text-5xl md:text-7xl leading-tight max-w-4xl mb-12">
+        <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
           Avvocato malasanità a Palermo.
         </h1>
 
@@ -112,7 +112,7 @@ export default function MalasanitaPalermo() {
       {/* FAQ */}
       <section className="max-w-6xl mx-auto px-6 py-24">
 
-        <h2 className="font-serif text-6xl mb-20">
+        <h2 className="font-serif text-4xl md:text-6xl mb-20">
           Domande frequenti
         </h2>
 

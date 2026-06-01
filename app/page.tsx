@@ -742,6 +742,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
       {/* CTA */}
       <section
+      id="contatti"
 className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(200,169,107,0.18),transparent_28%)]" />
 
@@ -906,7 +907,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
     {/* BOTTOM */}
     <div
-  id="contatti"
+  
   className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
