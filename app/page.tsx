@@ -280,7 +280,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   { label: "Studio", id: "studio" },
   { label: "Aree Legali", id: "aree-legali" },
   { label: "Risultati", id: "risultati" },
-  { label: "Contatti", id: "footer-bottom" },
+  { label: "Contatti", id: "contatti" },
   { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
@@ -847,7 +847,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div>
+      <div id="contatti">
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
