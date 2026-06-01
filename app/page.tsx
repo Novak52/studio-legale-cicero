@@ -788,7 +788,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
       
       {/* PREMIUM FOOTER */}
-<footer id="contatti" className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
+<footer className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
 
   <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c8a96b] to-transparent" />
 
@@ -847,7 +847,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div>
+      <div id="contatti">
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
