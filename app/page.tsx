@@ -280,7 +280,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   { label: "Studio", id: "studio" },
   { label: "Aree Legali", id: "aree-legali" },
   { label: "Risultati", id: "risultati" },
-  { label: "Contatti", id: "contatti" },
+  { label: "Contatti", id: "footer-bottom" },
   { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
@@ -847,7 +847,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div id="contatti">
+      <div>
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
@@ -910,7 +910,10 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       <p className="text-white/40 text-sm">
         © 2026 Studio Legale Palermo • Tutti i diritti riservati
       </p>
-      <p className="text-white/20 text-xs tracking-[0.2em] uppercase mt-4">
+      <p
+  id="footer-bottom"
+  className="text-white/20 text-xs tracking-[0.2em] uppercase mt-4"
+>
   Designed with strategic minimalism
 </p>
 
