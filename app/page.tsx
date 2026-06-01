@@ -905,15 +905,18 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
     </div>
 
     {/* BOTTOM */}
-    <div className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6">
+    <div
+  id="footer-bottom"
+  className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
+>
 
       <p className="text-white/40 text-sm">
         © 2026 Studio Legale Palermo • Tutti i diritti riservati
       </p>
       <p
-  id="footer-bottom"
   className="text-white/20 text-xs tracking-[0.2em] uppercase mt-4"
 >
+
   Designed with strategic minimalism
 </p>
 
