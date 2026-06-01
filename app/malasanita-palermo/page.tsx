@@ -10,7 +10,7 @@ export default function MalasanitaPalermo() {
     <main className="bg-[#f5f1ea] text-[#0b1220]">
 
       {/* HERO */}
-      <section className="max-w-7xl mx-auto px-6 py-32">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 py-20 md:py-32 overflow-hidden">
 
         <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-sm mb-6">
           Studio Legale Palermo
@@ -27,9 +27,9 @@ export default function MalasanitaPalermo() {
         </p>
 
         {/* CARDS */}
-        <div className="grid md:grid-cols-2 gap-8 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-12 md:mt-20">
 
-          <div className="bg-white rounded-[2rem] p-12 shadow-sm border border-black/5">
+          <div className="bg-white rounded-[2rem] p-6 md:p-12 shadow-sm border border-black/5">
             <h2 className="font-serif text-4xl mb-6">
               Responsabilità medica
             </h2>
@@ -41,7 +41,7 @@ export default function MalasanitaPalermo() {
             </p>
           </div>
 
-          <div className="bg-[#071133] text-white rounded-[2rem] p-12">
+          <div className="bg-[#071133] text-white rounded-[2rem] p-6 md:p-12">
             <h2 className="font-serif text-4xl mb-6">
               Consulenza riservata
             </h2>
