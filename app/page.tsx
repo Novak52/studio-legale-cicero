@@ -847,7 +847,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div id="contatti">
+      <div>
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
@@ -906,7 +906,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
     {/* BOTTOM */}
     <div
-  id="footer-bottom"
+  id="contatti"
   className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
