@@ -28,7 +28,7 @@ export default function ArticoloSeparazione() {
         <div className="flex items-center gap-4 mb-10 text-sm text-slate-500 uppercase tracking-[0.15em]">
   <span>Diritto di Famiglia</span>
   <span>•</span>
-  <span>3 min lettura</span>
+  <span>1 min lettura</span>
 </div>
 
         <p className="text-xl text-slate-600 leading-relaxed mb-12">
@@ -77,7 +77,7 @@ export default function ArticoloSeparazione() {
 
 
   <Link
-  href="/#contatti"
+  href="/#cta"
   className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-[#101826] font-medium hover:opacity-90 transition-all duration-300"
 >
   Richiedi una consulenza

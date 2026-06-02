@@ -51,7 +51,7 @@ export default function SeparazioneDivorzioPalermo() {
             </p>
 
             <Link
-  href="/#contatti"
+  href="/#cta"
   className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-black text-lg hover:opacity-90 transition"
             >
   Prenota consulenza
