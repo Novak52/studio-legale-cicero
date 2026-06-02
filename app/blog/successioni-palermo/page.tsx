@@ -29,7 +29,7 @@ export default function SuccessioniPalermoPage() {
         <div className="flex items-center gap-4 mb-10 text-sm text-slate-500 uppercase tracking-[0.15em]">
           <span>Successioni</span>
           <span>•</span>
-          <span>3 min lettura</span>
+          <span>1 min lettura</span>
         </div>
 
         <p className="text-xl text-slate-600 leading-relaxed mb-12">

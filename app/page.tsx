@@ -197,9 +197,9 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   </button>
 
   <button
-    onClick={() => scrollToSection("contatti")}
+    onClick={() => scrollToSection("footer")}
     className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "contatti" ? "text-[#c8a96b]" : "text-[#101826]"
+      activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
     }`}
   >
     CONTATTI
@@ -375,10 +375,10 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 </a>
 
       <button
-  onClick={() => scrollToSection("contatti")}
-  className="border border-white/20 px-7 py-3 rounded-full active:scale-[0.98] hover:bg-white hover:text-[#101826] transition-all duration-300"
+  onClick={() => scrollToSection("footer")}
+  className="border border-white/20 min-w-[220px] py-3 rounded-full text-center"
 >
-  Contatti
+  CONTATTI
 </button>
     </div>
   </motion.div>
@@ -737,7 +737,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
       {/* CTA */}
       <section
-      id="contatti"
+       id="cta"
 className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(200,169,107,0.18),transparent_28%)]" />
 
@@ -784,7 +784,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
       
       {/* PREMIUM FOOTER */}
-<footer className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
+<footer id="footer" className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
 
   <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c8a96b] to-transparent" />
 
@@ -843,7 +843,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div id="contatti">
+      <div id="footer">
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
