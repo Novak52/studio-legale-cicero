@@ -2,14 +2,14 @@ import Link from "next/link"
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
+    <main className="min-h-screen bg-[#f8f6f2] px-4 md:px-6 py-24 overflow-x-hidden">
       <div className="max-w-7xl mx-auto">
 
         <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
           Blog Legale
         </p>
 
-        <h1 className="font-serif text-5xl md:text-7xl text-[#101826] mb-10">
+        <h1 className="font-serif text-4xl md:text-7xl text-[#101826] mb-10 leading-tight break-words">
           Approfondimenti giuridici.
         </h1>
 
@@ -21,7 +21,7 @@ export default function BlogPage() {
 
   <Link
     href="/blog/separazione-divorzio-palermo"
-    className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Diritto di Famiglia
@@ -42,7 +42,7 @@ export default function BlogPage() {
 
   <Link
     href="/blog/successioni-palermo"
-    className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Successioni
@@ -63,7 +63,7 @@ export default function BlogPage() {
 
   <Link
     href="/blog/risarcimento-danni-palermo"
-    className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Risarcimento Danni
