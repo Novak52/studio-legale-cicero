@@ -374,12 +374,12 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
   Prenota Consulenza
 </a>
 
-      <a
-  href="mailto:studiolegalegiuseppinacicero@gmail.com"
-  className="border border-white/20 px-7 py-3 rounded-full active:scale-[0.98] hover:bg-white hover:text-[#101826] hover:bg-white hover:text-[#101826] transition-all duration-500 uppercase tracking-[0.08em] text-xs inline-flex items-center justify-center cursor-pointer"
+      <button
+  onClick={() => scrollToSection("contatti")}
+  className="border border-white/20 px-7 py-3 rounded-full active:scale-[0.98] hover:bg-white hover:text-[#101826] transition-all duration-300"
 >
   Contatti
-</a>
+</button>
     </div>
   </motion.div>
 
@@ -843,7 +843,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div>
+      <div id="contatti">
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
