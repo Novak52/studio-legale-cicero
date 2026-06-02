@@ -305,12 +305,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
             {item.label}
           </motion.button>
         ))}
-        <a
-  href="mailto:studiolegalegiuseppinacicero@gmail.com"
-  className="border border-white/20 px-7 py-3 rounded-full active:scale-[0.98] hover:bg-white hover:text-[#101826] transition-all duration-500 uppercase tracking-[0.08em] text-xs inline-flex items-center justify-center"
->
-  Contatti
-</a>
+        
 
       </div>
 
