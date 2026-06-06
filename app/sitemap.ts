@@ -66,6 +66,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 },
 
 {
+  url: "https://avvocatocicero.it/blog/malasanita-palermo",
+  lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
+},
+
+{
   url: "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
   lastModified: new Date(),
   changeFrequency: "monthly",

@@ -82,6 +82,27 @@ export default function BlogPage() {
     </span>
   </Link>
 
+  <Link
+  href="/blog/malasanita-palermo"
+  className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+>
+  <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
+    MALASANITÀ
+  </p>
+
+  <h2 className="font-serif text-4xl text-[#101826] mb-6">
+    Malasanità a Palermo
+  </h2>
+
+  <p className="text-slate-600 mb-8">
+    Quando è possibile ottenere un risarcimento per errori medici e responsabilità sanitaria.
+  </p>
+
+  <span className="text-[#c8a96b]">
+    Leggi articolo →
+  </span>
+</Link>
+
 </div>
 
       </div>
