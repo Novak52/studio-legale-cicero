@@ -2,6 +2,7 @@
 
 
 import Image from "next/image"
+import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { useState,useEffect } from "react"
 export default function Home() {
@@ -918,9 +919,15 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
       <div className="flex gap-8 text-white/40 text-sm">
 
-        <p>Privacy Policy</p>
-        <p>Cookie Policy</p>
+       
 
+        <Link href="/privacy-policy">
+  Privacy Policy
+</Link>
+
+<Link href="/cookie-policy">
+  Cookie Policy
+</Link>
       </div>
 
     </div>
