@@ -103,6 +103,27 @@ export default function BlogPage() {
   </span>
 </Link>
 
+<Link
+  href="/blog/incidenti-stradali-palermo"
+  className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+>
+  <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
+    Incidenti Stradali
+  </p>
+
+  <h2 className="font-serif text-4xl text-[#101826] mb-6">
+    Cosa fare dopo un incidente stradale a Palermo
+  </h2>
+
+  <p className="text-slate-600 mb-8">
+    Guida pratica per tutelare i propri diritti dopo un sinistro.
+  </p>
+
+  <span className="text-[#c8a96b]">
+    Leggi articolo →
+  </span>
+</Link>
+
 </div>
 
       </div>

@@ -30,6 +30,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
+  url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
+  lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
+  },
+
+    {
       url: "https://avvocatocicero.it/avvocato-incidenti-stradali-palermo",
       lastModified: new Date(),
       changeFrequency: "weekly",
