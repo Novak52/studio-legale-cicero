@@ -79,40 +79,40 @@ export default function IncidentiStradaliPalermoPage() {
 
         </div>
 
-        <section className="max-w-6xl mx-auto mt-16 px-0 pb-24">
+        <section className="max-w-7xl mx-auto mt-20 pb-24">
 
           <h2 className="font-serif text-5xl text-[#101826] mb-16">
             Domande frequenti
           </h2>
 
-          <div className="space-y-12">
+          <div className="space-y-5">
 
-            <div className="border-b border-black/10 pb-10">
-              <h3 className="font-serif text-3xl mb-4">
+            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
+              <h3 className="font-serif text-4xl text-[#101826] mb-4">
                 Cosa fare subito dopo un incidente?
               </h3>
 
-              <p className="text-slate-600 text-lg leading-relaxed">
+              <p className="text-slate-700 text-2xl leading-relaxed">
                 Mettere in sicurezza l’area, raccogliere prove e richiedere assistenza medica se necessario.
               </p>
             </div>
 
-            <div className="border-b border-black/10 pb-10">
-              <h3 className="font-serif text-3xl mb-4">
+            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
+              <h3 className="font-serif text-4xl text-[#101826] mb-4">
                 È obbligatorio compilare il CID?
               </h3>
 
-              <p className="text-slate-600 text-lg leading-relaxed">
+              <p className="text-slate-700 text-2xl leading-relaxed">
                 Non è obbligatorio, ma facilita notevolmente la gestione del sinistro.
               </p>
             </div>
 
-            <div className="border-b border-black/10 pb-10">
-              <h3 className="font-serif text-3xl mb-4">
+            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
+              <h3 className="font-serif text-4xl text-[#101826] mb-4">
                 Quando rivolgersi a un avvocato?
               </h3>
 
-              <p className="text-slate-600 text-lg leading-relaxed">
+              <p className="text-slate-700 text-2xl leading-relaxed">
                 Quando vi sono danni importanti, contestazioni sulla responsabilità o difficoltà nel risarcimento.
               </p>
             </div>
