@@ -98,6 +98,16 @@ export default function RisarcimentoDanniPalermo() {
             </p>
 
           </div>
+          <p>
+  Approfondisci l'argomento nella nostra guida dedicata:
+  {" "}
+  <a
+    href="/blog/risarcimento-danni-palermo"
+    className="underline underline-offset-4"
+  >
+    Risarcimento danni a Palermo
+  </a>.
+</p>
 
         </section>
 

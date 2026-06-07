@@ -87,6 +87,16 @@ export default function SeparazioneDivorzioPalermo() {
             </p>
 
           </div>
+          <p>
+  Approfondisci l'argomento nella nostra guida dedicata:
+  {" "}
+  <a
+    href="/blog/separazione-divorzio-palermo"
+    className="underline underline-offset-4"
+  >
+    Separazione e divorzio a Palermo
+  </a>.
+</p>
         </section>
 
         <section className="max-w-5xl">

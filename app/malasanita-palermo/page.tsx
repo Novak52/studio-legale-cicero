@@ -107,6 +107,16 @@ export default function MalasanitaPalermo() {
           </p>
 
         </div>
+        <p>
+  Approfondisci l'argomento nella nostra guida dedicata:
+  {" "}
+  <a
+    href="/blog/malasanita-palermo"
+    className="underline underline-offset-4"
+  >
+    Malasanità a Palermo
+  </a>.
+</p>
       </section>
 
       {/* FAQ */}
