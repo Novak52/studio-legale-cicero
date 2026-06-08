@@ -14,7 +14,7 @@ const faqSchema = {
       "name": "Quando si può parlare di malasanità?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Si parla di malasanità quando un errore medico o sanitario provoca un danno evitabile al paziente."
+        "text": "Si parla di malasanità quando un errore medico, diagnostico, chirurgico o assistenziale provoca un danno evitabile al paziente. Possono rientrare nei casi di responsabilità sanitaria diagnosi tardive, errori durante interventi chirurgici, terapie inappropriate, omissioni assistenziali e infezioni ospedaliere evitabili."
       }
     },
     {
@@ -22,15 +22,31 @@ const faqSchema = {
       "name": "È possibile ottenere un risarcimento per errore medico?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sì, se viene accertata la responsabilità sanitaria e il danno subito è collegato all'errore medico."
+        "text": "Sì. Se viene accertata la responsabilità della struttura sanitaria o del professionista medico e il danno subito è conseguenza diretta dell'errore, il paziente può ottenere il risarcimento dei danni patrimoniali, biologici e morali previsti dalla normativa vigente."
       }
     },
     {
       "@type": "Question",
-      "name": "Quanto tempo ho per agire?",
+      "name": "Quanto tempo ho per agire contro una struttura sanitaria?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "I termini dipendono dal caso specifico e dalla natura della responsabilità. È consigliabile richiedere una valutazione legale tempestiva."
+        "text": "I termini possono variare in base alle caratteristiche del caso e al tipo di responsabilità contestata. Per evitare la perdita dei propri diritti è consigliabile richiedere una valutazione legale e medico-legale il prima possibile dopo la scoperta del danno."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quali documenti servono per valutare un caso di malasanità?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generalmente sono utili cartelle cliniche, referti medici, esami diagnostici, lettere di dimissione, prescrizioni e ogni documentazione sanitaria relativa alle cure ricevute. L'analisi completa della documentazione consente di verificare eventuali profili di responsabilità medica."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È necessaria una perizia medico legale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nella maggior parte dei casi una valutazione medico-legale è fondamentale per accertare il nesso tra l'errore sanitario e il danno subito dal paziente. La perizia rappresenta uno degli elementi principali per sostenere una richiesta di risarcimento."
       }
     }
   ]
