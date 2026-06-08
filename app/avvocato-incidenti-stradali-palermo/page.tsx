@@ -1,12 +1,79 @@
 import Link from "next/link"
+import Script from "next/script"
 export const metadata = {
+  
   title: "Avvocato Incidenti Stradali Palermo | Studio Legale Palermo",
   description:
     "Assistenza legale per incidenti stradali a Palermo. Risarcimento danni, responsabilità civile, tutela del danneggiato e consulenza riservata.",
 };
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Cosa fare dopo un incidente stradale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È importante raccogliere prove, documentazione medica, dati dei veicoli coinvolti e richiedere assistenza legale per la gestione del risarcimento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando si ha diritto al risarcimento del danno?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Il risarcimento è riconosciuto quando il danno subito è conseguenza diretta dell'incidente e la responsabilità viene accertata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso ottenere il risarcimento del danno biologico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. In presenza di lesioni personali documentate è possibile richiedere il risarcimento del danno biologico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo serve per ottenere il risarcimento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile richiedere il risarcimento per un incidente sul lavoro?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. È possibile valutare il risarcimento dei danni subiti in conseguenza di infortuni sul lavoro nei casi previsti dalla legge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come prenotare una consulenza per un incidente stradale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È possibile contattare direttamente lo studio tramite telefono, modulo contatti o WhatsApp per una valutazione del caso."
+      }
+    }
+  ]
+};
 export default function IncidentiStradaliPalermoPage() {
   return (
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
+    
+
+
+
     <main className="bg-[#f5f1ea] text-[#0b1220] min-h-screen">
       <section className="max-w-6xl mx-auto px-6 py-24">
         <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
@@ -142,7 +209,8 @@ export default function IncidentiStradaliPalermoPage() {
             </div>
           </div>
         </section>
-      </section>
+            </section>
     </main>
+    </>
   );
 }
