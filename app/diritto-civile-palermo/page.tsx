@@ -1,11 +1,73 @@
+import Script from "next/script"
 export const metadata = {
   title: "Diritto Civile Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale in diritto civile a Palermo. Tutela per risarcimento danni, successioni, responsabilità civile e controversie legali.",
 };
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quando rivolgersi a un avvocato civilista?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È consigliabile richiedere assistenza legale quando emergono controversie patrimoniali, problematiche contrattuali, richieste di risarcimento o situazioni che richiedono tutela giuridica civile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Lo studio segue cause di risarcimento danni?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lo studio assiste clienti in materia di responsabilità civile e richieste di risarcimento danni derivanti da incidenti, inadempimenti o altre controversie civili."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile prenotare una consulenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È possibile contattare lo studio per ricevere una consulenza riservata e valutare la situazione giuridica con assistenza diretta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto dura una causa civile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La durata varia in base alla complessità della controversia, alla documentazione disponibile e alle procedure necessarie per la tutela dei diritti coinvolti."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile risolvere una controversia senza processo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In molti casi è possibile tentare una soluzione stragiudiziale attraverso accordi, negoziazioni o procedure alternative prima di avviare una causa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quali documenti servono per una consulenza legale civile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È utile presentare contratti, comunicazioni, documentazione patrimoniale e ogni documento collegato alla controversia da esaminare."
+      }
+    }
+  ]
+};
 export default function DirittoCivilePalermo() {
   return (
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
     <main className="min-h-screen bg-[#f7f4ee] text-[#101826]">
       
       <section className="max-w-5xl mx-auto px-6 py-24">
@@ -130,12 +192,41 @@ export default function DirittoCivilePalermo() {
           riservata e valutare la situazione giuridica con assistenza diretta.
         </p>
       </div>
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    Quanto dura una causa civile?
+  </h3>
 
+  <p className="text-[#5d6470] leading-relaxed">
+    La durata varia in base alla complessità della controversia, alla documentazione disponibile e alle procedure necessarie per la tutela dei diritti coinvolti.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    È possibile risolvere una controversia senza processo?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    In molti casi è possibile tentare una soluzione stragiudiziale attraverso accordi, negoziazioni o procedure alternative prima di avviare una causa.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    Quali documenti servono per una consulenza legale civile?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    È utile presentare contratti, comunicazioni, documentazione patrimoniale e ogni documento collegato alla controversia da esaminare.
+  </p>
+</div>
     </div>
   </div>
 
 </section>
       </section>
     </main>
+</>
   );
 }
