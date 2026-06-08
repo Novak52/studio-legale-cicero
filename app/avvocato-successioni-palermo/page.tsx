@@ -1,12 +1,74 @@
 import Link from "next/link"
+import Script from "next/script"
 export const metadata = {
   title: "Avvocato Successioni Palermo | Studio Legale",
   description:
     "Assistenza legale in successioni ereditarie, testamenti, divisioni patrimoniali ed eredità a Palermo.",
 };
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Come funziona una successione ereditaria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La successione ereditaria disciplina il trasferimento del patrimonio del defunto agli eredi secondo la legge o le disposizioni testamentarie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile impugnare un testamento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In presenza di irregolarità formali, incapacità del testatore o lesione dei diritti ereditari, può essere valutata l'impugnazione del testamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come richiedere una consulenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lo studio offre consulenze riservate per successioni, eredità, divisioni patrimoniali e controversie ereditarie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo dura una successione ereditaria?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La durata dipende dalla complessità del patrimonio, dal numero degli eredi e dall'eventuale presenza di controversie."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come avviene la divisione dell'eredità?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La divisione ereditaria può essere effettuata consensualmente tra gli eredi oppure attraverso procedimenti giudiziari in caso di disaccordo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando serve un avvocato per una successione?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "L'assistenza legale è utile in presenza di testamenti, quote ereditarie contestate, divisioni patrimoniali o conflitti tra eredi."
+      }
+    }
+  ]
+};
 export default function SeparazioneDivorzioPalermo() {
   return (
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
     <main className="bg-[#f5f1ea] text-[#0b1220] min-h-screen px-6 py-24">
       <div className="max-w-6xl mx-auto">
 
@@ -133,12 +195,41 @@ export default function SeparazioneDivorzioPalermo() {
   Lo studio offre consulenze riservate per successioni ereditarie, divisioni patrimoniali e controversie familiari.
 </p>
             </div>
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quanto tempo dura una successione ereditaria?
+  </h3>
 
+  <p className="text-slate-600 text-lg leading-relaxed">
+    La durata dipende dalla complessità del patrimonio, dal numero degli eredi e dall'eventuale presenza di controversie.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Come avviene la divisione dell'eredità?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    La divisione ereditaria può essere effettuata consensualmente tra gli eredi oppure tramite procedimenti giudiziari in caso di disaccordo.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quando serve un avvocato per una successione?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    L'assistenza legale è utile in presenza di testamenti, quote ereditarie contestate, divisioni patrimoniali o conflitti tra eredi.
+  </p>
+</div>
           </div>
 
         </section>
 
       </div>
     </main>
-  );
+</>
+);
 }
