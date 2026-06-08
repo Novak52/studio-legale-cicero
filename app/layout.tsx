@@ -140,7 +140,10 @@ export default function RootLayout({
 />                
     </head>
 
-    <body className="min-h-full flex flex-col bg-[#f7f4ee] text-[#101826] overflow-x-hidden">{children}</body>
+    <body className="min-h-full flex flex-col bg-[#f7f4ee] text-[#101826] overflow-x-hidden">
+  {children}
+</body>
+  
   </html>
 );
 }

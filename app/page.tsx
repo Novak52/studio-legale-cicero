@@ -109,224 +109,224 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 
       {/* TOP BAR */}
       <div className="relative z-40 border-b border-white/5 bg-[#0b1220] text-white text-xs md:text-sm">
-        <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center gap-4">
-          <div className="flex flex-col items-start leading-tight text-left text-white/60 uppercase tracking-[0.12em] text-[10px] sm:text-xs">
-            <span>Studio Legale Palermo</span>
-            <span>Assistenza Civile e Penale</span>
-          </div>
+ <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center gap-4">
+ <div className="flex flex-col items-start leading-tight text-left text-white/60 uppercase tracking-[0.12em] text-[10px] sm:text-xs">
+ <span>Studio Legale Palermo</span>
+ <span>Assistenza Civile e Penale</span>
+ </div>
 
-          <div className="flex flex-col items-end leading-tight text-right text-white/70 text-[11px]">
-            <span>📞 +39 339 164 4668</span>
-            <span>📍 Palermo, Via Houel 4</span>
-          </div>
-        </div>
-      </div>
+ <div className="flex flex-col items-end leading-tight text-right text-white/70 text-[11px]">
+ <span>📞 +39 339 164 4668</span>
+ <span>📍 Palermo, Via Houel 4</span>
+ </div>
+ </div>
+  </div>
 
-      {/* HEADER */}
-      <header className="sticky top-0 z-40 backdrop-blur-2xl bg-[#f8f6f2] border-b border-black/5 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
-      <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
-        <div className="max-w-7xl mx-auto px-5 xl:px-8 py-5 flex items-center justify-between gap-4">
-          <div>
-            <div className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
-              <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/60 flex items-center justify-center text-[#b88d3b] text-lg font-serif">
-  GC
+ {/* HEADER */}
+ <header className="sticky top-0 z-40 backdrop-blur-2xl bg-[#f8f6f2] border-b border-black/5 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
+ <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
+ <div className="max-w-7xl mx-auto px-5 xl:px-8 py-5 flex items-center justify-between gap-4">
+ <div>
+ <div className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
+ <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/60 flex items-center justify-center text-[#b88d3b] text-lg font-serif">
+  GC
 </div>
-              Studio Legale
-            </div>
+ Studio Legale
+ </div>
 
-            <p className="uppercase tracking-[0.45em] text-[#8f6b33] text-[11px] mt-3">
-              Giuseppina Cicero
-            </p>
-          </div>
+ <p className="uppercase tracking-[0.45em] text-[#8f6b33] text-[11px] mt-3">
+ Giuseppina Cicero
+ </p>
+ </div>
 
-          <nav className="hidden xl:flex items-center gap-12 uppercase tracking-[0.22em] text-[11px]">
+ <nav className="hidden xl:flex items-center gap-12 uppercase tracking-[0.22em] text-[11px]">
 
-  <button
-    onClick={() => scrollToSection("home")}
-    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "home" ? "text-[#c8a96b]" : "text-[#101826]"
-    }`}
-  >
-    HOME
-    <span
-      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
-        activeSection === "home" ? "w-full" : "w-0 group-hover:w-full"
-      }`}
-    />
-  </button>
+ <button
+ onClick={() => scrollToSection("home")}
+ className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+ activeSection === "home" ? "text-[#c8a96b]" : "text-[#101826]"
+ }`}
+ >
+ HOME
+ <span
+ className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+ activeSection === "home" ? "w-full" : "w-0 group-hover:w-full"
+ }`}
+ />
+ </button>
 
-  <button
-    onClick={() => scrollToSection("studio")}
-    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "studio" ? "text-[#c8a96b]" : "text-[#101826]"
-    }`}
-  >
-    STUDIO
-    <span
-      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
-        activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
-      }`}
-    />
-  </button>
+ <button
+ onClick={() => scrollToSection("studio")}
+ className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+ activeSection === "studio" ? "text-[#c8a96b]" : "text-[#101826]"
+ }`}
+ >
+ STUDIO
+ <span
+ className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
+ }`}
+ />
+ </button>
 
-  <button
-    onClick={() => scrollToSection("aree-legali")}
-    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "aree-legali" ? "text-[#c8a96b]" : "text-[#101826]"
-    }`}
-  >
-    AREE LEGALI
-    <span
-      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
-        activeSection === "aree-legali" ? "w-full" : "w-0 group-hover:w-full"
-      }`}
-    />
-  </button>
+ <button
+ onClick={() => scrollToSection("aree-legali")}
+ className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+ activeSection === "aree-legali" ? "text-[#c8a96b]" : "text-[#101826]"
+ }`}
+ >
+ AREE LEGALI
+ <span
+ className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+ activeSection === "aree-legali" ? "w-full" : "w-0 group-hover:w-full"
+ }`}
+ />
+ </button>
 
-  <button
-    onClick={() => scrollToSection("risultati")}
-    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "risultati" ? "text-[#c8a96b]" : "text-[#101826]"
-    }`}
-  >
-    RISULTATI
-    <span
-      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
-        activeSection === "risultati" ? "w-full" : "w-0 group-hover:w-full"
-      }`}
-    />
-  </button>
+ <button
+ onClick={() => scrollToSection("risultati")}
+ className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+ activeSection === "risultati" ? "text-[#c8a96b]" : "text-[#101826]"
+ }`}
+ >
+ RISULTATI
+ <span
+ className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+ activeSection === "risultati" ? "w-full" : "w-0 group-hover:w-full"
+ }`}
+ />
+ </button>
 
-  <button
-    onClick={() => scrollToSection("footer")}
-    className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
-      activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
-    }`}
-  >
-    CONTATTI
-    <span
-      className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
-        activeSection === "contatti" ? "w-full" : "w-0 group-hover:w-full"
-      }`}
-    />
-  </button>
+ <button
+ onClick={() => scrollToSection("footer")}
+ className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
+ activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
+ }`}
+ >
+ CONTATTI
+ <span
+ className={`absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 ${
+ activeSection === "contatti" ? "w-full" : "w-0 group-hover:w-full"
+ }`}
+ />
+ </button>
 
-  <button
-  onClick={() => (window.location.href = "/blog")}
-  className="group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] text-[#101826]"
+ <button
+ onClick={() => (window.location.href = "/blog")}
+ className="group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] text-[#101826]"
 >
-  BLOG
+ BLOG
 
-  <span
-    className="absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 w-0 group-hover:w-full"
-  />
+ <span
+ className="absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 w-0 group-hover:w-full"
+ />
 </button>
 
 </nav>
-          <button
-  onClick={() => setMenuOpen(true)}
-  className="xl:hidden flex flex-col gap-1.5"
+ <button
+ onClick={() => setMenuOpen(true)}
+ className="xl:hidden flex flex-col gap-1.5"
 >
-  <span className="w-6 h-px bg-[#101826]" />
-  <span className="w-6 h-px bg-[#101826]" />
-  <span className="w-6 h-px bg-[#101826]" />
+ <span className="w-6 h-px bg-[#101826]" />
+ <span className="w-6 h-px bg-[#101826]" />
+ <span className="w-6 h-px bg-[#101826]" />
 </button>
 
-          <a
-  href="tel:+393391644668"
-  className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
+ <a
+ href="tel:+393391644668"
+ className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
 >
-  Richiedi Consulenza
+ Richiedi Consulenza
 </a>
-        </div>
-      </header>
-      <AnimatePresence>
+ </div>
+ </header>
+ <AnimatePresence>
 
-  {menuOpen && (
+ {menuOpen && (
 
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="fixed inset-0 z-[999] bg-[#0b1220] text-white flex flex-col"
-    >
+ <motion.div
+ initial={{ opacity: 0 }}
+ animate={{ opacity: 1 }}
+ exit={{ opacity: 0 }}
+ className="fixed inset-0 z-[999] bg-[#0b1220] text-white flex flex-col"
+ >
 
-      {/* TOP */}
-      <div className="flex items-center justify-between px-6 py-6 border-b border-white/10">
+ {/* TOP */}
+ <div className="flex items-center justify-between px-6 py-6 border-b border-white/10">
 
-        <div>
-          <h2 className="text-2xl font-serif">
-            Studio Legale
-          </h2>
+ <div>
+ <h2 className="text-2xl font-serif">
+ Studio Legale
+ </h2>
 
-          <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-[10px] mt-2">
-            Giuseppina Cicero
-          </p>
-        </div>
+ <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-[10px] mt-2">
+ Giuseppina Cicero
+ </p>
+ </div>
 
-        <button
-          onClick={() => setMenuOpen(false)}
-          className="text-3xl text-white/70 hover:text-white transition-colors"
-        >
-          ×
-        </button>
+ <button
+ onClick={() => setMenuOpen(false)}
+ className="text-3xl text-white/70 hover:text-white transition-colors"
+ >
 
-      </div>
+ </button>
 
-      {/* LINKS */}
-      <div className="flex-1 flex flex-col justify-start px-8 overflow-y-auto">
+ </div>
+ {/* LINKS */}
+ <div className="flex-1 flex flex-col justify-start px-8 overflow-y-auto">
 
-        {[
-  { label: "Home", id: "home" },
-  { label: "Studio", id: "studio" },
-  { label: "Aree Legali", id: "aree-legali" },
-  { label: "Risultati", id: "risultati" },
-  { label: "Contatti", id: "cta" },
-  { label: "Blog", id: "blog" },
+ {[
+ { label: "Home", id: "home" },
+ { label: "Studio", id: "studio" },
+ { label: "Aree Legali", id: "aree-legali" },
+ { label: "Risultati", id: "risultati" },
+ { label: "Contatti", id: "cta" },
+ { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
-          <motion.button
-  key={item.id}
-  onClick={() => {
-  if (item.id === "blog") {
-    window.location.href = "/blog"
-  } else {
-    scrollToSection(item.id)
-  }
+ <motion.button
+ key={item.id}
+ onClick={() => {
+ if (item.id === "blog") {
+ window.location.href = "/blog"
+ } else {
+ scrollToSection(item.id)
+ }
 
-  setMenuOpen(false)
+ setMenuOpen(false)
 }}
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: index * 0.08
-            }}
-            className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
-          >
-            {item.label}
-          </motion.button>
-        ))}
-        
+ initial={{ opacity: 0, y: 30 }}
+animate={{ opacity: 1, y: 0 }}
+ transition={{
+ delay: index * 0.08
+ }}
+ className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
+ >
+ {item.label}
+ </motion.button>
+ ))}
 
-      </div>
 
-      {/* FOOTER */}
-      <div className="px-8 pb-12 sm:pb-10">
+ </div>
 
-        <a
-  href="tel:+393391644668"
-  className="block w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs text-center"
+ {/* FOOTER */}
+ <div className="px-8 pb-12 sm:pb-10">
+
+ <a
+ href="tel:+393391644668"
+ className="block w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs text-center"
 >
-  Richiedi Consulenza
+ Richiedi Consulenza
 </a>
+ </div>
 
-      </div>
+ </motion.div>
 
-    </motion.div>
-
-  )}
+ )}
 
 </AnimatePresence>
+
+
 
 
   {/* HERO */}

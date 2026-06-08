@@ -1,14 +1,50 @@
 import Link from "next/link"
+import Script from "next/script"
 export const metadata = {
   title: "Malasanità Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale per casi di malasanità, responsabilità medica, errori sanitari e richieste risarcitorie a Palermo.",
 };
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quando si può parlare di malasanità?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si parla di malasanità quando un errore medico o sanitario provoca un danno evitabile al paziente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile ottenere un risarcimento per errore medico?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, se viene accertata la responsabilità sanitaria e il danno subito è collegato all'errore medico."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo ho per agire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I termini dipendono dal caso specifico e dalla natura della responsabilità. È consigliabile richiedere una valutazione legale tempestiva."
+      }
+    }
+  ]
+};
 export default function MalasanitaPalermo() {
   return (
     <main className="bg-[#f5f1ea] text-[#0b1220]">
-
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
       {/* HERO */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-20 md:py-32 overflow-hidden">
 
