@@ -206,15 +206,43 @@ export default function MalasanitaPalermo() {
 
           <div className="border-b border-black/10 pb-12">
             <h3 className="font-serif text-4xl mb-6">
-              Come prenotare una consulenza?
+              Quanto tempo ho per agire contro una struttura sanitaria?
             </h3>
 
             <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-              È possibile contattare lo studio tramite il modulo contatti o
-              WhatsApp per ricevere assistenza diretta e riservata.
+              I termini possono variare in base alle caratteristiche del caso e al tipo
+di responsabilità contestata. Per evitare la perdita dei propri diritti è
+consigliabile richiedere una valutazione legale il prima possibile dopo la
+scoperta del danno.
             </p>
           </div>
+<div className="border-b border-black/10 pb-12">
+  <h3 className="font-serif text-4xl mb-6">
+    Quali documenti servono per valutare un caso di malasanità?
+  </h3>
 
+  <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
+    Per una prima valutazione sono generalmente utili cartelle cliniche,
+    referti, esami diagnostici, lettere di dimissione e tutta la
+    documentazione sanitaria disponibile. L'analisi dei documenti consente
+    di verificare eventuali profili di responsabilità medica e la presenza
+    di danni risarcibili.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-12">
+  <h3 className="font-serif text-4xl mb-6">
+    È necessaria una perizia medico-legale?
+  </h3>
+
+  <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
+    Nella maggior parte dei casi una valutazione medico-legale è uno
+    strumento fondamentale per accertare il collegamento tra l'errore
+    sanitario e il danno subito dal paziente. La perizia aiuta a
+    quantificare il danno e a sostenere eventuali richieste di
+    risarcimento.
+  </p>
+</div>
         </div>
       </section>
 
