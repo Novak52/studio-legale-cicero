@@ -1,12 +1,74 @@
 import Link from "next/link"
+import Script from "next/script"
 export const metadata = {
   title: "Risarcimento Danni Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale per risarcimento danni a Palermo. Tutela civile per incidenti stradali, responsabilità civile, danni patrimoniali e richieste risarcitorie.",
 }
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quando richiedere un risarcimento danni?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È consigliabile rivolgersi a un avvocato quando si subiscono danni derivanti da incidenti, responsabilità civili, comportamenti negligenti o controversie patrimoniali."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Lo studio segue incidenti stradali?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lo studio assiste clienti nella gestione di richieste risarcitorie derivanti da incidenti stradali e problematiche legate alla responsabilità civile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile prenotare una consulenza?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "È possibile contattare lo studio per ricevere una consulenza riservata e valutare la situazione giuridica con assistenza diretta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quali danni possono essere risarciti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Possono essere risarciti danni patrimoniali, danni biologici, danni morali e altre conseguenze economiche derivanti da fatti illeciti o responsabilità civili."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo ho per richiedere un risarcimento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I termini possono variare in base al tipo di danno e alla situazione specifica. È consigliabile richiedere assistenza legale il prima possibile."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Serve una documentazione per ottenere il risarcimento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì. Documentazione medica, fotografie, perizie, contratti e altri elementi probatori possono essere fondamentali per sostenere la richiesta."
+      }
+    }
+  ]
+};
 export default function RisarcimentoDanniPalermo() {
   return (
+    <>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
     <main className="bg-[#f7f4ee] text-[#101826] min-h-screen">
       
       <section className="max-w-6xl mx-auto px-6 py-24">
@@ -153,7 +215,35 @@ export default function RisarcimentoDanniPalermo() {
                 riservata e valutare la situazione giuridica con assistenza diretta.
               </p>
             </div>
+<div className="border-b border-black/10 pb-10">
+  <h3 className="text-3xl font-serif mb-5">
+    Quali danni possono essere risarciti?
+  </h3>
 
+  <p className="text-lg text-[#4b5563] leading-relaxed">
+    Possono essere risarciti danni patrimoniali, danni biologici, danni morali e altre conseguenze economiche derivanti da fatti illeciti o responsabilità civili.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="text-3xl font-serif mb-5">
+    Quanto tempo ho per richiedere un risarcimento?
+  </h3>
+
+  <p className="text-lg text-[#4b5563] leading-relaxed">
+    I termini possono variare in base al tipo di danno e alla situazione specifica. È consigliabile richiedere assistenza legale il prima possibile.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="text-3xl font-serif mb-5">
+    Serve una documentazione per ottenere il risarcimento?
+  </h3>
+
+  <p className="text-lg text-[#4b5563] leading-relaxed">
+    Documentazione medica, fotografie, perizie, contratti e altri elementi probatori possono essere fondamentali per sostenere la richiesta risarcitoria.
+  </p>
+</div>
           </div>
 
         </section>
@@ -161,5 +251,6 @@ export default function RisarcimentoDanniPalermo() {
       </section>
 
     </main>
+</>
   )
 }
