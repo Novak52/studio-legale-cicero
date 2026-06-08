@@ -207,6 +207,35 @@ export default function IncidentiStradaliPalermoPage() {
                 WhatsApp per ricevere assistenza diretta e riservata.
               </p>
             </div>
+            <div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quanto tempo serve per ottenere il risarcimento?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    È possibile richiedere il risarcimento per un incidente sul lavoro?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    Sì. È possibile valutare il risarcimento dei danni subiti in conseguenza di infortuni sul lavoro nei casi previsti dalla legge.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Posso ottenere il risarcimento del danno biologico?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    In presenza di lesioni personali documentate è possibile richiedere il risarcimento del danno biologico.
+  </p>
+</div>
           </div>
         </section>
             </section>
