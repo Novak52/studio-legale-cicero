@@ -4,6 +4,9 @@ export const metadata = {
   title: "Successioni ereditarie a Palermo | Guida pratica",
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/successioni-palermo",
+},
 }
 
 export default function SuccessioniPalermoPage() {

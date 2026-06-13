@@ -4,7 +4,12 @@ export const metadata = {
   title: "Risarcimento Danni Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale per risarcimento danni a Palermo. Tutela civile per incidenti stradali, responsabilità civile, danni patrimoniali e richieste risarcitorie.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+},
 }
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",

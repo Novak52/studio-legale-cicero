@@ -4,6 +4,10 @@ export const metadata = {
   title: "Risarcimento danni a Palermo | Guida pratica",
   description:
     "Quando è possibile ottenere un risarcimento danni, quali prove servono e come tutelare i propri diritti.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+},
 }
 
 export default function RisarcimentoDanniPalermoPage() {

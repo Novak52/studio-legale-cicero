@@ -5,6 +5,9 @@ export const metadata = {
   title: "Avvocato Incidenti Stradali Palermo | Studio Legale Palermo",
   description:
     "Assistenza legale per incidenti stradali a Palermo. Risarcimento danni, responsabilità civile, tutela del danneggiato e consulenza riservata.",
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/avvocato-incidenti-stradali-palermo",
+},
 };
 const faqSchema = {
   "@context": "https://schema.org",

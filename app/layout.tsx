@@ -61,9 +61,7 @@ twitter: {
     "Assistenza legale civile, familiare e risarcitoria a Palermo.",
     images: ["/og-image.jpg"],
 },
-alternates: {
-  canonical: "https://avvocatocicero.it",
-},
+
 robots: {
   index: true,
   follow: true,

@@ -4,6 +4,10 @@ export const metadata = {
   title: "Separazione e Divorzio Palermo | Studio Legale",
   description:
     "Assistenza legale per separazione, divorzio, affidamento figli e tutela familiare a Palermo.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/avvocato-famiglia-palermo",
+},
 };
 const faqSchema = {
   "@context": "https://schema.org",

@@ -4,6 +4,10 @@ export const metadata = {
   title: "Cosa fare dopo un incidente stradale a Palermo",
   description:
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/incidenti-stradali-palermo",
+},
 }
 
 export default function IncidentiStradaliPalermoPage() {

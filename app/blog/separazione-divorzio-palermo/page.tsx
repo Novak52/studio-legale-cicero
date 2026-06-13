@@ -3,7 +3,12 @@ export const metadata = {
   title: "Separazione e divorzio a Palermo | Guida pratica",
   description:
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
-}
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/separazione-divorzio-palermo",
+},
+    
+  }
 
 export default function ArticoloSeparazione() {
   return (

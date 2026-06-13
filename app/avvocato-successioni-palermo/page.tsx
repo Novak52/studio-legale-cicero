@@ -4,6 +4,10 @@ export const metadata = {
   title: "Avvocato Successioni Palermo | Studio Legale",
   description:
     "Assistenza legale in successioni ereditarie, testamenti, divisioni patrimoniali ed eredità a Palermo.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/avvocato-successioni-palermo",
+},
 };
 const faqSchema = {
   "@context": "https://schema.org",

@@ -4,6 +4,10 @@ export const metadata = {
   title: "Malasanità a Palermo | Guida pratica",
   description:
     "Quando è possibile ottenere un risarcimento per malasanità a Palermo. Errori medici, responsabilità sanitaria e tutela del paziente.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/malasanita-palermo",
+},
 }
 
 export default function Page() {

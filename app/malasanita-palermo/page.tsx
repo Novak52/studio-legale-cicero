@@ -4,6 +4,10 @@ export const metadata = {
   title: "Malasanità Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale per casi di malasanità, responsabilità medica, errori sanitari e richieste risarcitorie a Palermo.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/malasanita-palermo",
+},
 };
 const faqSchema = {
   "@context": "https://schema.org",

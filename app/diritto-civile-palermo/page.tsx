@@ -3,6 +3,10 @@ export const metadata = {
   title: "Diritto Civile Palermo | Studio Legale Giuseppina Cicero",
   description:
     "Assistenza legale in diritto civile a Palermo. Tutela per risarcimento danni, successioni, responsabilità civile e controversie legali.",
+
+    alternates: {
+  canonical: "https://www.avvocatocicero.it/diritto-civile-palermo",
+},
 };
 const faqSchema = {
   "@context": "https://schema.org",
