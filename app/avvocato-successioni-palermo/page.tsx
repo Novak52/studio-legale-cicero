@@ -145,6 +145,19 @@ export default function SeparazioneDivorzioPalermo() {
               L’assistenza comprende successioni legittime e testamentarie,
               impugnazioni testamentarie, divisioni ereditarie e tutela
               patrimoniale nel territorio di Palermo e Sicilia.
+
+              <p>
+  Le controversie ereditarie rientrano frequentemente nell’ambito del{" "}
+  <a
+    href="/diritto-civile-palermo"
+    className="underline underline-offset-4"
+  >
+    diritto civile a Palermo
+  </a>
+  , soprattutto quando riguardano divisioni patrimoniali, quote ereditarie e tutela dei diritti degli eredi.
+</p>
+
+
             </p>
 
           </div>

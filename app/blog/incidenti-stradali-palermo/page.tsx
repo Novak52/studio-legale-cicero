@@ -16,15 +16,28 @@ export default function IncidentiStradaliPalermoPage() {
 
       <article className="max-w-5xl mx-auto px-6 py-24">
 
-        <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
-          Incidenti Stradali
-        </p>
+        <Link
+href="/blog"
+className="inline-flex items-center mb-12 text-[#c8a96b] hover:text-[#b88d3b] transition-colors duration-300"
+>
+← Torna al Blog
+</Link>
 
-        <h1 className="font-serif text-[#101826] text-5xl md:text-7xl leading-tight mb-12">
-          Cosa fare dopo un incidente stradale a Palermo
-        </h1>
+<p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
+Incidenti Stradali
+</p>
 
-        <div className="space-y-10 text-slate-700 text-xl leading-relaxed">
+<h1 className="font-serif text-5xl md:text-7xl text-[#101826] mb-6">
+Cosa fare dopo un incidente stradale a Palermo
+</h1>
+
+<div className="flex items-center gap-4 mb-10 text-sm text-slate-500 uppercase tracking-[0.15em]">
+<span>Incidenti Stradali</span>
+<span>•</span>
+<span>1 min lettura</span>
+</div>
+
+        <div className="space-y-8 text-lg leading-relaxed text-[#475569]">
 
           <p>
             Dopo un incidente stradale è importante raccogliere tutte le
@@ -38,7 +51,7 @@ export default function IncidentiStradaliPalermoPage() {
             nella ricostruzione dei fatti.
           </p>
 
-          <h2 className="font-serif text-4xl text-[#101826]">
+          <h2 className="font-serif text-3xl text-[#101826] mb-6">
             Quali documenti conservare
           </h2>
 
@@ -48,7 +61,7 @@ export default function IncidentiStradaliPalermoPage() {
             documento relativo alle spese sostenute.
           </p>
 
-          <h2 className="font-serif text-4xl text-[#101826]">
+          <h2 className="font-serif text-3xl text-[#101826] mb-6">
             Quando richiedere il risarcimento
           </h2>
 
@@ -91,32 +104,33 @@ export default function IncidentiStradaliPalermoPage() {
 
           <div className="space-y-5">
 
-            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
-              <h3 className="font-serif text-4xl text-[#101826] mb-4">
+            <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-2">
                 Cosa fare subito dopo un incidente?
               </h3>
 
-              <p className="text-slate-700 text-2xl leading-relaxed">
+              <p className="text-slate-600">
                 Mettere in sicurezza l’area, raccogliere prove e richiedere assistenza medica se necessario.
               </p>
             </div>
 
-            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
-              <h3 className="font-serif text-4xl text-[#101826] mb-4">
+            <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-2">
+
                 È obbligatorio compilare il CID?
               </h3>
 
-              <p className="text-slate-700 text-2xl leading-relaxed">
+              <p className="text-slate-600">
                 Non è obbligatorio, ma facilita notevolmente la gestione del sinistro.
               </p>
             </div>
 
-            <div className="bg-white rounded-[1.5rem] border border-black/10 p-10 shadow-sm">
-              <h3 className="font-serif text-4xl text-[#101826] mb-4">
+            <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-2">
                 Quando rivolgersi a un avvocato?
               </h3>
 
-              <p className="text-slate-700 text-2xl leading-relaxed">
+              <p className="text-slate-600">
                 Quando vi sono danni importanti, contestazioni sulla responsabilità o difficoltà nel risarcimento.
               </p>
             </div>

@@ -106,6 +106,44 @@ export default function RisarcimentoDanniPalermoPage() {
 
         </div>
 
+        <section className="mt-20">
+  <h2 className="font-serif text-4xl text-[#101826] mb-10">
+    Domande frequenti
+  </h2>
+
+  <div className="space-y-4">
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Quali danni possono essere risarciti?
+      </h3>
+      <p className="text-slate-600">
+        Possono essere risarciti danni patrimoniali, danni non patrimoniali, spese mediche, perdita di reddito e altre conseguenze economicamente valutabili.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Quanto tempo ho per chiedere il risarcimento?
+      </h3>
+      <p className="text-slate-600">
+        I termini variano in base alla tipologia del danno e alle norme applicabili al singolo caso.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        È necessario conservare la documentazione?
+      </h3>
+      <p className="text-slate-600">
+        Sì, documenti, ricevute, fotografie e certificazioni possono risultare fondamentali per dimostrare il danno subito.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
       </article>
     </main>
   )

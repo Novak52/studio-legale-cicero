@@ -152,7 +152,67 @@ export default function DirittoCivilePalermo() {
       siciliano.
     </p>
 
+    <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  In quali ambiti interviene un avvocato civilista?
+</h2>
+
+<p>
+  Il diritto civile comprende numerose materie che incidono sulla vita
+  quotidiana delle persone e delle famiglie. L’assistenza legale può essere
+  necessaria in caso di controversie contrattuali, responsabilità civile,
+  successioni ereditarie, recupero crediti, tutela della proprietà e rapporti
+  tra privati.
+</p>
+
+<p>
+  Una corretta valutazione preventiva consente spesso di individuare la
+  strategia più efficace per la tutela dei propri diritti, evitando errori che
+  potrebbero compromettere il buon esito della controversia.
+
+  <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Responsabilità civile e richieste di risarcimento
+</h2>
+
+<p>
+  Una parte significativa delle controversie civili riguarda le richieste di
+  risarcimento danni derivanti da comportamenti illeciti, inadempimenti
+  contrattuali, incidenti stradali o altre situazioni che abbiano causato un
+  pregiudizio economico o personale.
+</p>
+
+<p>
+  La corretta quantificazione del danno e la raccolta della documentazione
+  rappresentano aspetti fondamentali per la tutela del soggetto danneggiato e
+  per l'eventuale avvio di una procedura risarcitoria. Per approfondire questo
+  ambito è possibile consultare la pagina dedicata al{" "}
+  <a
+    href="/risarcimento-danni-palermo"
+    className="underline underline-offset-4"
+  >
+    risarcimento danni a Palermo
+  </a>.
+</p>
+
+</p>
+
   </div>
+
+<h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Assistenza stragiudiziale e giudiziale
+</h2>
+
+<p>
+  Non tutte le controversie civili richiedono necessariamente l'avvio di una
+  causa. In molti casi è possibile tentare una soluzione attraverso trattative,
+  accordi tra le parti o procedure alternative che consentano di ridurre tempi
+  e costi.
+</p>
+
+<p>
+  Quando una soluzione stragiudiziale non è praticabile, l'assistenza legale
+  prosegue nelle diverse fasi del procedimento giudiziale, con tutela degli
+  interessi del cliente e gestione completa della documentazione necessaria.
+</p>
 
   <div className="mt-24">
 

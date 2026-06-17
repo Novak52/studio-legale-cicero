@@ -90,6 +90,43 @@ export default function ArticoloSeparazione() {
 
 </div>
 
+<section className="mt-20">
+  <h2 className="font-serif text-4xl text-[#101826] mb-10">
+    Domande frequenti
+  </h2>
+
+  <div className="space-y-4">
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Quanto dura una separazione consensuale?
+      </h3>
+      <p className="text-slate-600">
+        I tempi dipendono dal tribunale competente e dalla completezza della documentazione presentata.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        È obbligatorio rivolgersi a un avvocato?
+      </h3>
+      <p className="text-slate-600">
+        Nella maggior parte dei casi è consigliabile per tutelare correttamente i propri diritti e interessi.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Quando si può chiedere il divorzio?
+      </h3>
+      <p className="text-slate-600">
+        Dopo la separazione e nel rispetto dei termini previsti dalla legge.
+      </p>
+    </div>
+
+  </div>
+</section>
+
       </article>
     </main>
   )

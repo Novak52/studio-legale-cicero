@@ -104,6 +104,43 @@ export default function SuccessioniPalermoPage() {
 
         </div>
 
+        <section className="mt-20">
+  <h2 className="font-serif text-4xl text-[#101826] mb-10">
+    Domande frequenti
+  </h2>
+
+  <div className="space-y-4">
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Quando si apre una successione?
+      </h3>
+      <p className="text-slate-600">
+        La successione si apre al momento della morte della persona e comporta il trasferimento dei rapporti patrimoniali agli eredi.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        È obbligatorio accettare l'eredità?
+      </h3>
+      <p className="text-slate-600">
+        No, l'erede può accettare o rinunciare all'eredità secondo le modalità previste dalla legge.
+      </p>
+    </div>
+
+    <div className="bg-white rounded-2xl p-6 border border-black/5">
+      <h3 className="font-serif text-2xl text-[#101826] mb-3">
+        Cosa succede se non esiste un testamento?
+      </h3>
+      <p className="text-slate-600">
+        In assenza di testamento si applicano le regole della successione legittima previste dal Codice Civile.
+      </p>
+    </div>
+
+  </div>
+</section>
+
       </article>
     </main>
   )

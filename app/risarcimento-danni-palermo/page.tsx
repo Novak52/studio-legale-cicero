@@ -164,6 +164,61 @@ export default function RisarcimentoDanniPalermo() {
               di richiesta risarcitoria con operatività su Palermo e territorio siciliano.
             </p>
 
+            <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Quando è possibile richiedere un risarcimento danni?
+</h2>
+
+<p>
+  Il risarcimento può essere richiesto quando un soggetto subisce un danno
+  ingiusto causato dal comportamento di un'altra persona, di un'impresa o di
+  un ente. Ogni situazione richiede una valutazione specifica delle
+  circostanze e della documentazione disponibile.
+</p>
+
+<p>
+  Tra le ipotesi più frequenti rientrano incidenti stradali, responsabilità
+  professionale, danni alla persona, inadempimenti contrattuali e altre
+  situazioni che abbiano determinato conseguenze economiche o personali
+  rilevanti.
+
+  <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Come viene valutato il danno?
+</h2>
+
+<p>
+  La quantificazione del danno rappresenta una fase centrale della procedura
+  risarcitoria. È necessario analizzare la documentazione disponibile,
+  individuare le conseguenze subite e verificare gli elementi utili a
+  dimostrare il pregiudizio economico o personale.
+</p>
+
+<p>
+  In base alla tipologia del caso possono assumere rilievo certificazioni
+  mediche, documentazione fotografica, preventivi, fatture, testimonianze e
+  ogni altro elemento utile alla ricostruzione dei fatti.
+
+  <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Assistenza nella fase stragiudiziale e giudiziale
+</h2>
+
+<p>
+  In molte controversie è possibile tentare una soluzione attraverso trattative
+  e richieste formali rivolte alla controparte o alle compagnie assicurative,
+  con l'obiettivo di ottenere un risarcimento senza ricorrere immediatamente al giudice.
+</p>
+
+<p>
+  Quando non è possibile raggiungere un accordo soddisfacente, la tutela può
+  proseguire nelle sedi competenti attraverso le procedure previste dalla legge,
+  con assistenza nella gestione della documentazione e nelle diverse fasi del procedimento.
+</p>
+
+</p>
+
+</p>
+
+
+
           </div>
           <p>
   Approfondisci l'argomento nella nostra guida dedicata:
