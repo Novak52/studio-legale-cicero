@@ -21,6 +21,14 @@ const faqSchema = {
       }
     },
     {
+  "@type": "Question",
+  "name": "Quali controversie rientrano nel diritto civile?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Il diritto civile comprende controversie contrattuali, successioni, responsabilità civile, recupero crediti, tutela patrimoniale e altre questioni relative ai rapporti tra privati."
+  }
+},
+    {
       "@type": "Question",
       "name": "Lo studio segue cause di risarcimento danni?",
       "acceptedAnswer": {
@@ -59,7 +67,31 @@ const faqSchema = {
         "@type": "Answer",
         "text": "È utile presentare contratti, comunicazioni, documentazione patrimoniale e ogni documento collegato alla controversia da esaminare."
       }
-    }
+    },
+    {
+  "@type": "Question",
+  "name": "Come si svolge una consulenza legale civile?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "La consulenza prevede l'analisi della documentazione disponibile, la valutazione della situazione giuridica e l'individuazione delle possibili strategie di tutela."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Lo studio assiste anche nelle successioni ereditarie?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Lo studio fornisce assistenza in successioni legittime e testamentarie, divisioni ereditarie, tutela degli eredi e controversie patrimoniali."
+  }
+},
+{
+  "@type": "Question",
+  "name": "È possibile ottenere assistenza per casi di responsabilità sanitaria?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Lo studio assiste nella valutazione di casi riguardanti responsabilità sanitaria, errori medici e richieste di risarcimento collegate a danni subiti dal paziente."
+  }
+}
   ]
 };
 export default function DirittoCivilePalermo() {
@@ -152,7 +184,7 @@ export default function DirittoCivilePalermo() {
       siciliano.
     </p>
 
-    <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+    <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
   In quali ambiti interviene un avvocato civilista?
 </h2>
 
@@ -168,8 +200,9 @@ export default function DirittoCivilePalermo() {
   Una corretta valutazione preventiva consente spesso di individuare la
   strategia più efficace per la tutela dei propri diritti, evitando errori che
   potrebbero compromettere il buon esito della controversia.
+  </p>
 
-  <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
   Responsabilità civile e richieste di risarcimento
 </h2>
 
@@ -193,7 +226,7 @@ export default function DirittoCivilePalermo() {
   </a>.
 </p>
 
-</p>
+
 
   </div>
 
@@ -213,6 +246,110 @@ export default function DirittoCivilePalermo() {
   prosegue nelle diverse fasi del procedimento giudiziale, con tutela degli
   interessi del cliente e gestione completa della documentazione necessaria.
 </p>
+
+<h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Successioni ereditarie e tutela patrimoniale
+</h2>
+
+<p>
+  Le successioni ereditarie rappresentano una delle materie più rilevanti del
+  diritto civile e richiedono particolare attenzione nella gestione del
+  patrimonio e dei rapporti tra eredi.
+</p>
+
+<p>
+  Lo studio assiste clienti nella gestione di successioni legittime e
+  testamentarie, divisioni ereditarie, impugnazioni testamentarie e tutela
+  dei diritti riconosciuti agli eredi dalla legge.
+</p>
+
+<p>
+  Per approfondire il tema è possibile consultare la sezione dedicata alle{" "}
+  <a
+    href="/avvocato-successioni-palermo"
+    className="underline underline-offset-4"
+  >
+    successioni ereditarie a Palermo
+  </a>.
+</p>
+
+<h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Quando rivolgersi a un avvocato civilista
+</h2>
+
+<p>
+  L'assistenza di un avvocato civilista può essere fondamentale quando si
+  verificano controversie contrattuali, problematiche patrimoniali,
+  richieste di risarcimento danni, successioni ereditarie o situazioni che
+  richiedono una tutela giuridica specifica.
+</p>
+
+<p>
+  Una consulenza preventiva consente spesso di individuare tempestivamente
+  le possibili criticità e valutare le strategie più efficaci per la tutela
+  dei propri diritti, riducendo il rischio di contenziosi futuri.
+</p>
+
+<p>
+  L'analisi preliminare della documentazione e delle circostanze del caso
+  rappresenta un passaggio essenziale per comprendere le possibili soluzioni
+  e pianificare correttamente le attività successive.
+</p>
+
+
+<h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Diritto di famiglia e tutela dei rapporti familiari
+</h2>
+
+<p>
+  Il diritto di famiglia comprende questioni particolarmente delicate che
+  riguardano separazioni, divorzi, affidamento dei figli, mantenimento e
+  tutela dei rapporti familiari.
+</p>
+
+<p>
+  Ogni situazione richiede una valutazione specifica finalizzata alla tutela
+  degli interessi coinvolti e alla ricerca delle soluzioni più adeguate nel
+  rispetto della normativa vigente.
+</p>
+
+<p>
+  Per approfondire l'argomento è possibile consultare la guida dedicata alla{" "}
+  <a
+    href="/blog/separazione-divorzio-palermo"
+    className="underline underline-offset-4"
+  >
+    separazione e divorzio a Palermo
+  </a>.
+</p>
+
+
+<h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
+  Responsabilità sanitaria e malasanità
+</h2>
+
+<p>
+  I casi di responsabilità sanitaria riguardano situazioni nelle quali un
+  errore medico, una diagnosi tardiva o un trattamento non adeguato possono
+  aver causato conseguenze dannose per il paziente.
+</p>
+
+<p>
+  La valutazione della documentazione clinica e l'analisi delle circostanze
+  del caso rappresentano passaggi fondamentali per verificare l'esistenza dei
+  presupposti necessari per una tutela risarcitoria.
+</p>
+
+<p>
+  Maggiori informazioni sono disponibili nella guida dedicata alla{" "}
+  <a
+    href="/blog/errore-medico-palermo-risarcimento"
+    className="underline underline-offset-4"
+  >
+    responsabilità medica e al risarcimento per errore medico
+  </a>.
+</p>
+
 
   <div className="mt-24">
 
@@ -285,6 +422,48 @@ export default function DirittoCivilePalermo() {
     È utile presentare contratti, comunicazioni, documentazione patrimoniale e ogni documento collegato alla controversia da esaminare.
   </p>
 </div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    Quali controversie rientrano nel diritto civile?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    Il diritto civile comprende controversie contrattuali, successioni, responsabilità civile, recupero crediti, tutela patrimoniale e altre questioni relative ai rapporti tra privati.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    Come si svolge una consulenza legale civile?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    La consulenza prevede l'analisi della documentazione disponibile, la valutazione della situazione giuridica e l'individuazione delle possibili strategie di tutela.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    Lo studio assiste anche nelle successioni ereditarie?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    Lo studio fornisce assistenza in successioni legittime e testamentarie, divisioni ereditarie, tutela degli eredi e controversie patrimoniali.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-8">
+  <h3 className="text-2xl font-serif mb-4">
+    È possibile ottenere assistenza per casi di responsabilità sanitaria?
+  </h3>
+
+  <p className="text-[#5d6470] leading-relaxed">
+    Lo studio assiste nella valutazione di casi riguardanti responsabilità sanitaria, errori medici e richieste di risarcimento collegate a danni subiti dal paziente.
+  </p>
+</div>
+
+
     </div>
   </div>
 
