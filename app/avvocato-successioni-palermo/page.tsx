@@ -60,10 +60,42 @@ const faqSchema = {
         "@type": "Answer",
         "text": "L'assistenza legale è utile in presenza di testamenti, quote ereditarie contestate, divisioni patrimoniali o conflitti tra eredi."
       }
-    }
+    },
+    {
+  "@type": "Question",
+  "name": "Chi sono gli eredi legittimari?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "I legittimari sono i soggetti ai quali la legge riserva una quota dell'eredità, come il coniuge, i figli e, in alcuni casi, gli ascendenti."
+  }
+},
+{
+  "@type": "Question",
+  "name": "È possibile rinunciare a un'eredità?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Sì. La rinuncia all'eredità consente di non subentrare nei rapporti patrimoniali del defunto e può essere valutata in presenza di debiti o situazioni particolarmente complesse."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Quando può essere impugnato un testamento?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "La possibilità di contestare un testamento dipende dalle circostanze del caso concreto, dalla presenza di eventuali irregolarità e dalla tutela riconosciuta agli eredi dalla legge."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Cosa succede se tra gli eredi nasce una controversia?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In presenza di conflitti sulla divisione del patrimonio o sull'interpretazione delle disposizioni testamentarie può essere necessario valutare gli strumenti previsti dalla legge per la tutela dei propri diritti."
+  }
+}
   ]
 };
-export default function SeparazioneDivorzioPalermo() {
+export default function AvvocatoSuccessioniPalermo() {
   return (
     <>
       <Script
@@ -142,11 +174,12 @@ export default function SeparazioneDivorzioPalermo() {
             </p>
 
             <p>
-              L’assistenza comprende successioni legittime e testamentarie,
-              impugnazioni testamentarie, divisioni ereditarie e tutela
-              patrimoniale nel territorio di Palermo e Sicilia.
+  L’assistenza comprende successioni legittime e testamentarie,
+  impugnazioni testamentarie, divisioni ereditarie e tutela
+  patrimoniale nel territorio di Palermo e Sicilia.
+</p>
 
-              <p>
+<p>
   Le controversie ereditarie rientrano frequentemente nell’ambito del{" "}
   <a
     href="/diritto-civile-palermo"
@@ -158,7 +191,144 @@ export default function SeparazioneDivorzioPalermo() {
 </p>
 
 
-            </p>
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Quando rivolgersi a un avvocato per una successione
+</h2>
+
+<p>
+  L'assistenza di un avvocato può risultare utile quando sorgono dubbi
+  sulla ripartizione dell'eredità, sulla validità di un testamento o
+  sulla corretta individuazione delle quote spettanti agli eredi.
+</p>
+
+<p>
+  Un supporto professionale è particolarmente importante nei casi di
+  patrimoni immobiliari, successioni con più eredi, contestazioni
+  testamentarie o situazioni che presentano profili di conflittualità
+  familiare.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Successione legittima e successione testamentaria
+</h2>
+
+<p>
+  La successione può avvenire in presenza di un testamento oppure, in
+  assenza di disposizioni testamentarie, secondo le regole previste dalla
+  legge. La corretta individuazione degli eredi e delle quote spettanti
+  rappresenta un passaggio fondamentale nella gestione dell'eredità.
+</p>
+
+<p>
+  L'analisi della documentazione disponibile consente di verificare la
+  validità delle disposizioni testamentarie, individuare eventuali diritti
+  dei legittimari e prevenire future contestazioni tra gli eredi.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Divisione ereditaria e tutela degli eredi
+</h2>
+
+<p>
+  Dopo l'apertura della successione può essere necessario procedere alla
+  divisione del patrimonio ereditario tra gli aventi diritto. Questa fase
+  richiede particolare attenzione quando il patrimonio comprende immobili,
+  aziende o beni di valore rilevante.
+</p>
+
+<p>
+  Una corretta gestione della divisione ereditaria consente di tutelare i
+  diritti degli eredi, ridurre il rischio di controversie e individuare
+  soluzioni condivise che evitino lunghi contenziosi.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Impugnazione del testamento
+</h2>
+
+<p>
+  In alcune situazioni gli eredi possono ritenere che un testamento presenti
+  irregolarità o che non rispetti i diritti riconosciuti dalla legge. In questi
+  casi può essere necessario valutare la possibilità di contestare le
+  disposizioni testamentarie attraverso gli strumenti previsti dall'ordinamento.
+</p>
+
+<p>
+  Ogni situazione richiede un'attenta analisi della documentazione disponibile,
+  delle modalità di redazione del testamento e dei diritti eventualmente lesi,
+  con particolare attenzione alla tutela dei legittimari.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Rinuncia all'eredità e beneficio d'inventario
+</h2>
+
+<p>
+  Non sempre accettare un'eredità rappresenta la soluzione più conveniente.
+  In presenza di debiti del defunto o di situazioni patrimoniali particolarmente
+  complesse può essere opportuno valutare la rinuncia all'eredità oppure
+  l'accettazione con beneficio d'inventario.
+</p>
+
+<p>
+  Questi strumenti consentono di tutelare il patrimonio personale dell'erede
+  e di affrontare con maggiore consapevolezza le conseguenze derivanti dalla
+  successione, soprattutto quando non è immediatamente chiara la consistenza
+  dell'attivo e del passivo ereditario.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Successioni immobiliari e patrimoni familiari
+</h2>
+
+<p>
+  Le successioni che comprendono immobili richiedono particolare attenzione
+  sotto il profilo documentale e patrimoniale. La presenza di abitazioni,
+  terreni, quote di proprietà o immobili in comunione può rendere più
+  complessa la gestione dell'eredità e la successiva divisione tra gli eredi.
+</p>
+
+<p>
+  Una corretta pianificazione delle attività successorie consente di ridurre
+  il rischio di contestazioni e di individuare le soluzioni più idonee per la
+  gestione del patrimonio familiare, nel rispetto dei diritti di tutti i
+  soggetti coinvolti.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Quote di legittima e tutela degli eredi
+</h2>
+
+<p>
+  La legge tutela particolari categorie di eredi, come il coniuge, i figli
+  e, in alcuni casi, gli ascendenti. A tali soggetti è riservata una quota
+  dell'eredità che non può essere liberamente esclusa attraverso disposizioni
+  testamentarie.
+</p>
+
+<p>
+  Quando si ritiene che i propri diritti successori siano stati lesi, può
+  essere necessario verificare la corretta ripartizione del patrimonio e
+  valutare le azioni previste dalla normativa per la tutela dei legittimari.
+</p>
+
+<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+  Dichiarazione di successione e adempimenti
+</h2>
+
+<p>
+  Oltre agli aspetti patrimoniali e familiari, una successione comporta
+  specifici adempimenti che richiedono attenzione nella raccolta della
+  documentazione e nella gestione delle pratiche necessarie.
+</p>
+
+<p>
+  Una corretta organizzazione delle attività successive al decesso consente
+  di evitare ritardi, irregolarità e problematiche che potrebbero incidere
+  sulla gestione dell'eredità e dei beni appartenenti al patrimonio del
+  defunto.
+</p>
+
 
           </div>
           <p>
@@ -241,6 +411,48 @@ export default function SeparazioneDivorzioPalermo() {
     L'assistenza legale è utile in presenza di testamenti, quote ereditarie contestate, divisioni patrimoniali o conflitti tra eredi.
   </p>
 </div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Chi sono gli eredi legittimari?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    I legittimari sono i soggetti ai quali la legge riserva una quota dell'eredità, come il coniuge, i figli e, in alcuni casi, gli ascendenti.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    È possibile rinunciare a un'eredità?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    Sì. La rinuncia all'eredità consente di non subentrare nei rapporti patrimoniali del defunto e può essere valutata in presenza di debiti o situazioni particolarmente complesse.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quando può essere impugnato un testamento?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    La possibilità di contestare un testamento dipende dalle circostanze del caso concreto, dalla presenza di eventuali irregolarità e dalla tutela riconosciuta agli eredi dalla legge.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">    Cosa succede se tra gli eredi nasce una controversia?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    In presenza di conflitti sulla divisione del patrimonio o sull'interpretazione delle disposizioni testamentarie può essere necessario valutare gli strumenti previsti dalla legge per la tutela dei propri diritti.
+  </p>
+</div>
+
+
+
           </div>
 
         </section>
