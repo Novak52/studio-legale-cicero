@@ -191,9 +191,11 @@ export default function AvvocatoSuccessioniPalermo() {
 </p>
 
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Quando rivolgersi a un avvocato per una successione
 </h2>
+
+
 
 <p>
   L'assistenza di un avvocato può risultare utile quando sorgono dubbi
@@ -208,7 +210,7 @@ export default function AvvocatoSuccessioniPalermo() {
   familiare.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Successione legittima e successione testamentaria
 </h2>
 
@@ -225,7 +227,7 @@ export default function AvvocatoSuccessioniPalermo() {
   dei legittimari e prevenire future contestazioni tra gli eredi.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Divisione ereditaria e tutela degli eredi
 </h2>
 
@@ -237,12 +239,24 @@ export default function AvvocatoSuccessioniPalermo() {
 </p>
 
 <p>
+  In alcune situazioni la lesione dei diritti ereditari può comportare
+  conseguenze patrimoniali rilevanti e rendere necessario valutare
+  azioni di tutela e richieste di
+  <a
+    href="/risarcimento-danni-palermo"
+    className="underline underline-offset-4"
+  >
+    risarcimento danni
+  </a>.
+</p>
+
+<p>
   Una corretta gestione della divisione ereditaria consente di tutelare i
   diritti degli eredi, ridurre il rischio di controversie e individuare
   soluzioni condivise che evitino lunghi contenziosi.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Impugnazione del testamento
 </h2>
 
@@ -259,7 +273,7 @@ export default function AvvocatoSuccessioniPalermo() {
   con particolare attenzione alla tutela dei legittimari.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Rinuncia all'eredità e beneficio d'inventario
 </h2>
 
@@ -277,7 +291,7 @@ export default function AvvocatoSuccessioniPalermo() {
   dell'attivo e del passivo ereditario.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Successioni immobiliari e patrimoni familiari
 </h2>
 
@@ -295,7 +309,7 @@ export default function AvvocatoSuccessioniPalermo() {
   soggetti coinvolti.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Quote di legittima e tutela degli eredi
 </h2>
 
@@ -312,7 +326,7 @@ export default function AvvocatoSuccessioniPalermo() {
   valutare le azioni previste dalla normativa per la tutela dei legittimari.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl leading-tight mt-16 mb-8">
+<h2 className="font-serif text-[#101826] text-5xl leading-tight mt-16 mb-8">
   Dichiarazione di successione e adempimenti
 </h2>
 
