@@ -60,10 +60,42 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Il mantenimento viene stabilito considerando le esigenze del minore, il tenore di vita e le capacità economiche dei genitori."
       }
-    }
+    },
+    {
+  "@type": "Question",
+  "name": "È possibile modificare le condizioni di affidamento dei figli?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In presenza di cambiamenti significativi nelle condizioni familiari o personali può essere necessario valutare la revisione delle disposizioni relative all'affidamento e alla gestione dei rapporti con i figli."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Come vengono gestite le controversie familiari?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Ogni situazione viene valutata considerando gli interessi delle persone coinvolte, la documentazione disponibile e le possibili soluzioni previste dall'ordinamento."
+  }
+},
+{
+  "@type": "Question",
+  "name": "È possibile raggiungere accordi senza processo?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In molte situazioni è possibile definire accordi attraverso procedure consensuali che consentono di ridurre tempi, costi e conflittualità tra le parti."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Quando è opportuno richiedere una consulenza in diritto di famiglia?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "È consigliabile richiedere assistenza legale quando emergono problematiche familiari che richiedono una valutazione preventiva o la tutela dei propri diritti e di quelli dei figli."
+  }
+}
   ]
 };
-export default function SeparazioneDivorzioPalermo() {
+export default function AvvocatoFamigliaPalermo() {
   return (
     <>
 <Script
@@ -150,6 +182,134 @@ export default function SeparazioneDivorzioPalermo() {
               tutela dei minori e gestione delle problematiche familiari
               nel territorio di Palermo e Sicilia.
             </p>
+
+
+            <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Quando rivolgersi a un avvocato per questioni familiari
+</h2>
+
+<p>
+  L'assistenza di un avvocato esperto in diritto di famiglia può risultare
+  utile quando emergono situazioni che incidono sugli equilibri familiari,
+  sui rapporti tra coniugi o sulla tutela dei figli.
+</p>
+
+<p>
+  Una corretta valutazione preventiva consente spesso di individuare le
+  soluzioni più adeguate, ridurre il rischio di conflitti e affrontare con
+  maggiore consapevolezza le decisioni che riguardano il nucleo familiare.
+</p>
+
+<p>
+  Ogni situazione presenta caratteristiche specifiche che richiedono un
+  esame personalizzato della documentazione e delle esigenze delle persone
+  coinvolte.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Separazione consensuale e separazione giudiziale
+</h2>
+
+<p>
+  La separazione può essere consensuale quando i coniugi raggiungono un
+  accordo sugli aspetti personali, economici e relativi ai figli. In questi
+  casi la procedura risulta generalmente più rapida e consente di definire
+  in modo condiviso i rapporti futuri.
+</p>
+
+<p>
+  Quando non è possibile raggiungere un accordo può rendersi necessaria una
+  separazione giudiziale, nella quale le questioni controverse vengono
+  sottoposte alla valutazione dell'autorità giudiziaria.
+</p>
+
+<p>
+  La corretta individuazione della procedura più adatta dipende dalle
+  caratteristiche del caso concreto, dalla presenza di figli minori e dagli
+  aspetti patrimoniali coinvolti.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Affidamento dei figli e responsabilità genitoriale
+</h2>
+
+<p>
+  Nelle controversie familiari che coinvolgono figli minori, particolare
+  attenzione viene dedicata alla tutela del loro interesse e al mantenimento
+  di rapporti equilibrati con entrambi i genitori.
+</p>
+
+<p>
+  Le decisioni relative all'affidamento, ai tempi di permanenza con ciascun
+  genitore e all'esercizio della responsabilità genitoriale devono essere
+  valutate considerando le specifiche esigenze del minore e il contesto
+  familiare di riferimento.
+</p>
+
+<p>
+  Una gestione corretta di questi aspetti contribuisce a garantire stabilità,
+  continuità educativa e tutela dei diritti dei figli durante le diverse fasi
+  della separazione o del divorzio.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Mantenimento del coniuge e dei figli
+</h2>
+
+<p>
+  Gli aspetti economici rappresentano spesso una delle questioni più delicate
+  nelle procedure di separazione e divorzio. La determinazione degli obblighi
+  di mantenimento richiede una valutazione delle condizioni economiche delle
+  parti e delle esigenze dei figli.
+</p>
+
+<p>
+  L'obiettivo è individuare soluzioni equilibrate che consentano di garantire
+  la tutela dei minori e il rispetto dei diritti e degli obblighi previsti
+  dalla normativa vigente.
+</p>
+
+<p>
+  Ogni situazione familiare presenta caratteristiche differenti e richiede una
+  valutazione personalizzata delle circostanze patrimoniali e reddituali
+  coinvolte.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Diritto di famiglia e tutela dei diritti della persona
+</h2>
+
+<p>
+  Le questioni familiari rientrano tra gli ambiti più delicati del diritto
+  civile e richiedono una particolare attenzione agli aspetti personali,
+  patrimoniali e relazionali che caratterizzano ogni situazione.
+</p>
+
+<p>
+  Lo studio assiste clienti nella gestione delle problematiche familiari,
+  nella tutela dei minori e nella ricerca di soluzioni adeguate alle esigenze
+  delle persone coinvolte.
+</p>
+
+<p>
+  Per approfondire gli aspetti più ampi della tutela civile è possibile
+  consultare la sezione dedicata al{" "}
+  <a
+    href="/diritto-civile-palermo"
+    className="underline underline-offset-4"
+  >
+    diritto civile a Palermo
+  </a>.
+</p>
+
 
           </div>
           <p>
@@ -244,6 +404,46 @@ export default function SeparazioneDivorzioPalermo() {
         Il giudice valuta esigenze dei figli, disponibilità economiche dei genitori e situazione familiare complessiva.
       </p>
     </div>
+
+    <div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    È possibile modificare le condizioni di affidamento dei figli?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    In presenza di cambiamenti significativi nelle condizioni familiari o personali può essere necessario valutare la revisione delle disposizioni relative all'affidamento e alla gestione dei rapporti con i figli.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Come vengono gestite le controversie familiari?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    Ogni situazione viene valutata considerando gli interessi delle persone coinvolte, la documentazione disponibile e le possibili soluzioni previste dall'ordinamento.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    È possibile raggiungere accordi senza processo?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    In molte situazioni è possibile definire accordi attraverso procedure consensuali che consentono di ridurre tempi, costi e conflittualità tra le parti.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quando è opportuno richiedere una consulenza in diritto di famiglia?
+  </h3>
+
+  <p className="text-slate-600 text-lg leading-relaxed">
+    È consigliabile richiedere assistenza legale quando emergono problematiche familiari che richiedono una valutazione preventiva o la tutela dei propri diritti e di quelli dei figli.
+  </p>
+</div>
 
   </div>
 </section>

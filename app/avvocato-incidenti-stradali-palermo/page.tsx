@@ -60,7 +60,39 @@ const faqSchema = {
         "@type": "Answer",
         "text": "È possibile contattare direttamente lo studio tramite telefono, modulo contatti o WhatsApp per una valutazione del caso."
       }
-    }
+    },
+    {
+  "@type": "Question",
+  "name": "Quali documenti sono utili dopo un incidente stradale?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Fotografie, verbali, testimonianze, documentazione medica e preventivi di riparazione possono risultare utili per la valutazione della pratica risarcitoria."
+  }
+},
+{
+  "@type": "Question",
+  "name": "È possibile ottenere il risarcimento per lesioni personali?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In presenza di lesioni documentate è possibile valutare le richieste risarcitorie relative ai danni subiti e alle conseguenze dell'incidente."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Cosa succede se le parti non sono d'accordo sulla responsabilità?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In caso di contestazioni può essere necessario approfondire la ricostruzione dei fatti attraverso documentazione, testimonianze e ulteriori accertamenti."
+  }
+},
+{
+  "@type": "Question",
+  "name": "Quando è opportuno richiedere assistenza legale dopo un incidente?",
+  "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "È consigliabile richiedere una valutazione tempestiva quando si sono verificati danni alla persona, al veicolo o altre conseguenze che potrebbero dare luogo a richieste risarcitorie."
+  }
+}
   ]
 };
 export default function IncidentiStradaliPalermoPage() {
@@ -151,6 +183,102 @@ export default function IncidentiStradaliPalermoPage() {
               Palermo e Sicilia.
             </p>
 
+
+
+            <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Cosa fare dopo un incidente stradale
+</h2>
+
+<p>
+  Dopo un incidente stradale è importante raccogliere tutta la
+  documentazione disponibile, fotografare i luoghi del sinistro,
+  acquisire eventuali testimonianze e conservare i documenti utili
+  alla ricostruzione dei fatti.
+</p>
+
+<p>
+  Una gestione tempestiva della pratica può risultare determinante
+  per la corretta tutela dei propri diritti e per la valutazione
+  delle possibili richieste risarcitorie.
+</p>
+
+<p>
+  La raccolta ordinata delle prove consente di affrontare con maggiore
+  efficacia le successive fasi della procedura.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Danno biologico, danno patrimoniale e danno morale
+</h2>
+
+<p>
+  A seguito di un incidente stradale possono derivare diverse tipologie di
+  danno che richiedono una valutazione specifica delle conseguenze subite dalla
+  persona coinvolta.
+</p>
+
+<p>
+  Tra le voci più frequentemente considerate rientrano il danno biologico
+  legato alle lesioni personali, il danno patrimoniale derivante dalle perdite
+  economiche e il danno morale connesso alle conseguenze personali dell'evento.
+</p>
+
+<p>
+  La corretta analisi della documentazione medica, delle spese sostenute e
+  delle circostanze del sinistro rappresenta un passaggio fondamentale per la
+  valutazione della richiesta risarcitoria.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Compagnie assicurative e gestione della pratica risarcitoria
+</h2>
+
+<p>
+  La gestione di una richiesta di risarcimento richiede spesso interlocuzioni
+  con compagnie assicurative, periti e altri soggetti coinvolti nella
+  ricostruzione del sinistro.
+</p>
+
+<p>
+  Una corretta organizzazione della documentazione e una valutazione accurata
+  delle responsabilità consentono di affrontare con maggiore efficacia le
+  diverse fasi della procedura risarcitoria.
+</p>
+
+<p>
+  Ogni pratica presenta caratteristiche specifiche che richiedono un'analisi
+  personalizzata delle circostanze, dei danni subiti e della documentazione
+  disponibile.
+</p>
+
+
+
+<h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
+  Investimento del pedone e tutela del danneggiato
+</h2>
+
+<p>
+  Gli incidenti che coinvolgono pedoni richiedono particolare attenzione nella
+  ricostruzione dei fatti e nella valutazione delle responsabilità dei soggetti
+  coinvolti.
+</p>
+
+<p>
+  Le conseguenze possono riguardare lesioni personali, danni patrimoniali,
+  spese mediche e altre situazioni che necessitano di un'attenta analisi della
+  documentazione disponibile.
+</p>
+
+<p>
+  La tutela del soggetto danneggiato passa attraverso la corretta raccolta
+  delle prove, la verifica delle responsabilità e la valutazione delle possibili
+  richieste risarcitorie.
+</p>
+
             <p>
               Lo studio segue anche pratiche collegate al{" "}
               <a
@@ -237,6 +365,46 @@ export default function IncidentiStradaliPalermoPage() {
 
   <p className="text-xl leading-relaxed text-[#475569]">
     In presenza di lesioni personali documentate è possibile richiedere il risarcimento del danno biologico.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quali documenti sono utili dopo un incidente stradale?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    Fotografie, verbali, testimonianze, documentazione medica e preventivi di riparazione possono risultare utili per la valutazione della pratica risarcitoria.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    È possibile ottenere il risarcimento per lesioni personali?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    In presenza di lesioni documentate è possibile valutare le richieste risarcitorie relative ai danni subiti e alle conseguenze dell'incidente.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Cosa succede se le parti non sono d'accordo sulla responsabilità?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    In caso di contestazioni può essere necessario approfondire la ricostruzione dei fatti attraverso documentazione, testimonianze e ulteriori accertamenti.
+  </p>
+</div>
+
+<div className="border-b border-black/10 pb-10">
+  <h3 className="font-serif text-3xl mb-4">
+    Quando è opportuno richiedere assistenza legale dopo un incidente?
+  </h3>
+
+  <p className="text-xl leading-relaxed text-[#475569]">
+    È consigliabile richiedere una valutazione tempestiva quando si sono verificati danni alla persona, al veicolo o altre conseguenze che potrebbero dare luogo a richieste risarcitorie.
   </p>
 </div>
           </div>
