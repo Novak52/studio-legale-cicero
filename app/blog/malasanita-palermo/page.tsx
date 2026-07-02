@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
   title: "Malasanità a Palermo | Guida pratica",
@@ -12,9 +14,26 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <main className="bg-[#f8f6f2] min-h-screen">
-      <article className="max-w-4xl mx-auto px-6 py-24">
+  <>
+    <BreadcrumbSchema
+      items={[
+        {
+          name: "Home",
+          url: "https://www.avvocatocicero.it",
+        },
+        {
+          name: "Blog",
+          url: "https://www.avvocatocicero.it/blog",
+        },
+        {
+          name: "Malasanità",
+          url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+        },
+      ]}
+    />
 
+    <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
+<article className="max-w-4xl mx-auto">
         <Link
 href="/blog"
 className="inline-flex items-center mb-12 text-[#c8a96b] hover:text-[#b88d3b] transition-colors duration-300"
@@ -131,5 +150,6 @@ Richiedi una consulenza
 
       </article>
     </main>
-  )
+</>
+)
 }

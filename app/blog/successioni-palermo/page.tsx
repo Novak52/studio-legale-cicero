@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Successioni ereditarie a Palermo | Guida pratica",
   description:
@@ -11,6 +11,24 @@ export const metadata = {
 
 export default function SuccessioniPalermoPage() {
   return (
+  <>
+    <BreadcrumbSchema
+      items={[
+        {
+          name: "Home",
+          url: "https://www.avvocatocicero.it",
+        },
+        {
+          name: "Blog",
+          url: "https://www.avvocatocicero.it/blog",
+        },
+        {
+          name: "Successioni ereditarie",
+          url: "https://www.avvocatocicero.it/blog/successioni-palermo",
+        },
+      ]}
+    />
+
     <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 
@@ -109,6 +127,45 @@ export default function SuccessioniPalermoPage() {
   </a>
   , soprattutto quando riguardano divisioni patrimoniali, quote ereditarie e rapporti tra coeredi.
 </p>
+
+
+<h2 className="font-serif text-3xl text-[#101826] mt-12 mb-6">
+  Quando è possibile impugnare un testamento
+</h2>
+
+<p>
+  L'impugnazione di un testamento può essere presa in considerazione quando
+  emergono elementi che fanno dubitare della validità delle disposizioni
+  testamentarie o quando si ritiene che siano stati lesi i diritti degli
+  eredi tutelati dalla legge.
+</p>
+
+<p>
+  Tra le situazioni che possono richiedere una valutazione rientrano
+  eventuali vizi di forma, la possibile incapacità del testatore al momento
+  della redazione del testamento o altre circostanze che incidano sulla
+  validità dell'atto.
+</p>
+
+<p>
+  Ogni vicenda ereditaria presenta caratteristiche differenti e richiede
+  un'analisi della documentazione disponibile, delle disposizioni
+  testamentarie e della situazione familiare complessiva.
+</p>
+
+<p>
+  Per approfondire gli aspetti legati alle successioni e alla tutela dei
+  diritti degli eredi è possibile consultare la pagina dedicata all'
+  <a
+    href="/avvocato-successioni-palermo"
+    className="underline underline-offset-4"
+  >
+    avvocato successioni a Palermo
+  </a>.
+</p>
+
+
+
 
 <h2 className="font-serif text-3xl text-[#101826] mt-12 mb-6">
   Perché rivolgersi a un avvocato per una successione
@@ -220,5 +277,6 @@ export default function SuccessioniPalermoPage() {
 
       </article>
     </main>
-  )
+</>
+)
 }

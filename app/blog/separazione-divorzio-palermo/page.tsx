@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Separazione e divorzio a Palermo | Guida pratica",
   description:
@@ -60,14 +61,24 @@ export const metadata = {
 export default function ArticoloSeparazione() {
   return (
     <>
-  <Script
-    id="faq-schema"
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify(faqSchema),
-    }}
-  />
-    <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
+      <BreadcrumbSchema
+        items={[
+          {
+            name: "Home",
+            url: "https://www.avvocatocicero.it",
+          },
+          {
+            name: "Blog",
+            url: "https://www.avvocatocicero.it/blog",
+          },
+          {
+            name: "Successioni ereditarie",
+            url: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+          },
+        ]}
+      />
+  
+      <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 
         <Link

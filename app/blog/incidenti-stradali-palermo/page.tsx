@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
   title: "Cosa fare dopo un incidente stradale a Palermo",
@@ -12,10 +14,26 @@ export const metadata = {
 
 export default function IncidentiStradaliPalermoPage() {
   return (
-    <main className="bg-[#f8f6f2] min-h-screen">
+  <>
+    <BreadcrumbSchema
+      items={[
+        {
+          name: "Home",
+          url: "https://www.avvocatocicero.it",
+        },
+        {
+          name: "Blog",
+          url: "https://www.avvocatocicero.it/blog",
+        },
+        {
+          name: "Successioni ereditarie",
+          url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+        },
+      ]}
+    />
 
-      <article className="max-w-5xl mx-auto px-6 py-24">
-
+    <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
+<article className="max-w-4xl mx-auto">
         <Link
 href="/blog"
 className="inline-flex items-center mb-12 text-[#c8a96b] hover:text-[#b88d3b] transition-colors duration-300"
@@ -142,5 +160,6 @@ Cosa fare dopo un incidente stradale a Palermo
       </article>
 
     </main>
-  )
+</>
+)
 }
