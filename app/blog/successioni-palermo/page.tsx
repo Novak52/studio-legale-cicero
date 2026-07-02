@@ -5,7 +5,7 @@ export const metadata = {
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
     alternates: {
-  canonical: "https://www.avvocatocicero.it/successioni-palermo",
+  canonical: "https://www.avvocatocicero.it/blog/successioni-palermo",
 },
 }
 

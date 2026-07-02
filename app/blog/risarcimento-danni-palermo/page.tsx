@@ -7,7 +7,7 @@ export const metadata = {
     "Quando è possibile ottenere un risarcimento danni, quali prove servono e come tutelare i propri diritti.",
 
     alternates: {
-  canonical: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+  canonical: "https://www.avvocatocicero.it/blog/risarcimento-danni-palermo",
 },
 }
 

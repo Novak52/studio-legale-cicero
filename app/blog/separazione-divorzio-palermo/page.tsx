@@ -1,17 +1,72 @@
 import Link from "next/link"
+import Script from "next/script"
 export const metadata = {
   title: "Separazione e divorzio a Palermo | Guida pratica",
   description:
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
 
     alternates: {
-  canonical: "https://www.avvocatocicero.it/separazione-divorzio-palermo",
+  canonical: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
 },
     
   }
+  const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Quanto dura una separazione consensuale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "I tempi dipendono dal tribunale competente e dalla completezza della documentazione presentata."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È obbligatorio rivolgersi a un avvocato?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nella maggior parte dei casi è consigliabile per tutelare correttamente i propri diritti e interessi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quando si può chiedere il divorzio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dopo la separazione e nel rispetto dei termini previsti dalla legge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Come viene regolato l'affidamento dei figli?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le modalità di affidamento vengono stabilite considerando l'interesse del minore, la situazione familiare e le esigenze educative e relazionali dei figli."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "È possibile modificare gli accordi dopo la separazione?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In presenza di cambiamenti significativi nelle condizioni familiari o economiche può essere valutata la revisione degli accordi precedentemente adottati."
+      }
+    }
+  ]
+}
 
 export default function ArticoloSeparazione() {
   return (
+    <>
+  <Script
+    id="faq-schema"
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(faqSchema),
+    }}
+  />
     <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 
@@ -129,5 +184,6 @@ export default function ArticoloSeparazione() {
 
       </article>
     </main>
-  )
+</>
+)
 }
