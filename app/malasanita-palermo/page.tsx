@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Malasanità Palermo | Studio Legale Giuseppina Cicero",
   description:
@@ -97,6 +98,20 @@ const faqSchema = {
 };
 export default function MalasanitaPalermo() {
   return (
+  <>
+    <BreadcrumbSchema
+      items={[
+        {
+          name: "Home",
+          url: "https://www.avvocatocicero.it",
+        },
+        {
+          name: "Malasanità",
+          url: "https://www.avvocatocicero.it/malasanita-palermo",
+        },
+      ]}
+    />
+
     <main className="bg-[#f5f1ea] text-[#0b1220]">
 <Script
   id="faq-schema"
@@ -496,5 +511,6 @@ scoperta del danno.
       </section>
 
     </main>
-  );
+</>
+);
 }
