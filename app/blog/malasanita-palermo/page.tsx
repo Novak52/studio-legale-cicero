@@ -11,7 +11,62 @@ export const metadata = {
   canonical: "https://www.avvocatocicero.it/blog/malasanita-palermo",
 },
 }
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Quali sono i casi più frequenti di malasanità?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Diagnosi tardive, errori chirurgici, infezioni ospedaliere e mancato consenso informato.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "È sempre possibile ottenere un risarcimento?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No. Occorre dimostrare il danno, l'errore sanitario e il nesso causale tra i due elementi.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quali documenti servono?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Cartelle cliniche, referti, esami diagnostici e tutta la documentazione sanitaria disponibile.",
+      },
+    },
+  ],
+};
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Malasanità a Palermo",
+  description:
+    "Quando è possibile ottenere un risarcimento per malasanità a Palermo. Errori medici, responsabilità sanitaria e tutela del paziente.",
+  url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+  datePublished: "2026-07-08",
+  dateModified: "2026-07-08",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+  },
+  publisher: {
+    "@type": "LegalService",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://www.avvocatocicero.it/blog/malasanita-palermo",
+  },
+};
 export default function Page() {
   return (
   <>
@@ -31,6 +86,21 @@ export default function Page() {
         },
       ]}
     />
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
+
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
 
     <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
 <article className="max-w-4xl mx-auto">

@@ -11,7 +11,32 @@ export const metadata = {
   canonical: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
 },
 }
-
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Cosa fare dopo un incidente stradale a Palermo",
+  description:
+    "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
+  url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+  datePublished: "2026-07-08",
+  dateModified: "2026-07-08",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+  },
+  publisher: {
+    "@type": "LegalService",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+  },
+};
 export default function IncidentiStradaliPalermoPage() {
   return (
   <>

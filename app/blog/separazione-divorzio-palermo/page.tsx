@@ -57,7 +57,33 @@ export const metadata = {
     }
   ]
 }
-
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Separazione e divorzio a Palermo",
+  description:
+    "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
+  url: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+  datePublished: "2026-07-08",
+  dateModified: "2026-07-08",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+  },
+  publisher: {
+    "@type": "LegalService",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id":
+      "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+  },
+};
 export default function ArticoloSeparazione() {
   return (
     <>
@@ -72,12 +98,25 @@ export default function ArticoloSeparazione() {
             url: "https://www.avvocatocicero.it/blog",
           },
           {
-            name: "Successioni ereditarie",
+            name: "Separazione e divorzio",
             url: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
           },
         ]}
       />
-  
+  <Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
       <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 

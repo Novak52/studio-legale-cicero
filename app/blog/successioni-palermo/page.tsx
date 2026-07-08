@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Successioni ereditarie a Palermo | Guida pratica",
@@ -8,7 +9,79 @@ export const metadata = {
   canonical: "https://www.avvocatocicero.it/blog/successioni-palermo",
 },
 }
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Quando si apre una successione?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "La successione si apre al momento della morte della persona e comporta il trasferimento dei rapporti patrimoniali agli eredi.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "È obbligatorio accettare l'eredità?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "No, l'erede può accettare o rinunciare all'eredità secondo le modalità previste dalla legge.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Cosa succede se non esiste un testamento?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In assenza di testamento si applicano le regole della successione legittima previste dal Codice Civile.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "È possibile impugnare un testamento?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In presenza di irregolarità, vizi di forma o lesione dei diritti degli eredi legittimari può essere possibile contestare la validità del testamento.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quanto tempo si ha per accettare un'eredità?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "In generale il diritto di accettare l'eredità si prescrive in dieci anni dall'apertura della successione.",
+      },
+    },
+  ],
+};
 
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Successioni ereditarie a Palermo",
+  description:
+    "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
+  url: "https://www.avvocatocicero.it/blog/successioni-palermo",
+  datePublished: "2026-07-08",
+  dateModified: "2026-07-08",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+  },
+  publisher: {
+    "@type": "LegalService",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://www.avvocatocicero.it/blog/successioni-palermo",
+  },
+};
 export default function SuccessioniPalermoPage() {
   return (
   <>
@@ -28,7 +101,21 @@ export default function SuccessioniPalermoPage() {
         },
       ]}
     />
+<Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
 
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
     <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 

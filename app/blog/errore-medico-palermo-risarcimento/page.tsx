@@ -12,7 +12,63 @@ export const metadata = {
       "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
   },
 }
-
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Quali errori medici possono dare diritto al risarcimento?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Errori diagnostici, interventi chirurgici non corretti, omissioni terapeutiche e mancata sorveglianza del paziente possono, nei casi previsti dalla legge, dare luogo a una richiesta di risarcimento.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Come si dimostra un errore medico?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Attraverso la documentazione clinica, gli accertamenti medico-legali e la dimostrazione del collegamento tra l'errore sanitario e il danno subito.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Quanto tempo si ha per agire?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "I termini dipendono dal tipo di responsabilità e dalle circostanze del caso concreto; è consigliabile richiedere una valutazione legale il prima possibile.",
+      },
+    },
+  ],
+};
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Errore medico a Palermo: quando è possibile ottenere un risarcimento?",
+  description:
+    "Guida pratica sulla responsabilità medica e sul risarcimento danni da errore medico a Palermo.",
+  url: "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+  datePublished: "2026-07-08",
+  dateModified: "2026-07-08",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+  },
+  publisher: {
+    "@type": "LegalService",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id":
+      "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+  },
+};
 export default function Page() {
   return (
     <>
@@ -32,7 +88,20 @@ export default function Page() {
       },
     ]}
   />
-  
+  <Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
+  <Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
       <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
 <article className="max-w-4xl mx-auto">
         <Link
