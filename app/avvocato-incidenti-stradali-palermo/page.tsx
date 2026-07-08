@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   
   title: "Avvocato Incidenti Stradali Palermo | Studio Legale Palermo",
@@ -98,6 +99,18 @@ const faqSchema = {
 export default function IncidentiStradaliPalermoPage() {
   return (
     <>
+    <BreadcrumbSchema
+  items={[
+    {
+      name: "Home",
+      url: "https://www.avvocatocicero.it",
+    },
+    {
+      name: "Avvocato incidenti stradali",
+      url: "https://www.avvocatocicero.it/avvocato-incidenti-stradali-palermo",
+    },
+  ]}
+/>
       <Script
         id="faq-schema"
         type="application/ld+json"

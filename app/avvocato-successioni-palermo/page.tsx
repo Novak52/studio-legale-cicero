@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Avvocato Successioni Palermo | Studio Legale",
   description:
@@ -98,6 +99,18 @@ const faqSchema = {
 export default function AvvocatoSuccessioniPalermo() {
   return (
     <>
+    <BreadcrumbSchema
+  items={[
+    {
+      name: "Home",
+      url: "https://www.avvocatocicero.it",
+    },
+    {
+      name: "Avvocato successioni",
+      url: "https://www.avvocatocicero.it/avvocato-successioni-palermo",
+    },
+  ]}
+/>
       <Script
         id="faq-schema"
         type="application/ld+json"

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Separazione e Divorzio Palermo | Studio Legale",
   description:
@@ -98,6 +99,18 @@ const faqSchema = {
 export default function AvvocatoFamigliaPalermo() {
   return (
     <>
+    <BreadcrumbSchema
+  items={[
+    {
+      name: "Home",
+      url: "https://www.avvocatocicero.it",
+    },
+    {
+      name: "Avvocato diritto di famiglia",
+      url: "https://www.avvocatocicero.it/avvocato-famiglia-palermo",
+    },
+  ]}
+/>
 <Script
   id="faq-schema"
   type="application/ld+json"

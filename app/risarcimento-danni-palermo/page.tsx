@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Risarcimento Danni Palermo | Studio Legale Giuseppina Cicero",
   description:
@@ -92,6 +93,18 @@ const faqSchema = {
 export default function RisarcimentoDanniPalermo() {
   return (
     <>
+    <BreadcrumbSchema
+  items={[
+    {
+      name: "Home",
+      url: "https://www.avvocatocicero.it",
+    },
+    {
+      name: "Risarcimento danni",
+      url: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+    },
+  ]}
+/>
       <Script
         id="faq-schema"
         type="application/ld+json"

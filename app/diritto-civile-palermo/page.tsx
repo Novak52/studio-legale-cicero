@@ -1,4 +1,5 @@
 import Script from "next/script"
+import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Diritto Civile Palermo | Studio Legale Giuseppina Cicero",
   description:
@@ -95,15 +96,28 @@ const faqSchema = {
   ]
 };
 export default function DirittoCivilePalermo() {
-  return (
-    <>
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
+ return (
+  <>
+    <BreadcrumbSchema
+      items={[
+        {
+          name: "Home",
+          url: "https://www.avvocatocicero.it",
+        },
+        {
+          name: "Diritto civile",
+          url: "https://www.avvocatocicero.it/diritto-civile-palermo",
+        },
+      ]}
+    />
+
+    <Script
+  id="faq-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(faqSchema),
+  }}
+/>
     <main className="min-h-screen bg-[#f7f4ee] text-[#101826]">
       
       <section className="max-w-5xl mx-auto px-6 py-24">

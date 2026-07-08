@@ -75,15 +75,18 @@ Errore medico a Palermo: quando è possibile ottenere un risarcimento?
 
 
 
-<h2 className="font-serif text-3xl text-[#101826] mb-6">
+
+  <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Quando è possibile ottenere un risarcimento?
 </h2>
-  <p>
-    Per ottenere un risarcimento è necessario dimostrare l'esistenza di un danno,
-    l'errore sanitario e il collegamento tra la condotta del medico o della
-    struttura e le conseguenze riportate.
 
-    <p>
+<p>
+  Per ottenere un risarcimento è necessario dimostrare l'esistenza di un danno,
+  l'errore sanitario e il collegamento tra la condotta del medico o della
+  struttura e le conseguenze riportate.
+</p>
+
+<p>
   Per approfondire i principi generali della tutela risarcitoria è possibile
   consultare la pagina dedicata al{" "}
   <a
@@ -95,7 +98,7 @@ Errore medico a Palermo: quando è possibile ottenere un risarcimento?
 </p>
 
 
-  </p>
+  
 
 
 
