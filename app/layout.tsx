@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   description:
     "Assistenza legale civile e familiare a Palermo con gestione diretta, riservatezza e attenzione concreta al cliente.",
 
-  url: "https://avvocatocicero.it",
+  url: "https://www.avvocatocicero.it",
   
 
   siteName: "Studio Legale Giuseppina Cicero",
@@ -75,7 +75,7 @@ icons: {
   icon: "/favicon.ico",
 },
 
-metadataBase: new URL("https://avvocatocicero.it"),
+metadataBase: new URL("https://www.avvocatocicero.it"),
 };
 
 export const viewport: Viewport = {
@@ -102,10 +102,17 @@ export default function RootLayout({
       "@context": "https://schema.org",
       "@type": "LegalService",
       name: "Studio Legale Giuseppina Cicero",
-      image: "https://avvocatocicero.it/og-image.jpg",
-      "@id": "https://avvocatocicero.it",
-      url: "https://avvocatocicero.it",
+      image: "https://www.avvocatocicero.it/og-image.jpg",
+      "@id": "https://www.avvocatocicero.it",
+        url: "https://www.avvocatocicero.it",
       telephone: "+39 339 1644668",
+      contactPoint: {
+  "@type": "ContactPoint",
+  telephone: "+39 339 1644668",
+  contactType: "customer service",
+  areaServed: "IT",
+  availableLanguage: "Italian",
+},
       address: {
         "@type": "PostalAddress",
         streetAddress: "Via Houel 4",
@@ -118,7 +125,16 @@ export default function RootLayout({
         latitude: 38.1157,
         longitude: 13.3615,
       },
-      areaServed: "Palermo",
+      areaServed: [
+  {
+    "@type": "City",
+    "name": "Palermo"
+  },
+  {
+    "@type": "AdministrativeArea",
+    "name": "Sicilia"
+  }
+],
       priceRange: "€€",
       openingHoursSpecification: {
         "@type": "OpeningHoursSpecification",
