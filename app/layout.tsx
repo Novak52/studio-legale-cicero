@@ -148,7 +148,10 @@ export default function RootLayout({
         opens: "09:00",
         closes: "19:00",
       },
-      sameAs: [],
+      sameAs: [
+  "https://www.facebook.com/avvocatocicerogiuseppina",
+  "https://www.google.com/maps/dir//Avvocato+Giuseppina+Cicero+Palermo,+V.+Houel,+4,+90138+Palermo+PA/@38.1405436,13.3572885,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1319efa6f5d8e411:0xfc45127c8e79ee2a!2m2!1d13.3510655!2d38.1222108",
+],
     }),
   }}
 />                
