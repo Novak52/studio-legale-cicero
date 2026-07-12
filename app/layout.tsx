@@ -102,10 +102,18 @@ export default function RootLayout({
       "@context": "https://schema.org",
       "@type": "LegalService",
       name: "Studio Legale Giuseppina Cicero",
-      image: "https://www.avvocatocicero.it/og-image.jpg",
+      founder: {
+  "@type": "Person",
+  name: "Avv. Giuseppina Cicero",
+},
+      image: [
+  "https://www.avvocatocicero.it/og-image.jpg",
+],
+logo: "https://www.avvocatocicero.it/og-image.jpg",
       "@id": "https://www.avvocatocicero.it",
         url: "https://www.avvocatocicero.it",
       telephone: "+39 339 1644668",
+      email: "studiolegalegiuseppinacicero@gmail.com",
       contactPoint: {
   "@type": "ContactPoint",
   telephone: "+39 339 1644668",
@@ -125,6 +133,8 @@ export default function RootLayout({
         latitude: 38.1157,
         longitude: 13.3615,
       },
+      hasMap:
+  "https://www.google.com/maps/dir//Avvocato+Giuseppina+Cicero+Palermo,+V.+Houel,+4,+90138+Palermo+PA/@38.1405436,13.3572885,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1319efa6f5d8e411:0xfc45127c8e79ee2a!2m2!1d13.3510655!2d38.1222108",
       areaServed: [
   {
     "@type": "City",
@@ -136,6 +146,56 @@ export default function RootLayout({
   }
 ],
       priceRange: "€€",
+      knowsAbout: [
+        
+  "Diritto civile",
+  "Diritto di famiglia",
+  "Responsabilità medica",
+  "Malasanità",
+  "Risarcimento danni",
+  "Successioni",
+],
+hasOfferCatalog: {
+  "@type": "OfferCatalog",
+  name: "Servizi legali",
+  itemListElement: [
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Diritto Civile",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Diritto di Famiglia",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Responsabilità Medica",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Risarcimento Danni",
+      },
+    },
+    {
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: "Successioni",
+      },
+    },
+  ],
+},
       openingHoursSpecification: {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: [
