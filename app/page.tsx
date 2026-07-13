@@ -389,7 +389,7 @@ animate={{ opacity: 1, y: 0 }}
     <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl">
       <div className="relative w-full h-[420px] md:h-[560px] lg:h-[700px]">
   <Image
-  src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1600&auto=format&fit=crop"
+  src="/images/studio-legale.webp"
   alt="Studio Legale"
   fill
   priority
