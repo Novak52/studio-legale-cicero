@@ -339,14 +339,7 @@ animate={{ opacity: 1, y: 0 }}
   <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-14 xl:gap-20 items-center py-16 lg:py-16 md:py-28">
 
   {/* LEFT */}
-  <motion.div
-  className="max-w-2xl px-6 lg:pl-10"
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{
-    duration: 0.35
-  }}
->
+  <div className="max-w-2xl px-6 lg:pl-10">
     <p className="uppercase tracking-[0.45em] text-[#c8a96b] text-xs mb-8">
       Studio Legale Civile e Penale • Palermo
     </p>
@@ -381,20 +374,11 @@ animate={{ opacity: 1, y: 0 }}
   CONTATTI
 </button>
     </div>
-  </motion.div>
+  </div>
 
   {/* RIGHT IMAGE */}
-  <motion.div
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{
-    duration: 0.35
-  }}
-  whileHover={{
-    y: -6
-  }}
-  className="relative will-change-transform"
->
+  <div className="relative">
+
 
     <div className="absolute -inset-6 bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
@@ -427,7 +411,7 @@ animate={{ opacity: 1, y: 0 }}
     Esperienza giuridica, riservatezza e gestione rigorosa delle pratiche legali.
   </p>
 </div>
-  </motion.div>
+  </div>
 
 </div>
     <motion.div
