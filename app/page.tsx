@@ -412,7 +412,7 @@ animate={{ opacity: 1, y: 0 }}
   </p>
 </div>
   </div>
-
+.
 </div>
     <motion.div
       initial={{ opacity: 0 }}
