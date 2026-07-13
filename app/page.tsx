@@ -224,12 +224,13 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
 
 </nav>
  <button
- onClick={() => setMenuOpen(true)}
- className="xl:hidden flex flex-col gap-1.5"
+  onClick={() => setMenuOpen(true)}
+  aria-label="Apri menu di navigazione"
+  className="xl:hidden flex flex-col gap-1.5"
 >
- <span className="w-6 h-px bg-[#101826]" />
- <span className="w-6 h-px bg-[#101826]" />
- <span className="w-6 h-px bg-[#101826]" />
+  <span className="w-6 h-px bg-[#101826]" />
+  <span className="w-6 h-px bg-[#101826]" />
+  <span className="w-6 h-px bg-[#101826]" />
 </button>
 
  <a
@@ -265,9 +266,12 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  </div>
 
  <button
- onClick={() => setMenuOpen(false)}
- className="text-3xl text-white/70 hover:text-white transition-colors"
- >
+  onClick={() => setMenuOpen(false)}
+  aria-label="Chiudi menu"
+  className="text-3xl text-white/70 hover:text-white transition-colors"
+>
+  ✕
+
 
  </button>
 
@@ -353,7 +357,7 @@ animate={{ opacity: 1, y: 0 }}
       moderna e rigorosa.
     </h1>
 
-    <p className="text-white/70 text-lg xl:text-xl leading-relaxed mb-10 max-w-lg">
+    <p className="text-white/85 text-lg xl:text-xl leading-relaxed mb-10 max-w-lg">
       Assistenza legale in diritto di famiglia,
       responsabilità medica, risarcimento danni stradali o sul lavoro.
       Assistenza legale in successioni e divisioni ereditarie.
@@ -407,22 +411,14 @@ animate={{ opacity: 1, y: 0 }}
     Tutela legale orientata ai risultati.
   </h3>
 
-  <p className="text-white/70 text-sm md:text-lg leading-relaxed max-w-xl">
+  <p className="text-white/85 text-sm md:text-lg leading-relaxed max-w-xl">
     Esperienza giuridica, riservatezza e gestione rigorosa delle pratiche legali.
   </p>
 </div>
   </div>
 
 </div>
-    <motion.div
-      initial={{ opacity: 0 }}
-animate={{ opacity: 1 }}
-transition={{
-  duration: 0.35
-}}
-    >
-      
-  </motion.div>
+    
 
   
   </section>
