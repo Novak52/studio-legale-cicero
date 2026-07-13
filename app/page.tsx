@@ -340,14 +340,13 @@ animate={{ opacity: 1, y: 0 }}
 
   {/* LEFT */}
   <motion.div
-    className="max-w-2xl px-6 lg:pl-10"
-    initial={{ opacity: 0, y: 80 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{
-      duration: 1.4,
-      ease: "easeOut"
-    }}
-  >
+  className="max-w-2xl px-6 lg:pl-10"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{
+    duration: 0.35
+  }}
+>
     <p className="uppercase tracking-[0.45em] text-[#c8a96b] text-xs mb-8">
       Studio Legale Civile e Penale • Palermo
     </p>
@@ -386,20 +385,17 @@ animate={{ opacity: 1, y: 0 }}
 
   {/* RIGHT IMAGE */}
   <motion.div
-  initial={{ opacity: 0, y: 60 }}
-  animate={{
-    opacity: 1,
-    y: 0
-  }}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
   transition={{
-    duration: 1.4,
-    ease: [0.22, 1, 0.36, 1]
+    duration: 0.35
   }}
   whileHover={{
-  y: -6
-}}
-    className="relative will-change-transform"
-  >
+    y: -6
+  }}
+  className="relative will-change-transform"
+>
+
     <div className="absolute -inset-6 bg-[#c8a96b]/10 blur-3xl rounded-full" />
 
     <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl">
@@ -435,13 +431,11 @@ animate={{ opacity: 1, y: 0 }}
 
 </div>
     <motion.div
-      className="max-w-3xl"
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 1.4,
-        ease: "easeOut"
-      }}
+      initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
+transition={{
+  duration: 0.35
+}}
     >
       
   </motion.div>
