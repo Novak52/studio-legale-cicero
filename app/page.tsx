@@ -3,7 +3,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { motion, AnimatePresence } from "framer-motion"
+import { LazyMotion, domAnimation, m, AnimatePresence } from "framer-motion"
 import { useState,useEffect } from "react"
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -89,6 +89,7 @@ const [activeSection] = useState("home")
   
 
   return (
+  <LazyMotion features={domAnimation}>
     <main className="bg-[#f7f4ee] text-[#101826] overflow-x-hidden">
       {/* BACKGROUND EFFECTS */}
       <div className="fixed inset-0 pointer-events-none opacity-40">
@@ -245,7 +246,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
 
  {menuOpen && (
 
- <motion.div
+ <m.div
  initial={{ opacity: 0 }}
  animate={{ opacity: 1 }}
  exit={{ opacity: 0 }}
@@ -288,7 +289,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
- <motion.button
+ <m.button
  key={item.id}
  onClick={() => {
  if (item.id === "blog") {
@@ -307,7 +308,7 @@ animate={{ opacity: 1, y: 0 }}
  className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
  >
  {item.label}
- </motion.button>
+ </m.button>
  ))}
 
 
@@ -324,7 +325,7 @@ animate={{ opacity: 1, y: 0 }}
 </a>
  </div>
 
- </motion.div>
+ </m.div>
 
  )}
 
@@ -502,7 +503,7 @@ id="risultati"
       {/* TRUST */}
       
 {/* PREMIUM TRUST SECTION */}
-<motion.section
+<m.section
 id="studio"
 className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
   initial={{ opacity: 0, y: 120, scale: 0.92 }}
@@ -562,7 +563,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
       ].map((item, index) => (
 
-        <motion.div
+        <m.div
           key={index}
           initial={{ opacity: 0, y: 80 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -583,7 +584,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
             {item.text}
           </p>
 
-        </motion.div>
+        </m.div>
 
       ))}
 
@@ -591,7 +592,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
   </div>
   
-      </motion.section>
+      </m.section>
       {/* SERVICES */}
       <section id="aree-legali" className="relative py-20 px-6 bg-[#f3eee6] overflow-hidden">
         <div className="absolute top-0 right-0 w-[700px] h-[700px] bg-[#c8a96b]/10 blur-3xl rounded-full" />
@@ -616,7 +617,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
           <div className="grid lg:grid-cols-4 gap-8 items-stretch">
             {services.map((service, index) => (
-              <motion.div
+              <m.div
   key={index}
   initial={{ opacity: 0, y: 100, scale: 0.92 }}
   whileInView={{ opacity: 1, y: 0, scale: 1 }}
@@ -673,7 +674,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
                     Approfondisci
                   </a>
                 </div>
-              </motion.div>
+              </m.div>
             ))}
           </div>
         </div>
@@ -909,6 +910,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
   </div>
 
 </footer>
-    </main>
-  )
+        </main>
+  </LazyMotion>
+)
 }
