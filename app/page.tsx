@@ -408,9 +408,9 @@ animate={{ opacity: 1, y: 0 }}
     Diritto Civile e Penale
   </p>
 
-  <h3 className="text-2xl md:text-3xl font-serif text-white leading-tight mb-4">
-    Tutela legale orientata ai risultati.
-  </h3>
+  <h2 className="text-2xl md:text-3xl font-serif text-white leading-tight mb-4">
+  Tutela legale orientata ai risultati.
+</h2>
 
   <p className="text-white/85 text-sm md:text-lg leading-relaxed max-w-xl">
     Esperienza giuridica, riservatezza e gestione rigorosa delle pratiche legali.
