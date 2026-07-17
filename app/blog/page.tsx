@@ -23,126 +23,126 @@ export default function BlogPage() {
 
   <Link
     href="/blog/separazione-divorzio-palermo"
-    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Diritto di Famiglia
     </p>
 
-    <h2 className="font-serif text-3xl text-[#101826] mb-6">
+    <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
       Separazione e divorzio a Palermo
     </h2>
 
-    <p className="text-slate-600 mb-8">
+    <p className="text-slate-600 mb-8 flex-grow">
       Tempi, costi e aspetti pratici da conoscere.
     </p>
 
-    <span className="text-[#c8a96b]">
+    <span className="mt-auto text-[#c8a96b] font-medium">
       Leggi articolo →
     </span>
   </Link>
 
   <Link
     href="/blog/successioni-palermo"
-    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Successioni
     </p>
 
-    <h2 className="font-serif text-3xl text-[#101826] mb-6">
+    <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
       Successioni ereditarie
     </h2>
 
-    <p className="text-slate-600 mb-8">
+    <p className="text-slate-600 mb-8 flex-grow">
       Guida pratica per eredi e famiglie.
     </p>
 
-    <span className="text-[#c8a96b]">
+    <span className="mt-auto text-[#c8a96b] font-medium">
       Leggi articolo →
     </span>
   </Link>
 
   <Link
     href="/blog/risarcimento-danni-palermo"
-    className="group bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+    className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
   >
     <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
       Risarcimento Danni
     </p>
 
-    <h2 className="font-serif text-3xl text-[#101826] mb-6">
+    <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
       Come ottenere un risarcimento
     </h2>
 
-    <p className="text-slate-600 mb-8">
+    <p className="text-slate-600 mb-8 flex-grow">
       Errori da evitare e documenti necessari.
     </p>
 
-    <span className="text-[#c8a96b]">
+    <span className="mt-auto text-[#c8a96b] font-medium">
       Leggi articolo →
     </span>
   </Link>
 
   <Link
   href="/blog/malasanita-palermo"
-  className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+  className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
 >
   <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
     MALASANITÀ
   </p>
 
-  <h2 className="font-serif text-4xl text-[#101826] mb-6">
+  <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
     Malasanità a Palermo
   </h2>
 
-  <p className="text-slate-600 mb-8">
+  <p className="text-slate-600 mb-8 flex-grow">
     Quando è possibile ottenere un risarcimento per errori medici e responsabilità sanitaria.
   </p>
 
-  <span className="text-[#c8a96b]">
+  <span className="mt-auto text-[#c8a96b] font-medium">
     Leggi articolo →
   </span>
 </Link>
 
 <Link
   href="/blog/incidenti-stradali-palermo"
-  className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+  className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
 >
   <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
     Incidenti Stradali
   </p>
 
-  <h2 className="font-serif text-4xl text-[#101826] mb-6">
+  <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
     Cosa fare dopo un incidente stradale a Palermo
   </h2>
 
-  <p className="text-slate-600 mb-8">
+  <p className="text-slate-600 mb-8 flex-grow">
     Guida pratica per tutelare i propri diritti dopo un sinistro.
   </p>
 
-  <span className="text-[#c8a96b]">
+  <span className="mt-auto text-[#c8a96b] font-medium">
     Leggi articolo →
   </span>
 </Link>
 
 <Link
   href="/blog/errore-medico-palermo-risarcimento"
-  className="group bg-white rounded-[2rem] p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
+  className="group flex flex-col h-full bg-white rounded-[2rem] p-6 md:p-8 border border-black/5 shadow-sm hover:shadow-xl transition-all duration-500"
 >
   <p className="uppercase tracking-[0.2em] text-[#c8a96b] text-xs mb-4">
     Responsabilità Medica
   </p>
 
-  <h2 className="font-serif text-4xl text-[#101826] mb-6">
+  <h2 className="font-serif text-3xl leading-tight text-[#101826] mb-6">
     Errore medico e risarcimento a Palermo
   </h2>
 
-  <p className="text-slate-600 mb-8">
+  <p className="text-slate-600 mb-8 flex-grow">
     Quando un errore sanitario può dare diritto al risarcimento del danno.
   </p>
 
-  <span className="text-[#c8a96b]">
+  <span className="mt-auto text-[#c8a96b] font-medium">
     Leggi articolo →
   </span>
 </Link>

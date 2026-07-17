@@ -127,18 +127,23 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
  <header className="sticky top-0 z-40 backdrop-blur-2xl bg-[#f8f6f2] border-b border-black/5 shadow-[0_10px_40px_rgba(0,0,0,0.03)]">
  <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-transparent pointer-events-none" />
  <div className="max-w-7xl mx-auto px-5 xl:px-8 py-5 flex items-center justify-between gap-4">
- <div>
- <div className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
- <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/60 flex items-center justify-center text-[#b88d3b] text-lg font-serif">
-  GC
-</div>
- Studio Legale
- </div>
+ <div className="flex flex-col">
+  <div className="flex items-center gap-4">
+    <div className="w-12 h-12 rounded-2xl border border-[#c8a96b]/60 flex items-center justify-center">
+      <span className="font-serif text-[22px] leading-none text-[#b88d3b]">
+  GC
+</span>
+    </div>
 
- <p className="uppercase tracking-[0.45em] text-[#75521f] text-[11px] mt-3">
- Giuseppina Cicero
- </p>
- </div>
+    <h1 className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
+      Studio Legale
+    </h1>
+  </div>
+
+  <p className="uppercase tracking-[0.45em] text-[#75521f] text-[11px] mt-3 pl-16">
+    Giuseppina Cicero
+  </p>
+</div>
 
  <nav className="hidden xl:flex items-center gap-12 uppercase tracking-[0.22em] text-[11px]">
 
