@@ -135,7 +135,7 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
  Studio Legale
  </div>
 
- <p className="uppercase tracking-[0.45em] text-[#8f6b33] text-[11px] mt-3">
+ <p className="uppercase tracking-[0.45em] text-[#75521f] text-[11px] mt-3">
  Giuseppina Cicero
  </p>
  </div>
@@ -445,7 +445,7 @@ id="risultati"
           20+
         </h3>
 
-        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
           Anni di esperienza
         </p>
 
@@ -459,7 +459,7 @@ id="risultati"
           2200+
         </h3>
 
-        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
           Pratiche seguite
         </p>
 
@@ -473,7 +473,7 @@ id="risultati"
           98%
         </h3>
 
-        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
           Gestione diretta
         </p>
 
@@ -487,7 +487,7 @@ id="risultati"
           Palermo
         </h3>
 
-        <p className="uppercase tracking-[0.22em] text-[11px] text-[#8f6b33] mb-3">
+        <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
           Operatività
         </p>
 
@@ -519,7 +519,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
     {/* TITLE */}
     <div className="text-center max-w-4xl mx-auto mb-20">
 
-      <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
+      <p className="uppercase tracking-[0.4em] text-[#75521f] text-xs mb-6">
         Assistenza Dedicata
       </p>
 
@@ -576,7 +576,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
             ⚖️
           </div>
 
-          <h3 className="text-3xl font-serif leading-tight mb-6 text-[#101826] group-hover:text-[#8f6b33] transition-colors duration-300">
+          <h3 className="text-3xl font-serif leading-tight mb-6 text-[#101826] group-hover:text-[#75521f] transition-colors duration-300">
             {item.title}
           </h3>
 
@@ -600,7 +600,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
         <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row justify-between gap-14 mb-24">
             <div>
-              <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
+              <p className="uppercase tracking-[0.4em] text-[#75521f] text-xs mb-6">
                 Aree Legali
               </p>
 
@@ -662,7 +662,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
                 </div>
 
                 <div className="p-10 flex flex-col h-full">
-                  <h3 className="text-3xl sm:text-4xl font-serif leading-tight mb-8 text-[#101826] group-hover:text-[#8f6b33] transition-colors duration-300">
+                  <h3 className="text-3xl sm:text-4xl font-serif leading-tight mb-8 text-[#101826] group-hover:text-[#75521f] transition-colors duration-300">
                     {service.title}
                   </h3>
 
@@ -686,7 +686,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
   className="relative py-20 px-6 bg-white overflow-hidden">
         <div className="absolute inset-0 opacity-[0.03] bg-[url('https://www.transparenttextures.com/patterns/asfalt-dark.png')]" />
         <div className="max-w-5xl mx-auto text-center">
-          <p className="uppercase tracking-[0.4em] text-[#8f6b33] text-xs mb-6">
+          <p className="uppercase tracking-[0.4em] text-[#75521f] text-xs mb-6">
             Professionalità e Fiducia
           </p>
 
@@ -784,7 +784,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
             <h3 className="text-2xl font-serif">
               Studio Legale
-              <p className="text-white/40 text-sm mt-3 leading-relaxed">
+              <p className="text-white/70 text-sm mt-3 leading-relaxed">
   Diritto Civile • Responsabilità Medica • Diritto di Famiglia • Risarcimento danni • Successioni
 </p>
             </h3>
@@ -792,7 +792,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
         </div>
 
-        <p className="text-[#475569] leading-relaxed text-lg">
+        <p className="text-slate-300 leading-relaxed text-lg">
           Assistenza legale professionale, tutela personalizzata e approccio diretto orientato ai risultati.
         </p>
 
@@ -805,7 +805,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
           Aree Legali
         </h4>
 
-        <div className="space-y-4 text-[#475569] leading-relaxed">
+        <div className="space-y-4 text-slate-300 leading-relaxed">
 
           <p>Diritto di Famiglia</p>
           <p>Malasanità</p>
@@ -825,34 +825,34 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
           Contatti
         </h4>
 
-        <div className="space-y-4 text-[#475569] leading-relaxed">
+        <div className="space-y-4 text-slate-300 leading-relaxed">
 
   <a
     href="https://www.google.com/maps/dir/?api=1&destination=Via+Houel+4,+90138+Palermo"
     target="_blank"
     rel="noopener noreferrer"
-    className="block hover:text-[#c8a96b] transition-colors duration-300"
+    className="block text-white/80 hover:text-[#c8a96b] transition-colors duration-300"
   >
     Palermo, Via Houel 4, 90138
   </a>
 
   <a
     href="mailto:studiolegalegiuseppinacicero@gmail.com"
-    className="block hover:text-[#c8a96b] transition-colors duration-300"
+    className="block text-white/80 hover:text-[#c8a96b] transition-colors duration-300"
   >
     studiolegalegiuseppinacicero@gmail.com
   </a>
 
   <a
     href="mailto:giuseppinacicero@pecavvpa.it"
-    className="block hover:text-[#c8a96b] transition-colors duration-300"
+    className="block text-white/80 hover:text-[#c8a96b] transition-colors duration-300"
   >
     Pec: giuseppinacicero@pecavvpa.it
   </a>
 
   <a
     href="tel:+393391644668"
-    className="block hover:text-[#c8a96b] transition-colors duration-300"
+    className="block text-white/80 hover:text-[#c8a96b] transition-colors duration-300"
   >
     Tel. +39 339 1644668
   </a>
@@ -868,7 +868,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
           Gratuito Patrocinio
         </h4>
 
-        <p className="text-[#475569] leading-relaxed">
+        <p className="text-slate-300 leading-relaxed">
           Lo studio assiste i clienti anche tramite patrocinio a spese dello Stato nei casi previsti dalla legge.
         </p>
 
@@ -882,17 +882,17 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
   className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
-      <p className="text-white/40 text-sm">
+      <p className="text-white/70 text-sm">
         © 2026 Studio Legale Palermo • Tutti i diritti riservati
       </p>
       <p
-  className="text-white/20 text-xs tracking-[0.2em] uppercase mt-4"
+  className="text-white/40 text-xs tracking-[0.2em] uppercase mt-4"
 >
 
   Designed with strategic minimalism
 </p>
 
-      <div className="flex gap-8 text-white/40 text-sm">
+      <div className="flex gap-8 text-white/70 text-sm">
 
        
 

@@ -146,7 +146,7 @@ export default function ArticoloSeparazione() {
           i rapporti personali ed economici tra i coniugi.
         </p>
 
-        <div className="space-y-8 text-lg leading-relaxed text-[#475569]">
+        <div className="space-y-8 text-lg leading-relaxed text-slate-300">
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Come funziona la separazione consensuale
 </h2>

@@ -80,7 +80,7 @@ Cosa fare dopo un incidente stradale a Palermo
 <span>1 min lettura</span>
 </div>
 
-        <div className="space-y-8 text-lg leading-relaxed text-[#475569]">
+        <div className="space-y-8 text-lg leading-relaxed text-slate-300">
 
           <p>
             Dopo un incidente stradale è importante raccogliere tutte le

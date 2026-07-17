@@ -117,7 +117,7 @@ export default function RisarcimentoDanniPalermoPage() {
           pregiudizio subito.
         </p>
 
-        <div className="space-y-12 text-lg leading-relaxed text-[#475569]">
+        <div className="space-y-12 text-lg leading-relaxed text-slate-300">
 
           <section>
             <h2 className="font-serif text-3xl text-[#101826] mb-6">

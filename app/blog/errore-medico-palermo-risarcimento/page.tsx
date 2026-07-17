@@ -131,7 +131,7 @@ Errore medico a Palermo: quando è possibile ottenere un risarcimento?
   Un errore medico può provocare conseguenze gravi per il paziente e per i suoi familiari. In alcune circostanze è possibile ottenere un risarcimento quando il danno deriva da una condotta sanitaria negligente o non conforme alle regole professionali.
 </p>
 
-<div className="space-y-8 text-lg leading-relaxed text-[#475569]">
+<div className="space-y-8 text-lg leading-relaxed text-slate-300">
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Quali sono i casi più frequenti di errore medico?
 </h2>
