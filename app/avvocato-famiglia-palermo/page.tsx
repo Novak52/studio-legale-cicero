@@ -2,7 +2,7 @@ import Link from "next/link"
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
-  title: "Separazione e Divorzio Palermo | Studio Legale",
+  title: "avvocato-famiglia-palermo | Studio Legale",
   description:
     "Assistenza legale per separazione, divorzio, affidamento figli e tutela familiare a Palermo.",
 
