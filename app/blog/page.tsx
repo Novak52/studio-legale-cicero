@@ -4,6 +4,12 @@ export default function BlogPage() {
   return (
     <main className="min-h-screen bg-[#f8f6f2] px-4 md:px-6 py-24 overflow-x-hidden">
       <div className="max-w-7xl mx-auto">
+        <Link
+  href="/"
+  className="inline-flex items-center justify-center mb-12 rounded-full border border-[#101826] px-6 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+>
+  ← Torna alla Home
+</Link>
 
         <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
           Blog Legale

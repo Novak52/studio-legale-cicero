@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
-      url: "https://www.avvocatocicero.it/malasanita-palermo",
+      url: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,

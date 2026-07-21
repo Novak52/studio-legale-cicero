@@ -70,7 +70,7 @@ const [activeSection] = useState("home")
       title: 'Malasanità e Responsabilità Medica',
       description:
         'Tutela nei casi di errore medico, responsabilità sanitaria, malpractice e accesso al gratuito patrocinio nei casi previsti dalla legge.',
-        href: "/malasanita-palermo",
+        href: "/avvocato-malasanita-palermo",
     },
     {
       title: 'Infortunistica',
@@ -675,9 +675,23 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
                     {service.description}
                   </p>
 
-                  <a href={service.href} className="mt-10 border border-[#101826] text-[#101826] px-8 py-4 rounded-full uppercase tracking-[0.15em] text-xs hover:bg-[#101826] hover:text-white transition-all duration-500">
-                    Approfondisci
-                  </a>
+                  <Link
+  href={service.href}
+  className="mt-auto"
+>
+  <button
+    className="group relative w-full overflow-hidden rounded-full border border-[#c8a96b]/50 bg-white px-7 py-4 text-[#101826] uppercase tracking-[0.22em] text-xs font-semibold transition-all duration-500 hover:text-[#101826]"
+  >
+    <span className="absolute inset-0 w-0 bg-[#c8a96b] transition-all duration-500 group-hover:w-full"></span>
+
+    <span className="relative z-10 flex items-center justify-center gap-3">
+      Approfondisci
+      <span className="transition-transform duration-300 group-hover:translate-x-1">
+        →
+      </span>
+    </span>
+  </button>
+</Link>
                 </div>
               </m.div>
             ))}

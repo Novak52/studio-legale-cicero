@@ -2,12 +2,12 @@ import Link from "next/link"
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
-  title: "Malasanità Palermo | Studio Legale Giuseppina Cicero",
+  title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
   description:
-    "Assistenza legale per casi di malasanità, responsabilità medica, errori sanitari e richieste risarcitorie a Palermo.",
+    "Avvocato esperto in malasanità a Palermo. Assistenza legale per responsabilità medica, errori sanitari, diagnosi errate e richieste di risarcimento danni.",
 
     alternates: {
-  canonical: "https://www.avvocatocicero.it/malasanita-palermo",
+  canonical: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
 },
 };
 const faqSchema = {
@@ -107,7 +107,7 @@ export default function MalasanitaPalermo() {
         },
         {
           name: "Malasanità",
-          url: "https://www.avvocatocicero.it/malasanita-palermo",
+          url: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
         },
       ]}
     />

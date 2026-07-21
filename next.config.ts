@@ -6,15 +6,25 @@ const nextConfig: NextConfig = {
   compress: true,
 
   images: {
-  formats: ["image/avif", "image/webp"],
+    formats: ["image/avif", "image/webp"],
 
-  remotePatterns: [
-    {
-      protocol: "https",
-      hostname: "images.unsplash.com",
-    },
-  ],
-},
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+    ],
+  },
+
+  async redirects() {
+    return [
+      {
+        source: "/malasanita-palermo",
+        destination: "/avvocato-malasanita-palermo",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

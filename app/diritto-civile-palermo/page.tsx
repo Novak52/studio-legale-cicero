@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
@@ -121,10 +122,28 @@ export default function DirittoCivilePalermo() {
     <main className="min-h-screen bg-[#f7f4ee] text-[#101826]">
       
       <section className="max-w-5xl mx-auto px-6 py-24">
-        
-        <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-sm mb-6">
-          Studio Legale Palermo
-        </p>
+
+  <div className="flex flex-wrap items-center gap-4 mb-12">
+
+    <Link
+      href="/"
+      className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+    >
+      ← Torna alla Home
+    </Link>
+
+    <Link
+      href="/blog"
+      className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+    >
+      📖 Vai al Blog
+    </Link>
+
+  </div>
+
+  <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-sm mb-6">
+    Studio Legale Palermo
+  </p>
 
         <h1 className="text-5xl md:text-7xl font-serif leading-[0.95] mb-10">
           Diritto civile
