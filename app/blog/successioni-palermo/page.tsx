@@ -72,13 +72,13 @@ dateModified: "2026-07-08T09:00:00+02:00",
   url: "https://www.avvocatocicero.it",
 },
   publisher: {
-    "@type": "LegalService",
-    name: "Studio Legale Giuseppina Cicero",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
-    },
+  "@type": "Organization",
+  name: "Studio Legale Giuseppina Cicero",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://www.avvocatocicero.it/og-image.jpg",
   },
+},
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id": "https://www.avvocatocicero.it/blog/successioni-palermo",
