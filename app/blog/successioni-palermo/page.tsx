@@ -62,6 +62,7 @@ const articleSchema = {
   headline: "Successioni ereditarie a Palermo",
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
+    image: "https://www.avvocatocicero.it/og-image.jpg",
   url: "https://www.avvocatocicero.it/blog/successioni-palermo",
   datePublished: "2026-07-08",
   dateModified: "2026-07-08",
