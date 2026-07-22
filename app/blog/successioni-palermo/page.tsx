@@ -67,9 +67,10 @@ const articleSchema = {
   datePublished: "2026-07-08T09:00:00+02:00",
 dateModified: "2026-07-08T09:00:00+02:00",
   author: {
-    "@type": "Person",
-    name: "Avv. Giuseppina Cicero",
-  },
+  "@type": "Person",
+  name: "Avv. Giuseppina Cicero",
+  url: "https://www.avvocatocicero.it",
+},
   publisher: {
     "@type": "LegalService",
     name: "Studio Legale Giuseppina Cicero",
