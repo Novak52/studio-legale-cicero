@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://avvocatocicero.it/sitemap.xml",
+    sitemap: "https://www.avvocatocicero.it/sitemap.xml",
   }
 }

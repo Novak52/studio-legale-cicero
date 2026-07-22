@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   type: "website",
   images: [
   {
-    url: "/og-image.jpg?v=2",
+    url: "https://www.avvocatocicero.it/og-image.jpg?v=2",
     width: 1200,
     height: 630,
     alt: "Studio Legale Giuseppina Cicero",
@@ -59,7 +59,7 @@ twitter: {
   title: "Studio Legale Giuseppina Cicero | Palermo",
   description:
     "Assistenza legale civile, familiare e risarcitoria a Palermo.",
-    images: ["/og-image.jpg"],
+    images:["https://www.avvocatocicero.it/og-image.jpg"],
 },
 
 robots: {
@@ -67,7 +67,11 @@ robots: {
   follow: true,
 },
 
-authors: [{ name: "Studio Legale Giuseppina Cicero" }],
+authors: [
+{
+name:"Avv. Giuseppina Cicero",
+},
+],
 creator: "Studio Legale Giuseppina Cicero",
 publisher: "Studio Legale Giuseppina Cicero",
 
