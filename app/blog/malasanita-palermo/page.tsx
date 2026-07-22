@@ -47,15 +47,17 @@ const articleSchema = {
   headline: "Malasanità a Palermo",
   description:
     "Quando è possibile ottenere un risarcimento per malasanità a Palermo. Errori medici, responsabilità sanitaria e tutela del paziente.",
+    image: "https://www.avvocatocicero.it/og-image.jpg",
   url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
-  datePublished: "2026-07-08",
-  dateModified: "2026-07-08",
+  datePublished: "2026-07-08T09:00:00+02:00",
+  dateModified: "2026-07-08T09:00:00+02:00",
   author: {
-    "@type": "Person",
-    name: "Avv. Giuseppina Cicero",
-  },
+  "@type": "Person",
+  name: "Avv. Giuseppina Cicero",
+  url: "https://www.avvocatocicero.it",
+},
   publisher: {
-    "@type": "LegalService",
+  "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
