@@ -144,7 +144,7 @@ export default function IncidentiStradaliPalermoPage() {
               Tutela del danneggiato
             </h2>
 
-            <p className="text-lg leading-relaxed text-slate-300">
+            <p className="text-lg leading-relaxed text-slate-700">
               Assistenza nella gestione di sinistri stradali, analisi della
               documentazione, responsabilità civile, trattative assicurative e
               tutela risarcitoria.
@@ -168,6 +168,24 @@ export default function IncidentiStradaliPalermoPage() {
               Prenota consulenza
             </Link>
           </div>
+                </div>
+
+        <div className="flex flex-wrap gap-4 mb-16">
+
+          <Link
+            href="/"
+            className="inline-flex items-center justify-center rounded-full border border-[#101826] px-6 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+          >
+            ← Vai alla Home
+          </Link>
+
+          <Link
+            href="/blog"
+            className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-6 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+          >
+            📖 Vai al Blog
+          </Link>
+
         </div>
 
         <section className="mb-28">
@@ -175,7 +193,7 @@ export default function IncidentiStradaliPalermoPage() {
             Assistenza legale per incidenti stradali a Palermo
           </h2>
 
-          <div className="space-y-10 text-xl leading-relaxed text-slate-300 max-w-5xl">
+          <div className="space-y-10 text-xl leading-relaxed text-slate-700 max-w-5xl">
             <p>
               Lo studio legale assiste clienti coinvolti in incidenti stradali
               a Palermo, offrendo supporto nella gestione delle pratiche
@@ -322,7 +340,7 @@ export default function IncidentiStradaliPalermoPage() {
                 Cosa fare dopo un incidente stradale?
               </h3>
 
-              <p className="text-xl leading-relaxed text-slate-300">
+              <p className="text-xl leading-relaxed text-slate-700">
                 È importante raccogliere documentazione, testimonianze,
                 fotografie e richiedere assistenza legale per la gestione della
                 pratica risarcitoria.
@@ -334,7 +352,7 @@ export default function IncidentiStradaliPalermoPage() {
                 È possibile ottenere un risarcimento?
               </h3>
 
-              <p className="text-xl leading-relaxed text-slate-300">
+              <p className="text-xl leading-relaxed text-slate-700">
                 In presenza di responsabilità e danni documentabili, è possibile
                 richiedere il risarcimento per danni materiali, fisici e
                 patrimoniali.
@@ -346,7 +364,7 @@ export default function IncidentiStradaliPalermoPage() {
                 Come prenotare una consulenza?
               </h3>
 
-              <p className="text-xl leading-relaxed text-slate-300">
+              <p className="text-xl leading-relaxed text-slate-700">
                 È possibile contattare lo studio tramite il modulo contatti o
                 WhatsApp per ricevere assistenza diretta e riservata.
               </p>
@@ -356,7 +374,7 @@ export default function IncidentiStradaliPalermoPage() {
     Quanto tempo serve per ottenere il risarcimento?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile.
   </p>
 </div>
@@ -366,7 +384,7 @@ export default function IncidentiStradaliPalermoPage() {
     È possibile richiedere il risarcimento per un incidente sul lavoro?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     Sì. È possibile valutare il risarcimento dei danni subiti in conseguenza di infortuni sul lavoro nei casi previsti dalla legge.
   </p>
 </div>
@@ -376,7 +394,7 @@ export default function IncidentiStradaliPalermoPage() {
     Posso ottenere il risarcimento del danno biologico?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     In presenza di lesioni personali documentate è possibile richiedere il risarcimento del danno biologico.
   </p>
 </div>
@@ -386,7 +404,7 @@ export default function IncidentiStradaliPalermoPage() {
     Quali documenti sono utili dopo un incidente stradale?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     Fotografie, verbali, testimonianze, documentazione medica e preventivi di riparazione possono risultare utili per la valutazione della pratica risarcitoria.
   </p>
 </div>
@@ -396,7 +414,7 @@ export default function IncidentiStradaliPalermoPage() {
     È possibile ottenere il risarcimento per lesioni personali?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     In presenza di lesioni documentate è possibile valutare le richieste risarcitorie relative ai danni subiti e alle conseguenze dell'incidente.
   </p>
 </div>
@@ -406,7 +424,7 @@ export default function IncidentiStradaliPalermoPage() {
     Cosa succede se le parti non sono d'accordo sulla responsabilità?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     In caso di contestazioni può essere necessario approfondire la ricostruzione dei fatti attraverso documentazione, testimonianze e ulteriori accertamenti.
   </p>
 </div>
@@ -416,7 +434,7 @@ export default function IncidentiStradaliPalermoPage() {
     Quando è opportuno richiedere assistenza legale dopo un incidente?
   </h3>
 
-  <p className="text-xl leading-relaxed text-slate-300">
+  <p className="text-xl leading-relaxed text-slate-700">
     È consigliabile richiedere una valutazione tempestiva quando si sono verificati danni alla persona, al veicolo o altre conseguenze che potrebbero dare luogo a richieste risarcitorie.
   </p>
 </div>

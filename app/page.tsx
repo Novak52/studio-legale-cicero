@@ -204,7 +204,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  </button>
 
  <button
- onClick={() => scrollToSection("footer")}
+ onClick={() => scrollToSection("cta")}
  className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
  activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
  }`}

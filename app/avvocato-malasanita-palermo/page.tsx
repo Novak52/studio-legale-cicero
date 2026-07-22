@@ -170,7 +170,29 @@ export default function MalasanitaPalermo() {
             </Link>
           </div>
 
+                </div>
+      </section>
+
+      <section className="max-w-6xl mx-auto px-6 pt-4 pb-8">
+
+        <div className="flex flex-wrap gap-4">
+
+          <Link
+            href="/"
+            className="inline-flex items-center justify-center rounded-full border border-[#101826] px-6 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+          >
+            ← Vai alla Home
+          </Link>
+
+          <Link
+            href="/blog"
+            className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-6 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+          >
+            📖 Vai al Blog
+          </Link>
+
         </div>
+
       </section>
 
       {/* TESTO SEO */}

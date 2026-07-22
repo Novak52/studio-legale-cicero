@@ -166,6 +166,24 @@ export default function AvvocatoSuccessioniPalermo() {
             </Link>
           </div>
 
+                </div>
+
+        <div className="flex flex-wrap gap-4 mb-16">
+
+          <Link
+            href="/"
+            className="inline-flex items-center justify-center rounded-full border border-[#101826] px-6 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+          >
+            ← Vai alla Home
+          </Link>
+
+          <Link
+            href="/blog"
+            className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-6 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+          >
+            📖 Vai al Blog
+          </Link>
+
         </div>
 
         <section className="max-w-5xl mb-24">
@@ -254,12 +272,12 @@ export default function AvvocatoSuccessioniPalermo() {
 <p>
   In alcune situazioni la lesione dei diritti ereditari può comportare
   conseguenze patrimoniali rilevanti e rendere necessario valutare
-  azioni di tutela e richieste di
+  azioni di tutela e richieste di{" "}
   <a
     href="/risarcimento-danni-palermo"
     className="underline underline-offset-4"
   >
-    risarcimento danni
+      risarcimento danni
   </a>.
 </p>
 
