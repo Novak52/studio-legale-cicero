@@ -64,8 +64,8 @@ const articleSchema = {
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
     image: "https://www.avvocatocicero.it/og-image.jpg",
   url: "https://www.avvocatocicero.it/blog/successioni-palermo",
-  datePublished: "2026-07-08",
-  dateModified: "2026-07-08",
+  datePublished: "2026-07-08T09:00:00+02:00",
+dateModified: "2026-07-08T09:00:00+02:00",
   author: {
     "@type": "Person",
     name: "Avv. Giuseppina Cicero",
