@@ -9,42 +9,15 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 const [activeSection] = useState("home")
   const scrollToSection = (id: string) => {
-  const element = document.getElementById(id)
+  const element = document.getElementById(id);
 
-  if (!element) return
+  if (!element) return;
 
-  const start = window.scrollY
-  const end = element.offsetTop
-  const distance = end - start
-  const duration = 1600
-
-  let startTime: number |null = null
-
-  const easeInOutCubic = (t: number) => {
-    return t < 0.5
-      ? 4 * t * t * t
-      : 1 - Math.pow(-2 * t + 2, 3) / 2
-  }
-
-  const animation = (currentTime: number) => {
-    if (startTime === null) startTime = currentTime
-
-    const timeElapsed = currentTime - startTime
-    const progress = Math.min(timeElapsed / duration, 1)
-
-    const ease = easeInOutCubic(progress)
-
-    window.scrollTo(0, start + distance * ease)
-
-    if (timeElapsed < duration) {
-  requestAnimationFrame(animation)
-} else {
-  window.scrollTo(0, end)
-}
-  }
-
-  requestAnimationFrame(animation)
-}
+  element.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};
 
   
   useEffect(() => {
