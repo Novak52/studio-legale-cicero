@@ -9,20 +9,9 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 const [activeSection] = useState("home")
   const scrollToSection = (id: string) => {
- if (id === "footer-bottom") {
-  const element = document.getElementById("footer-bottom");
+  const targetId = id === "footer-bottom" ? "footer-anchor" : id;
 
-  if (!element) return;
-
-  window.scrollTo({
-    top: element.offsetTop - 80,
-    behavior: "smooth",
-  });
-
-  return;
-}
-
-  const element = document.getElementById(id);
+  const element = document.getElementById(targetId);
 
   if (!element) return;
 
@@ -881,6 +870,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
     </div>
 
     {/* BOTTOM */}
+    <div id="footer-anchor" className="h-20"></div>
    <div
   id="footer-bottom"
   className="pt-10 pb-24 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
