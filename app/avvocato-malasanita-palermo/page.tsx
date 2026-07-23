@@ -162,12 +162,12 @@ export default function MalasanitaPalermo() {
               di malpractice sanitaria e richieste risarcitorie.
             </p>
 
-            <Link
-              href="/#cta"
-              className="inline-block bg-[#c8a96b] text-black px-8 py-4 rounded-full text-lg hover:opacity-90 transition"
-            >
-              Chiedi Informazioni
-            </Link>
+           <a
+  href="tel:+393391644668"
+  className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-black text-lg hover:opacity-90 transition"
+>
+  Chiedi Informazioni
+</a>
           </div>
 
                 </div>
