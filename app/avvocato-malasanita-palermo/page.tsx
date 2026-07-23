@@ -141,7 +141,7 @@ export default function MalasanitaPalermo() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 mt-12 md:mt-20">
 
           <div className="bg-white rounded-[2rem] p-6 md:p-12 shadow-sm border border-black/5">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Responsabilità medica
             </h2>
 
@@ -153,7 +153,7 @@ export default function MalasanitaPalermo() {
           </div>
 
           <div className="bg-[#071133] text-white rounded-[2rem] p-6 md:p-12">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Consulenza riservata
             </h2>
 
@@ -198,9 +198,9 @@ export default function MalasanitaPalermo() {
       {/* TESTO SEO */}
       <section className="max-w-6xl mx-auto px-6 py-24">
 
-        <h2 className="font-serif text-5xl leading-tight mb-16 max-w-4xl">
-          Assistenza legale per casi di malasanità a Palermo
-        </h2>
+        <h2 className="font-serif text-4xl md:text-[2.7rem] leading-tight mb-16 max-w-4xl">
+  Assistenza legale per casi di malasanità a Palermo
+</h2>
 
         <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
 
@@ -222,7 +222,7 @@ export default function MalasanitaPalermo() {
             nel territorio di Palermo e Sicilia.
           </p>
 
-          <h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+          <h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Quando si può parlare di responsabilità medica
 </h2>
 
@@ -244,7 +244,7 @@ export default function MalasanitaPalermo() {
   verificare la presenza di eventuali profili di responsabilità sanitaria.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Errori diagnostici, diagnosi tardive ed errori chirurgici
 </h2>
 
@@ -266,7 +266,7 @@ export default function MalasanitaPalermo() {
   documentazione sanitaria e delle circostanze del caso concreto.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Cartella clinica, documentazione sanitaria e perizia medico-legale
 </h2>
 
@@ -289,7 +289,7 @@ export default function MalasanitaPalermo() {
   e la successiva valutazione delle richieste risarcitorie.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Danni risarcibili nei casi di malasanità
 </h2>
 
@@ -316,7 +316,7 @@ export default function MalasanitaPalermo() {
   </a>.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Tutela del paziente e responsabilità delle strutture sanitarie
 </h2>
 
@@ -338,7 +338,7 @@ export default function MalasanitaPalermo() {
   casi di malpractice sanitaria.
 </p>
 
-<h2 className="font-serif text-4xl md:text-5xl text-[#0b1220] leading-tight mt-16 mb-8">
+<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
   Collegamenti con il diritto civile e la responsabilità sanitaria
 </h2>
 
@@ -398,14 +398,14 @@ export default function MalasanitaPalermo() {
       {/* FAQ */}
       <section className="max-w-6xl mx-auto px-6 py-24">
 
-        <h2 className="font-serif text-4xl md:text-6xl mb-20">
-          Domande frequenti
-        </h2>
+        <h2 className="font-serif text-3xl md:text-[2.3rem] mb-20">
+  Domande frequenti
+</h2>
 
         <div className="space-y-16">
 
           <div className="border-b border-black/10 pb-12">
-            <h3 className="font-serif text-4xl mb-6">
+            <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Quando si può parlare di malasanità?
             </h3>
 
@@ -417,7 +417,7 @@ export default function MalasanitaPalermo() {
           </div>
 
           <div className="border-b border-black/10 pb-12">
-            <h3 className="font-serif text-4xl mb-6">
+            <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               È possibile richiedere un risarcimento?
             </h3>
 
@@ -429,7 +429,7 @@ export default function MalasanitaPalermo() {
           </div>
 
           <div className="border-b border-black/10 pb-12">
-            <h3 className="font-serif text-4xl mb-6">
+            <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Quanto tempo ho per agire contro una struttura sanitaria?
             </h3>
 
@@ -441,7 +441,7 @@ scoperta del danno.
             </p>
           </div>
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Quali documenti servono per valutare un caso di malasanità?
   </h3>
 
@@ -455,7 +455,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     È necessaria una perizia medico-legale?
   </h3>
 
@@ -469,7 +469,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Quali documenti servono per valutare un errore medico?
   </h3>
 
@@ -481,7 +481,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     È possibile ottenere il risarcimento per una diagnosi tardiva?
   </h3>
 
@@ -493,7 +493,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Chi può essere responsabile nei casi di malasanità?
   </h3>
 
@@ -505,7 +505,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Quanto è importante la perizia medico-legale?
   </h3>
 
@@ -517,7 +517,7 @@ scoperta del danno.
 </div>
 
 <div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-4xl mb-6">
+  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Quando è opportuno richiedere assistenza legale per malasanità?
   </h3>
 

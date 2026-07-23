@@ -125,7 +125,7 @@ export default function AvvocatoFamigliaPalermo() {
           Studio Legale Palermo
         </p>
 
-        <h1 className="font-serif text-5xl md:text-7xl leading-tight max-w-4xl mb-10">
+        <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
           Avvocato diritto di famiglia a Palermo.
         </h1>
 
@@ -138,7 +138,7 @@ export default function AvvocatoFamigliaPalermo() {
         <div className="grid md:grid-cols-2 gap-8 mb-24">
 
           <div className="bg-white rounded-[2rem] p-10 shadow-sm border border-black/5">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Tutela familiare
             </h2>
 
@@ -150,7 +150,7 @@ export default function AvvocatoFamigliaPalermo() {
           </div>
 
           <div className="bg-[#0b1220] text-white rounded-[2rem] p-10">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Consulenza riservata
             </h2>
 
@@ -194,7 +194,7 @@ export default function AvvocatoFamigliaPalermo() {
             Assistenza legale in diritto di famiglia a Palermo
           </h2>
 
-          <div className="space-y-10 text-slate-600 text-lg leading-relaxed">
+          <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
 
             <p>
               Lo studio assiste clienti nelle controversie

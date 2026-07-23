@@ -125,7 +125,7 @@ export default function AvvocatoSuccessioniPalermo() {
           Studio Legale Palermo
         </p>
 
-        <h1 className="font-serif text-5xl md:text-7xl leading-tight max-w-4xl mb-10">
+        <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
           Avvocato successioni a Palermo.
         </h1>
 
@@ -138,7 +138,7 @@ export default function AvvocatoSuccessioniPalermo() {
         <div className="grid md:grid-cols-2 gap-8 mb-24">
 
           <div className="bg-white rounded-[2rem] p-10 shadow-sm border border-black/5">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Successioni ereditarie
             </h2>
 
@@ -149,7 +149,7 @@ export default function AvvocatoSuccessioniPalermo() {
           </div>
 
           <div className="bg-[#0b1220] text-white rounded-[2rem] p-10">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Consulenza riservata
             </h2>
 

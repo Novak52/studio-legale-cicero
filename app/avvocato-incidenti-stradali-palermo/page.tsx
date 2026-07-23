@@ -128,7 +128,7 @@ export default function IncidentiStradaliPalermoPage() {
           Studio Legale Palermo
         </p>
 
-        <h1 className="font-serif text-6xl leading-tight max-w-4xl mb-12">
+        <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
           Avvocato incidenti stradali a Palermo.
         </h1>
 
@@ -140,7 +140,7 @@ export default function IncidentiStradaliPalermoPage() {
 
         <div className="grid md:grid-cols-2 gap-10 mb-28">
           <div className="bg-white rounded-[2rem] p-10 shadow-sm border border-black/5">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Tutela del danneggiato
             </h2>
 
@@ -152,7 +152,7 @@ export default function IncidentiStradaliPalermoPage() {
           </div>
 
           <div className="bg-[#071126] text-white rounded-[2rem] p-10">
-            <h2 className="font-serif text-4xl mb-6">
+            <h2 className="font-serif text-2xl md:text-[1.8rem] mb-6">
               Consulenza riservata
             </h2>
 
@@ -193,7 +193,7 @@ export default function IncidentiStradaliPalermoPage() {
             Assistenza legale per incidenti stradali a Palermo
           </h2>
 
-          <div className="space-y-10 text-xl leading-relaxed text-slate-700 max-w-5xl">
+          <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
             <p>
               Lo studio legale assiste clienti coinvolti in incidenti stradali
               a Palermo, offrendo supporto nella gestione delle pratiche
