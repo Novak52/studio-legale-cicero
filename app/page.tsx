@@ -15,7 +15,7 @@ const [activeSection] = useState("home")
   if (!element) return;
 
   window.scrollTo({
-    top: element.offsetTop - 80,
+    top: element.offsetTop - 180,
     behavior: "smooth",
   });
 
