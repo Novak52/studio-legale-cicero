@@ -11,7 +11,7 @@ const [activeSection] = useState("home")
   const scrollToSection = (id: string) => {
   if (id === "footer-bottom") {
     window.scrollTo({
-      top: document.documentElement.scrollHeight,
+      top: document.documentElement.scrollHeight - 80,
       behavior: "smooth",
     });
     return;
