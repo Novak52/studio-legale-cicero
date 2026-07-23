@@ -177,7 +177,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  </button>
 
  <button
- onClick={() => scrollToSection("cta")}
+ onClick={() => scrollToSection("footer-bottom")}
  className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
  activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
  }`}
@@ -873,6 +873,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
     {/* BOTTOM */}
     <div
+  id="footer-bottom"
   className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
