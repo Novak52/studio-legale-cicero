@@ -9,6 +9,14 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 const [activeSection] = useState("home")
   const scrollToSection = (id: string) => {
+  if (id === "footer-bottom") {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
+    return;
+  }
+
   const element = document.getElementById(id);
 
   if (!element) return;
@@ -349,12 +357,8 @@ animate={{ opacity: 1, y: 0 }}
 >
   Prenota Consulenza
 </a>
-
       <button
-  onClick={() => {
-    console.log(document.getElementById("footer"));
-    scrollToSection("footer");
-  }}
+  onClick={() => scrollToSection("footer-bottom")}
   className="border border-white/20 min-w-[220px] py-3 rounded-full text-center"
 >
   CONTATTI
