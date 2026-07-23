@@ -378,7 +378,10 @@ animate={{ opacity: 1, y: 0 }}
 </a>
 
       <button
-  onClick={() => scrollToSection("contatti")}
+  onClick={() => {
+    console.log(document.getElementById("footer"));
+    scrollToSection("footer");
+  }}
   className="border border-white/20 min-w-[220px] py-3 rounded-full text-center"
 >
   CONTATTI
