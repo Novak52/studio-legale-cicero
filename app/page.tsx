@@ -9,13 +9,18 @@ export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 const [activeSection] = useState("home")
   const scrollToSection = (id: string) => {
-  if (id === "footer-bottom") {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight - 180,
-      behavior: "smooth",
-    });
-    return;
-  }
+ if (id === "footer-bottom") {
+  const element = document.getElementById("footer-bottom");
+
+  if (!element) return;
+
+  window.scrollTo({
+    top: element.offsetTop - 80,
+    behavior: "smooth",
+  });
+
+  return;
+}
 
   const element = document.getElementById(id);
 
