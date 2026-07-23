@@ -7,7 +7,7 @@ export const metadata = {
     "Assistenza legale per separazione, divorzio, affidamento figli e tutela familiare a Palermo.",
 
     alternates: {
-  canonical: "https://www.avvocatocicero.it/avvocato-famiglia-palermo",
+  canonical: "/avvocato-famiglia-palermo",
 },
 };
 const faqSchema = {

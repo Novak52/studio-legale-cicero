@@ -3,13 +3,46 @@ import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
+
   description:
     "Avvocato esperto in malasanità a Palermo. Assistenza legale per responsabilità medica, errori sanitari, diagnosi errate e richieste di risarcimento danni.",
+category: "Servizi legali",
+  alternates: {
+  canonical: "/avvocato-malasanita-palermo",
+},
 
-    alternates: {
-  canonical: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
+  openGraph: {
+    title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
+
+    description:
+      "Assistenza legale per responsabilità medica, errori sanitari e richieste di risarcimento danni a Palermo.",
+
+    url: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
+
+    siteName: "Studio Legale Giuseppina Cicero",
+
+    locale: "it_IT",
+
+    type: "article",
+
+    images: [
+      {
+        url: "/images/og/malasanita.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Avvocato Malasanità Palermo",
+      },
+    ],
+  },
+  twitter: {
+  card: "summary_large_image",
+  title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
+  description:
+    "Assistenza legale per responsabilità medica, errori sanitari e richieste di risarcimento danni a Palermo.",
+  images: ["/images/og/malasanita.jpg"],
 },
 };
+
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",

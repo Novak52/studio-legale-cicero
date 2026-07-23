@@ -13,6 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.avvocatocicero.it"),
+  applicationName: "Studio Legale Giuseppina Cicero",
   title:
     "Studio Legale Giuseppina Cicero | Diritto Civile e Penale a Palermo",
 
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
   description:
     "Assistenza legale civile e familiare a Palermo con gestione diretta, riservatezza e attenzione concreta al cliente.",
 
-  url: "https://www.avvocatocicero.it",
+  url: "/",
   
 
   siteName: "Studio Legale Giuseppina Cicero",
@@ -47,7 +49,7 @@ export const metadata: Metadata = {
   type: "website",
   images: [
   {
-    url: "https://www.avvocatocicero.it/og-image.jpg?v=2",
+    url: "/og-image.jpg?v=2",
     width: 1200,
     height: 630,
     alt: "Studio Legale Giuseppina Cicero",
@@ -59,12 +61,20 @@ twitter: {
   title: "Studio Legale Giuseppina Cicero | Palermo",
   description:
     "Assistenza legale civile, familiare e risarcitoria a Palermo.",
-    images:["https://www.avvocatocicero.it/og-image.jpg"],
+    images: ["/og-image.jpg?v=2"],
 },
 
 robots: {
   index: true,
   follow: true,
+
+  googleBot: {
+    index: true,
+    follow: true,
+    "max-video-preview": -1,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+  },
 },
 
 authors: [
@@ -79,7 +89,7 @@ icons: {
   icon: "/favicon.ico",
 },
 
-metadataBase: new URL("https://www.avvocatocicero.it"),
+
 };
 
 export const viewport: Viewport = {
