@@ -185,7 +185,7 @@ export default function DirittoCivilePalermo() {
               href="tel:+393391644668"
               className="inline-flex bg-[#c8a96b] text-[#101826] px-6 py-4 rounded-full"
             >
-              Prenota consulenza
+              Chiedi Informazioni
             </a>
           </div>
 

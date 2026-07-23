@@ -162,7 +162,7 @@ export default function AvvocatoSuccessioniPalermo() {
               href="/#cta"
               className="inline-flex items-center justify-center rounded-full bg-[#c8a96b] px-8 py-4 text-[#0b1220] font-medium hover:opacity-90 transition"
             >
-              Prenota consulenza
+              Chiedi Informazioni
             </Link>
           </div>
 

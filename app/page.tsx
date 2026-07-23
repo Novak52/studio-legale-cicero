@@ -737,7 +737,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
   href="tel:+393391644668"
   className="relative z-20 bg-[#c8a96b] text-[#101826] px-7 py-3 rounded-full hover:scale-[1.015] active:scale-[0.98] transition-all duration-500 shadow-2xl shadow-black/30 uppercase tracking-[0.08em] text-xs font-medium inline-flex items-center justify-center cursor-pointer"
 >
-  Prenota Consulenza
+  Chiedi Informazioni
 </a>
 
             <a

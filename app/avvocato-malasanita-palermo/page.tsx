@@ -166,7 +166,7 @@ export default function MalasanitaPalermo() {
               href="/#cta"
               className="inline-block bg-[#c8a96b] text-black px-8 py-4 rounded-full text-lg hover:opacity-90 transition"
             >
-              Prenota consulenza
+              Chiedi Informazioni
             </Link>
           </div>
 

@@ -177,7 +177,7 @@ export default function RisarcimentoDanniPalermo() {
               href="/#cta"
               className="inline-block bg-[#c8a96b] text-[#101826] px-8 py-4 rounded-full"
             >
-              Prenota consulenza
+              Chiedi Informazioni
             </Link>
           </div>
 
