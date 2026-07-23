@@ -145,7 +145,7 @@ Cosa fare dopo un incidente stradale a Palermo
              href="tel:+393391644668"
             className="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#c8a96b] px-8 py-4 text-[#101826] font-medium"
           >
-            Richiedi una consulenza
+            Chiedi Informazioni
           </a>
 
         </div>
