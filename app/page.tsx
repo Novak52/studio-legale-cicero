@@ -759,7 +759,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
       
       {/* PREMIUM FOOTER */}
-<footer id="footer" className="relative bg-[#0a101b] text-white px-6 py-24 overflow-hidden">
+<footer id="footer" className="relative bg-[#0a101b] text-white px-6 py-24 pb-3 overflow-hidden">
 
   <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-[#c8a96b] to-transparent" />
 
@@ -879,7 +879,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
     
    <div
   id="footer-bottom"
-  className="pt-10 pb-24 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
+  className="pt-10 pb-1 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
       <p className="text-white/70 text-sm">
