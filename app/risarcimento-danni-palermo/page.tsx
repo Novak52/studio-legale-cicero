@@ -173,12 +173,12 @@ export default function RisarcimentoDanniPalermo() {
               nella valutazione della tua posizione risarcitoria.
             </p>
 
-            <Link
-              href="/#cta"
+            <a
+              href="tel:+393391644668"
               className="inline-block bg-[#c8a96b] text-[#101826] px-8 py-4 rounded-full"
             >
               Chiedi Informazioni
-            </Link>
+            </a>
           </div>
 
         </div>

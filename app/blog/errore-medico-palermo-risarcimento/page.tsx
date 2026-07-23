@@ -216,12 +216,12 @@ Errore medico a Palermo: quando è possibile ottenere un risarcimento?
     e nelle richieste di risarcimento per responsabilità medica e malasanità.
   </p>
 
-  <Link
-href="/#cta"
+  <a
+ href="tel:+393391644668"
 className="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-[#c8a96b] px-8 py-4 text-[#101826] font-medium hover:opacity-90 transition-all duration-300"
 >
 Richiedi una consulenza
-</Link>
+</a>
 
 </div>
 
