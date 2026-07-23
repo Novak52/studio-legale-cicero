@@ -15,7 +15,7 @@ const [activeSection] = useState("home")
   if (!element) return;
 
   window.scrollTo({
-    top: element.offsetTop + 20,
+    top: element.offsetTop - 80,
     behavior: "smooth",
   });
 
@@ -881,9 +881,9 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
     </div>
 
     {/* BOTTOM */}
-    <div
+   <div
   id="footer-bottom"
-  className="pt-10 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
+  className="pt-10 pb-24 border-t border-white/[0.08] flex flex-col lg:flex-row justify-between items-center gap-6"
 >
 
       <p className="text-white/70 text-sm">
