@@ -58,7 +58,34 @@ const faqSchema = {
     }
   ]
 }
-
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: "Risarcimento danni a Palermo | Guida pratica",
+  description:
+    "Quando è possibile ottenere un risarcimento danni, quali prove servono e come tutelare i propri diritti.",
+  image: "https://www.avvocatocicero.it/og-image.jpg",
+  url: "https://www.avvocatocicero.it/blog/risarcimento-danni-palermo",
+  datePublished: "2026-07-08T09:00:00+02:00",
+  dateModified: "2026-07-08T09:00:00+02:00",
+  author: {
+    "@type": "Person",
+    name: "Avv. Giuseppina Cicero",
+    url: "https://www.avvocatocicero.it",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Studio Legale Giuseppina Cicero",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.avvocatocicero.it/og-image.jpg",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://www.avvocatocicero.it/blog/risarcimento-danni-palermo",
+  },
+};
 export default function RisarcimentoDanniPalermoPage() {
   return (
   <>
@@ -86,7 +113,13 @@ export default function RisarcimentoDanniPalermoPage() {
       __html: JSON.stringify(faqSchema),
     }}
   />
-
+<Script
+  id="article-schema"
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(articleSchema),
+  }}
+/>
   <main className="min-h-screen bg-[#f8f6f2] px-6 py-24">
       <article className="max-w-4xl mx-auto">
 

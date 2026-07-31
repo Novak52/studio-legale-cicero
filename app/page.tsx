@@ -116,9 +116,9 @@ className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 m
 </span>
     </div>
 
-    <h1 className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
+    <div className="text-3xl lg:text-[42px] font-serif tracking-[-0.03em] text-[#101826] leading-none">
       Studio Legale
-    </h1>
+    </div>
   </div>
 
   <p className="uppercase tracking-[0.45em] text-[#75521f] text-[11px] mt-3 pl-16">
@@ -509,12 +509,14 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
       </p>
 
       <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif leading-[1.02] text-[#101826] mb-8">
-        Esperienza giuridica costruita su metodo,
-        gestione diretta e continuità.
-        <p className="text-[#8a8f98] text-sm tracking-[0.12em] uppercase mt-6">
-  Diritto civile e penale • Approccio strategico • Tutela legale
+  Esperienza giuridica costruita su metodo,
+  gestione diretta e continuità.
+</h2>
+
+<p className="text-[#8a8f98] text-sm tracking-[0.12em] uppercase mt-6">
+  Diritto civile • Approccio strategico • Tutela legale
 </p>
-      </h2>
+      
 
       <p className="text-[#5d6470] text-xl leading-relaxed">
         Lo studio segue ogni pratica con attenzione diretta, comunicazione chiara e gestione rigorosa delle attività legali.
@@ -782,11 +784,13 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
             </p>
 
             <h3 className="text-2xl font-serif">
-              Studio Legale
-              <p className="text-white/70 text-sm mt-3 leading-relaxed">
+  Studio Legale
+</h3>
+
+<p className="text-white/70 text-sm mt-3 leading-relaxed">
   Diritto Civile • Responsabilità Medica • Diritto di Famiglia • Risarcimento danni • Successioni
 </p>
-            </h3>
+            
           </div>
 
         </div>
