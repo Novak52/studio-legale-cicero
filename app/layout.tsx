@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.avvocatocicero.it"),
   applicationName: "Studio Legale Giuseppina Cicero",
+
+  alternates: {
+  canonical: "/",
+},
+
   title:
     "Studio Legale Giuseppina Cicero | Diritto Civile e Penale a Palermo",
 
