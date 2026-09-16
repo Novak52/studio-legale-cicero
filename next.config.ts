@@ -23,6 +23,16 @@ const nextConfig: NextConfig = {
         destination: "/avvocato-malasanita-palermo",
         permanent: true,
       },
+      {
+        source: "/blog/errore-medico-palermo",
+        destination: "/blog/errore-medico-palermo-risarcimento",
+        permanent: true,
+      },
+      {
+        source: "/blog/error-medico-palermo-risarcimento",
+        destination: "/blog/errore-medico-palermo-risarcimento",
+        permanent: true,
+      },
     ];
   },
 };
