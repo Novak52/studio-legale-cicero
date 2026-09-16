@@ -37,6 +37,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
 
     {
+  url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+  lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.7,
+},
+
+    {
   url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
   lastModified: new Date(),
   changeFrequency: "monthly",
@@ -79,12 +86,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   priority: 0.7,
 },
 
-{
-  url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
-  lastModified: new Date(),
-  changeFrequency: "monthly",
-  priority: 0.7,
-},
+
 
 {
   url: "https://www.avvocatocicero.it/blog/risarcimento-danni-palermo",
