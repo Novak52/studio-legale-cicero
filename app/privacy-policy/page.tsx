@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Studio Legale Giuseppina Cicero",
+  description:
+    "Informativa sulla privacy e sul trattamento dei dati personali dello Studio Legale Giuseppina Cicero ai sensi del Regolamento UE 2016/679 (GDPR).",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
+};
+
 export default function PrivacyPolicy() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-24">
@@ -28,5 +39,5 @@ export default function PrivacyPolicy() {
         I dati non vengono ceduti a terzi salvo obblighi di legge.
       </p>
     </main>
-  )
+  );
 }
