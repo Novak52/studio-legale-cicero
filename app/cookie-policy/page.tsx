@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Cookie Policy | Studio Legale Giuseppina Cicero",
+  description:
+    "Informativa sui cookie utilizzati dal sito dello Studio Legale Giuseppina Cicero.",
+  alternates: {
+    canonical: "/cookie-policy",
+  },
+};
 export default function CookiePolicy() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-24">
