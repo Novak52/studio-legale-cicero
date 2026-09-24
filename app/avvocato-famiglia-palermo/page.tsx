@@ -2,13 +2,12 @@ import Link from "next/link"
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
-  title: "avvocato-famiglia-palermo | Studio Legale",
+  title: "Avvocato Diritto di Famiglia a Palermo | Giuseppina Cicero",
   description:
-    "Assistenza legale per separazione, divorzio, affidamento figli e tutela familiare a Palermo.",
-
-    alternates: {
-  canonical: "/avvocato-famiglia-palermo",
-},
+    "Avvocato per diritto di famiglia a Palermo: assistenza per separazione, divorzio, affidamento dei figli e mantenimento. Consulenza legale riservata.",
+  alternates: {
+    canonical: "/avvocato-famiglia-palermo",
+  },
 };
 const faqSchema = {
   "@context": "https://schema.org",
@@ -197,22 +196,25 @@ export default function AvvocatoFamigliaPalermo() {
           <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
 
             <p>
-              Lo studio assiste clienti nelle controversie
-              familiari e nelle procedure relative a separazioni,
-              divorzi e affidamento dei figli a Palermo.
-            </p>
+  Lo studio offre assistenza legale in materia di diritto di famiglia
+  a Palermo, con particolare attenzione alle procedure di separazione,
+  divorzio, affidamento dei figli e regolamentazione dei rapporti
+  economici tra i componenti del nucleo familiare.
+</p>
 
-            <p>
-              Ogni situazione viene gestita con attenzione diretta,
-              tutela della persona e assistenza nella definizione
-              degli accordi familiari e patrimoniali.
-            </p>
+<p>
+  Ogni situazione familiare richiede un esame attento delle circostanze
+  personali, degli eventuali accordi già esistenti e della documentazione
+  disponibile, al fine di individuare le possibili soluzioni previste
+  dall'ordinamento e tutelare i diritti delle persone coinvolte.
+</p>
 
-            <p>
-              L’assistenza comprende mantenimento, responsabilità genitoriale,
-              tutela dei minori e gestione delle problematiche familiari
-              nel territorio di Palermo e Sicilia.
-            </p>
+<p>
+  L'assistenza legale comprende le questioni relative al mantenimento,
+  alla responsabilità genitoriale, alla tutela dei minori e agli aspetti
+  patrimoniali connessi alle vicende familiari, con attenzione alle
+  esigenze specifiche di ciascun caso.
+</p>
 
 
             <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
@@ -240,7 +242,7 @@ export default function AvvocatoFamigliaPalermo() {
 
 
 <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
-  Separazione consensuale e separazione giudiziale
+  Separazione consensuale e giudiziale: differenze e procedure
 </h2>
 
 <p>
@@ -265,7 +267,7 @@ export default function AvvocatoFamigliaPalermo() {
 
 
 <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
-  Affidamento dei figli e responsabilità genitoriale
+  Affidamento dei figli, responsabilità genitoriale e tutela dei minori
 </h2>
 
 <p>
@@ -290,7 +292,7 @@ export default function AvvocatoFamigliaPalermo() {
 
 
 <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8">
-  Mantenimento del coniuge e dei figli
+  Assegno di mantenimento per il coniuge e mantenimento dei figli
 </h2>
 
 <p>
@@ -319,15 +321,18 @@ export default function AvvocatoFamigliaPalermo() {
 </h2>
 
 <p>
-  Le questioni familiari rientrano tra gli ambiti più delicati del diritto
-  civile e richiedono una particolare attenzione agli aspetti personali,
-  patrimoniali e relazionali che caratterizzano ogni situazione.
+  Il diritto di famiglia disciplina questioni che incidono direttamente
+  sulla vita personale, sui rapporti tra coniugi e sulla tutela dei figli.
+  Le procedure di separazione e divorzio possono comportare decisioni
+  importanti relative alla responsabilità genitoriale, al mantenimento
+  e alla gestione del patrimonio familiare.
 </p>
 
 <p>
-  Lo studio assiste clienti nella gestione delle problematiche familiari,
-  nella tutela dei minori e nella ricerca di soluzioni adeguate alle esigenze
-  delle persone coinvolte.
+  Lo studio offre assistenza legale per affrontare le controversie
+  familiari, valutare le possibili soluzioni e tutelare i diritti
+  delle persone coinvolte, con particolare attenzione alle esigenze
+  dei minori e alle specificità di ogni situazione.
 </p>
 
 <p>
