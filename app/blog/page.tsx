@@ -1,14 +1,14 @@
+import type { Metadata } from "next"
 import Link from "next/link"
-import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Legale | Studio Legale Giuseppina Cicero",
+  title: "Blog Legale Palermo | Guide e Approfondimenti",
   description:
-    "Approfondimenti giuridici, guide pratiche e informazioni su diritto di famiglia, risarcimento danni, malasanità e successioni a Palermo.",
+    "Guide e approfondimenti legali su diritto di famiglia, malasanità, risarcimento danni e successioni a Palermo.",
   alternates: {
     canonical: "/blog",
   },
-};
+}
 export default function BlogPage() {
   return (
     <main className="min-h-screen bg-[#f8f6f2] px-4 md:px-6 py-24 overflow-x-hidden">
