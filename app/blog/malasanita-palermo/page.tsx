@@ -141,27 +141,31 @@ Cosa fare dopo un caso di malasanità a Palermo
         <div className="space-y-8 text-lg text-slate-700 leading-relaxed">
 
           <p>
-            I casi di malasanità riguardano situazioni nelle quali una struttura
-            sanitaria o un professionista sanitario commette errori che causano
-            danni al paziente.
-          </p>
+  I casi di malasanità riguardano situazioni nelle quali il paziente ritiene
+  di aver subito un danno in relazione alle cure ricevute o al percorso
+  assistenziale seguito. La valutazione della vicenda richiede un esame
+  specifico delle circostanze e della documentazione disponibile.
+</p>
 
-          <p>
-            Per ottenere un risarcimento è necessario verificare la presenza di
-            un comportamento colposo, il danno subito e il collegamento tra
-            l'errore e le conseguenze riportate.
-          </p>
+<p>
+  Per valutare una possibile richiesta di tutela o di risarcimento è
+  necessario ricostruire l'accaduto, esaminare le cure ricevute e verificare
+  gli elementi utili a individuare eventuali profili di responsabilità e il
+  collegamento con il danno lamentato.
+</p>
 
-          <p>
-            Le situazioni più frequenti riguardano diagnosi tardive, errori
-            chirurgici, infezioni ospedaliere, trattamenti non adeguati e
-            mancato consenso informato.
-          </p>
+<p>
+  Tra le situazioni che possono richiedere un approfondimento rientrano
+  diagnosi tardive, problematiche durante interventi chirurgici, infezioni
+  ospedaliere, trattamenti che devono essere valutati nel contesto specifico
+  e questioni relative al consenso informato.
+</p>
 
-          <p>
-            Ogni caso richiede un'analisi della documentazione clinica e una
-            valutazione medico-legale approfondita.
-          </p>
+<p>
+  La documentazione clinica rappresenta quindi un elemento importante per
+  ricostruire il percorso sanitario e valutare, anche attraverso gli
+  eventuali elementi medico-legali disponibili, la situazione concreta.
+</p>
 
         </div>
 
@@ -176,10 +180,10 @@ Cosa fare dopo un caso di malasanità a Palermo
           </h2>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl">
-            Lo studio offre supporto nella valutazione della documentazione
-            sanitaria e nelle richieste risarcitorie collegate a responsabilità
-            medica.
-          </p>
+  Lo studio offre assistenza nella valutazione della documentazione
+  sanitaria, nell'analisi delle circostanze del caso e nelle eventuali
+  richieste di tutela e risarcimento connesse alla responsabilità medica.
+</p>
 
           <a
 href="tel:+393391644668"
@@ -203,8 +207,12 @@ Chiedi Informazioni
       </h3>
 
       <p className="text-slate-600">
-        Diagnosi tardive, errori chirurgici, infezioni ospedaliere e mancato consenso informato.
-      </p>
+  Tra le situazioni che possono richiedere una valutazione rientrano
+  diagnosi tardive, problematiche durante interventi chirurgici, infezioni
+  ospedaliere e questioni relative al consenso informato. Ogni caso deve
+  essere esaminato sulla base delle circostanze concrete e della
+  documentazione disponibile.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -213,8 +221,11 @@ Chiedi Informazioni
       </h3>
 
       <p className="text-slate-600">
-        No. Occorre dimostrare il danno, l'errore sanitario e il nesso causale tra i due elementi.
-      </p>
+  Non necessariamente. La possibilità di ottenere un risarcimento deve
+  essere valutata sulla base della situazione concreta, della documentazione
+  sanitaria e degli elementi utili a verificare gli eventuali profili di
+  responsabilità e il collegamento con il danno lamentato.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -223,8 +234,11 @@ Chiedi Informazioni
       </h3>
 
       <p className="text-slate-600">
-        Cartelle cliniche, referti, esami diagnostici e tutta la documentazione sanitaria disponibile.
-      </p>
+  Possono essere utili cartelle cliniche, referti, esami diagnostici,
+  lettere di dimissione, prescrizioni e altra documentazione sanitaria
+  disponibile. La raccolta completa dei documenti facilita la ricostruzione
+  del percorso assistenziale e la valutazione del caso.
+</p>
     </div>
 
   </div>
