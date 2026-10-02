@@ -199,58 +199,63 @@ export default function DirittoCivilePalermo() {
   <div className="space-y-8 text-lg leading-relaxed text-[#5d6470]">
 
     <p>
-      Lo studio legale offre assistenza nell’ambito del diritto civile a Palermo, seguendo controversie patrimoniali, responsabilità civile,
-      richieste di risarcimento danni, successioni ereditarie e tutela dei
-      diritti della persona.
-    </p>
+  Lo studio legale offre assistenza in materia di diritto civile a Palermo,
+  seguendo controversie patrimoniali, responsabilità civile, richieste di
+  risarcimento danni, successioni ereditarie e tutela dei diritti della
+  persona.
+</p>
 
-    <p>
-      Ogni pratica viene gestita con attenzione diretta, analisi rigorosa
-      della documentazione e supporto costante nelle diverse fasi della
-      controversia civile, sia in sede stragiudiziale che giudiziale.
-    </p>
+<p>
+  Ogni pratica viene esaminata sulla base della documentazione disponibile,
+  delle circostanze del caso e degli interessi da tutelare, con assistenza
+  nelle diverse fasi della gestione della controversia, sia in sede
+  stragiudiziale sia giudiziale.
+</p>
 
-    <p>
-      L’assistenza comprende attività di consulenza, gestione del contenzioso,
-      tutela contrattuale, recupero crediti, problematiche ereditarie e
-      responsabilità professionale, con operatività su Palermo e territorio
-      siciliano.
-    </p>
+<p>
+  L'assistenza può riguardare problematiche contrattuali, recupero crediti,
+  questioni ereditarie, responsabilità professionale e altre controversie
+  civili, con attività rivolta a clienti di Palermo e del territorio
+  siciliano.
+</p>
 
     <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
   In quali ambiti interviene un avvocato civilista?
 </h2>
 
 <p>
-  Il diritto civile comprende numerose materie che incidono sulla vita
-  quotidiana delle persone e delle famiglie. L’assistenza legale può essere
-  necessaria in caso di controversie contrattuali, responsabilità civile,
-  successioni ereditarie, recupero crediti, tutela della proprietà e rapporti
-  tra privati.
+  Il diritto civile comprende diverse materie che riguardano i rapporti
+  tra persone, famiglie e soggetti privati. L'assistenza legale può
+  riguardare controversie contrattuali, responsabilità civile,
+  successioni ereditarie, recupero crediti, tutela della proprietà e
+  altre problematiche di natura patrimoniale.
 </p>
 
 <p>
-  Una corretta valutazione preventiva consente spesso di individuare la
-  strategia più efficace per la tutela dei propri diritti, evitando errori che
-  potrebbero compromettere il buon esito della controversia.
-  </p>
+  L'analisi della situazione e della documentazione disponibile consente
+  di individuare le questioni giuridiche da approfondire e di valutare
+  le possibili forme di tutela, sia attraverso una gestione
+  stragiudiziale della controversia sia, quando necessario, attraverso
+  un procedimento giudiziale.
+</p>
 
   <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
   Responsabilità civile e richieste di risarcimento
 </h2>
 
 <p>
-  Una parte significativa delle controversie civili riguarda le richieste di
-  risarcimento danni derivanti da comportamenti illeciti, inadempimenti
-  contrattuali, incidenti stradali o altre situazioni che abbiano causato un
-  pregiudizio economico o personale.
+  Le controversie in materia di responsabilità civile possono riguardare
+  comportamenti illeciti, inadempimenti contrattuali, incidenti stradali
+  o altre situazioni nelle quali una persona abbia subito un pregiudizio
+  patrimoniale o personale.
 </p>
 
 <p>
-  La corretta quantificazione del danno e la raccolta della documentazione
-  rappresentano aspetti fondamentali per la tutela del soggetto danneggiato e
-  per l'eventuale avvio di una procedura risarcitoria. Per approfondire questo
-  ambito è possibile consultare la pagina dedicata al{" "}
+  La valutazione della documentazione e delle circostanze del caso
+  permette di ricostruire l'accaduto e di esaminare gli eventuali profili
+  di responsabilità e le conseguenze dannose da valutare ai fini di una
+  richiesta di tutela o di risarcimento. Per approfondire questo ambito
+  è possibile consultare la pagina dedicata al{" "}
   <a
     href="/risarcimento-danni-palermo"
     className="underline underline-offset-4"
@@ -268,16 +273,17 @@ export default function DirittoCivilePalermo() {
 </h2>
 
 <p>
-  Non tutte le controversie civili richiedono necessariamente l'avvio di una
-  causa. In molti casi è possibile tentare una soluzione attraverso trattative,
-  accordi tra le parti o procedure alternative che consentano di ridurre tempi
-  e costi.
+  Non tutte le controversie civili richiedono necessariamente l'avvio di
+  un procedimento giudiziale. In base alla situazione concreta può essere
+  possibile affrontare la questione attraverso comunicazioni, trattative,
+  accordi tra le parti o altri strumenti di gestione stragiudiziale.
 </p>
 
 <p>
-  Quando una soluzione stragiudiziale non è praticabile, l'assistenza legale
-  prosegue nelle diverse fasi del procedimento giudiziale, con tutela degli
-  interessi del cliente e gestione completa della documentazione necessaria.
+  Quando non è possibile raggiungere una soluzione condivisa, l'assistenza
+  legale può proseguire nelle diverse fasi del procedimento giudiziale,
+  attraverso l'analisi della documentazione, la gestione degli atti e la
+  tutela degli interessi del cliente.
 </p>
 
 <h2 className="text-4xl md:text-5xl font-serif leading-tight mt-16 mb-8">
@@ -285,15 +291,15 @@ export default function DirittoCivilePalermo() {
 </h2>
 
 <p>
-  Le successioni ereditarie rappresentano una delle materie più rilevanti del
-  diritto civile e richiedono particolare attenzione nella gestione del
-  patrimonio e dei rapporti tra eredi.
+  Le successioni ereditarie rientrano tra le materie del diritto civile
+  che richiedono particolare attenzione nella gestione del patrimonio e
+  dei rapporti tra gli eredi.
 </p>
 
 <p>
-  Lo studio assiste clienti nella gestione di successioni legittime e
-  testamentarie, divisioni ereditarie, impugnazioni testamentarie e tutela
-  dei diritti riconosciuti agli eredi dalla legge.
+  Lo studio assiste nella gestione di successioni legittime e
+  testamentarie, divisioni ereditarie, contestazioni delle disposizioni
+  testamentarie e tutela dei diritti riconosciuti agli eredi dalla legge.
 </p>
 
 <p>
@@ -311,22 +317,23 @@ export default function DirittoCivilePalermo() {
 </h2>
 
 <p>
-  L'assistenza di un avvocato civilista può essere fondamentale quando si
+  L'assistenza di un avvocato civilista può essere utile quando si
   verificano controversie contrattuali, problematiche patrimoniali,
-  richieste di risarcimento danni, successioni ereditarie o situazioni che
-  richiedono una tutela giuridica specifica.
+  richieste di risarcimento danni, successioni ereditarie o altre
+  situazioni che richiedono una valutazione giuridica.
 </p>
 
 <p>
-  Una consulenza preventiva consente spesso di individuare tempestivamente
-  le possibili criticità e valutare le strategie più efficaci per la tutela
-  dei propri diritti, riducendo il rischio di contenziosi futuri.
+  Una consulenza iniziale può consentire di esaminare la documentazione,
+  ricostruire le circostanze della vicenda e individuare le questioni
+  che richiedono maggiore approfondimento per la tutela dei propri
+  diritti.
 </p>
 
 <p>
-  L'analisi preliminare della documentazione e delle circostanze del caso
-  rappresenta un passaggio essenziale per comprendere le possibili soluzioni
-  e pianificare correttamente le attività successive.
+  La valutazione preliminare del caso permette inoltre di esaminare le
+  possibili modalità di gestione della controversia e le eventuali
+  attività da intraprendere sulla base della situazione concreta.
 </p>
 
 
@@ -335,15 +342,16 @@ export default function DirittoCivilePalermo() {
 </h2>
 
 <p>
-  Il diritto di famiglia comprende questioni particolarmente delicate che
-  riguardano separazioni, divorzi, affidamento dei figli, mantenimento e
-  tutela dei rapporti familiari.
+  Il diritto di famiglia comprende questioni che riguardano separazioni,
+  divorzi, affidamento dei figli, mantenimento e tutela dei rapporti
+  familiari, con problematiche che richiedono una valutazione specifica
+  della situazione personale e patrimoniale.
 </p>
 
 <p>
-  Ogni situazione richiede una valutazione specifica finalizzata alla tutela
-  degli interessi coinvolti e alla ricerca delle soluzioni più adeguate nel
-  rispetto della normativa vigente.
+  L'analisi della documentazione e delle circostanze concrete permette di
+  individuare gli aspetti giuridici da approfondire e le possibili forme
+  di tutela degli interessi delle persone coinvolte.
 </p>
 
 <p>
@@ -362,15 +370,17 @@ export default function DirittoCivilePalermo() {
 </h2>
 
 <p>
-  I casi di responsabilità sanitaria riguardano situazioni nelle quali un
-  errore medico, una diagnosi tardiva o un trattamento non adeguato possono
-  aver causato conseguenze dannose per il paziente.
+  Le questioni di responsabilità sanitaria possono riguardare situazioni
+  nelle quali il paziente ritenga di aver subito un danno in relazione
+  alle cure ricevute, a un errore diagnostico, a una diagnosi tardiva o
+  ad altre circostanze che richiedono una specifica valutazione.
 </p>
 
 <p>
-  La valutazione della documentazione clinica e l'analisi delle circostanze
-  del caso rappresentano passaggi fondamentali per verificare l'esistenza dei
-  presupposti necessari per una tutela risarcitoria.
+  L'esame della documentazione clinica e delle circostanze del caso
+  consente di ricostruire il percorso assistenziale e di verificare gli
+  eventuali profili di responsabilità e le conseguenze lamentate dal
+  paziente.
 </p>
 
 <p>
