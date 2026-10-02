@@ -155,31 +155,81 @@ export default function ArticoloSeparazione() {
 </div>
 
         <p className="text-xl text-slate-600 leading-relaxed mb-12">
-          La separazione rappresenta spesso il primo passaggio per disciplinare
-          i rapporti personali ed economici tra i coniugi.
-        </p>
+  La separazione può rappresentare un passaggio importante per disciplinare
+  i rapporti personali, familiari ed economici tra i coniugi. La situazione
+  deve essere valutata considerando le condizioni della famiglia, gli eventuali
+  figli e gli aspetti patrimoniali coinvolti.
+</p>
 
         <div className="space-y-8 text-lg leading-relaxed text-slate-700">
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Come funziona la separazione consensuale
 </h2>
           <p>
-            In presenza di accordo tra le parti è possibile procedere
-            attraverso una separazione consensuale.
-          </p>
+  Quando i coniugi raggiungono un accordo sulle principali questioni relative
+  alla separazione, è possibile procedere attraverso una separazione
+  consensuale. Gli accordi possono riguardare gli aspetti personali,
+  familiari ed economici della situazione concreta.
+</p>
+
+<p>
+  Prima di procedere è importante esaminare attentamente le condizioni
+  dell'accordo, soprattutto quando sono presenti figli, questioni relative
+  al mantenimento o aspetti patrimoniali da disciplinare.
+</p>
 
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Quando è necessaria la separazione giudiziale
 </h2>
           <p>
-            In assenza di accordo, può essere necessario avviare una procedura
-            giudiziale per la tutela dei propri diritti.
-          </p>
+  Quando non è possibile raggiungere un accordo tra i coniugi sulle
+  condizioni della separazione, può essere necessario ricorrere alla
+  procedura giudiziale per sottoporre le questioni controverse alla
+  valutazione dell'autorità competente.
+</p>
 
-          <p>
-            Ogni situazione familiare presenta caratteristiche specifiche che
-            richiedono una valutazione attenta e personalizzata.
-          </p>
+<p>
+  La separazione giudiziale richiede un esame della situazione familiare,
+  delle eventuali questioni patrimoniali e delle esigenze dei figli, quando
+  presenti. La documentazione disponibile può essere utile per ricostruire
+  la situazione e valutare le questioni da affrontare.
+</p>
+
+
+<h2 className="font-serif text-3xl text-[#101826] mb-6">
+  Affidamento dei figli e rapporti familiari
+</h2>
+
+<p>
+  Quando la separazione riguarda una famiglia con figli, è necessario
+  disciplinare gli aspetti relativi all'affidamento e ai rapporti tra i
+  genitori e i figli, considerando la situazione familiare e le esigenze
+  dei minori.
+</p>
+
+<p>
+  Le condizioni relative ai figli devono essere valutate con particolare
+  attenzione, insieme agli eventuali aspetti economici e organizzativi
+  collegati alla vita familiare.
+</p>
+
+<h2 className="font-serif text-3xl text-[#101826] mb-6">
+  Separazione e successivo divorzio
+</h2>
+
+<p>
+  La separazione e il divorzio sono procedimenti distinti e devono essere
+  valutati considerando la situazione personale e familiare dei coniugi.
+  Il divorzio può essere richiesto dopo la separazione e nel rispetto
+  dei termini previsti dalla legge.
+</p>
+
+<p>
+  La valutazione della situazione concreta consente di individuare gli
+  aspetti personali, familiari ed economici che possono richiedere
+  maggiore attenzione nella gestione della procedura.
+</p>
+
 
         </div>
 
@@ -194,9 +244,10 @@ export default function ArticoloSeparazione() {
   </h2>
 
   <p className="text-white/70 text-lg mb-8 max-w-2xl">
-    Ogni situazione richiede una valutazione specifica. Contatta lo studio per
-    ricevere un primo orientamento e comprendere le possibili soluzioni.
-  </p>
+  Ogni situazione familiare presenta caratteristiche specifiche. Lo studio
+  può esaminare la documentazione e le circostanze del caso per fornire
+  un primo orientamento sulle questioni da approfondire.
+</p>
 
 
   <a
@@ -220,8 +271,11 @@ export default function ArticoloSeparazione() {
         Quanto dura una separazione consensuale?
       </h3>
       <p className="text-slate-600">
-        I tempi dipendono dal tribunale competente e dalla completezza della documentazione presentata.
-      </p>
+  I tempi possono dipendere dalla procedura utilizzata, dall'autorità
+  competente e dalla completezza della documentazione necessaria.
+  La durata concreta deve quindi essere valutata in relazione alla
+  situazione specifica.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -229,8 +283,10 @@ export default function ArticoloSeparazione() {
         È obbligatorio rivolgersi a un avvocato?
       </h3>
       <p className="text-slate-600">
-        Nella maggior parte dei casi è consigliabile per tutelare correttamente i propri diritti e interessi.
-      </p>
+  La necessità di assistenza legale dipende dalla procedura e dalla
+  situazione concreta. Un avvocato può comunque aiutare a esaminare
+  gli accordi e gli aspetti personali, familiari ed economici coinvolti.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -238,8 +294,10 @@ export default function ArticoloSeparazione() {
         Quando si può chiedere il divorzio?
       </h3>
       <p className="text-slate-600">
-        Dopo la separazione e nel rispetto dei termini previsti dalla legge.
-      </p>
+  Il divorzio può essere richiesto dopo la separazione e nel rispetto
+  dei termini previsti dalla legge. La situazione concreta deve essere
+  verificata considerando la procedura seguita e le circostanze familiari.
+</p>
     </div>
 
   </div>
