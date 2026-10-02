@@ -156,10 +156,11 @@ export default function RisarcimentoDanniPalermoPage() {
         </div>
 
         <p className="text-xl text-slate-600 leading-relaxed mb-12">
-          Chi subisce un danno ha diritto a ottenere un risarcimento quando
-          sussistono i presupposti previsti dalla legge e può dimostrare il
-          pregiudizio subito.
-        </p>
+  Chi subisce un danno può valutare una richiesta di risarcimento quando
+  ricorrono i presupposti previsti dalla legge e sono disponibili elementi
+  utili a dimostrare l'evento, le conseguenze subite e gli eventuali profili
+  di responsabilità.
+</p>
 
         <div className="space-y-12 text-lg leading-relaxed text-slate-700">
 
@@ -169,10 +170,11 @@ export default function RisarcimentoDanniPalermoPage() {
             </h2>
 
             <p>
-              Il diritto al risarcimento può nascere da incidenti stradali,
-              responsabilità professionale, inadempimenti contrattuali,
-              danni alla persona o danni patrimoniali.
-            </p>
+  Una richiesta di risarcimento può riguardare, a seconda delle circostanze,
+  incidenti stradali, responsabilità professionale, inadempimenti contrattuali,
+  danni alla persona, danni patrimoniali e altre situazioni nelle quali un
+  evento abbia prodotto conseguenze economicamente o personalmente rilevanti.
+</p>
           </section>
 
           <section>
@@ -200,22 +202,22 @@ export default function RisarcimentoDanniPalermoPage() {
   </h2>
 
   <p>
-    Le richieste di risarcimento possono riguardare anche cadute causate da
-    marciapiedi dissestati, pavimentazioni sconnesse, buche stradali o altre
-    situazioni che abbiano determinato danni alla persona.
-  </p>
+  Le richieste di risarcimento possono riguardare anche cadute causate da
+  marciapiedi dissestati, pavimentazioni sconnesse, buche o altre condizioni
+  del luogo che abbiano determinato conseguenze dannose per la persona.
+</p>
 
-  <p>
-    In questi casi è generalmente utile documentare tempestivamente lo stato
-    dei luoghi, raccogliere eventuali testimonianze e conservare la
-    documentazione sanitaria relativa alle lesioni riportate.
-  </p>
+<p>
+  In queste situazioni è utile documentare tempestivamente lo stato dei
+  luoghi, raccogliere eventuali testimonianze e conservare fotografie,
+  referti medici e documentazione relativa alle spese sostenute.
+</p>
 
-  <p>
-    La valutazione delle responsabilità richiede un'analisi delle condizioni
-    del luogo e delle circostanze che hanno contribuito al verificarsi
-    dell'evento.
-  </p>
+<p>
+  La valutazione della responsabilità richiede l'esame delle condizioni del
+  luogo, delle circostanze dell'evento e della documentazione disponibile,
+  considerando gli elementi utili a ricostruire la dinamica della caduta.
+</p>
 </section>
 
 <section>
@@ -224,15 +226,16 @@ export default function RisarcimentoDanniPalermoPage() {
   </h2>
 
   <p>
-    L'accertamento della responsabilità dipende dalle caratteristiche del caso
-    concreto e dal soggetto incaricato della gestione e manutenzione dell'area
-    in cui si è verificato l'evento dannoso.
-  </p>
+  L'individuazione del soggetto eventualmente responsabile dipende dalle
+  caratteristiche del caso concreto e dalla gestione, manutenzione o
+  disponibilità dell'area nella quale si è verificato l'evento dannoso.
+</p>
 
-  <p>
-    Una corretta ricostruzione dei fatti e della documentazione disponibile può
-    risultare determinante per la valutazione della richiesta risarcitoria.
-  </p>
+<p>
+  Una corretta ricostruzione dei fatti, delle condizioni del luogo e della
+  documentazione disponibile può contribuire alla valutazione della
+  responsabilità e della richiesta risarcitoria.
+</p>
 </section>
 
 <section>
@@ -241,11 +244,11 @@ export default function RisarcimentoDanniPalermoPage() {
   </h2>
 
   <p>
-    Le controversie relative al risarcimento rientrano frequentemente
-    nell'ambito della responsabilità civile e possono riguardare danni alla
-    persona, danni patrimoniali e altre conseguenze derivanti da comportamenti
-    illeciti o eventi dannosi.
-  </p>
+  Le controversie relative al risarcimento danni possono rientrare
+  nell'ambito della responsabilità civile e riguardare danni alla persona,
+  danni patrimoniali e altre conseguenze derivanti da comportamenti illeciti
+  o da eventi dannosi.
+</p>
 
   <p>
     Per maggiori informazioni è possibile consultare la sezione dedicata al{" "}
@@ -268,10 +271,11 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
             <p>
-              Una valutazione tempestiva della documentazione consente di
-              individuare la strategia più efficace per ottenere il corretto
-              risarcimento del danno subito.
-            </p>
+  Una valutazione tempestiva della documentazione può facilitare la
+  ricostruzione dell'evento, l'individuazione degli elementi utili alla
+  richiesta e la valutazione delle attività necessarie per tutelare i
+  diritti del soggetto danneggiato.
+</p>
           </section>
 
         </div>
@@ -287,9 +291,10 @@ export default function RisarcimentoDanniPalermoPage() {
           </h2>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl">
-            Una corretta analisi del caso è essenziale per valutare le
-            possibilità di ottenere un risarcimento e tutelare i propri diritti.
-          </p>
+  L'esame della documentazione e delle circostanze dell'evento può aiutare
+  a valutare la situazione, le eventuali conseguenze del danno e le possibili
+  forme di tutela.
+</p>
 
           <a
             href="tel:+393391644668"
@@ -312,8 +317,10 @@ export default function RisarcimentoDanniPalermoPage() {
         Quali danni possono essere risarciti?
       </h3>
       <p className="text-slate-600">
-        Possono essere risarciti danni patrimoniali, danni non patrimoniali, spese mediche, perdita di reddito e altre conseguenze economicamente valutabili.
-      </p>
+  I termini possono variare in base alla natura del danno, al tipo di
+  responsabilità e alle norme applicabili al singolo caso. È quindi
+  opportuno valutare la situazione senza attendere inutilmente.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -330,8 +337,10 @@ export default function RisarcimentoDanniPalermoPage() {
         È necessario conservare la documentazione?
       </h3>
       <p className="text-slate-600">
-        Sì, documenti, ricevute, fotografie e certificazioni possono risultare fondamentali per dimostrare il danno subito.
-      </p>
+  Sì. Documenti, ricevute, fotografie, certificazioni e altri elementi
+  collegati all'evento possono essere utili per ricostruire i fatti,
+  documentare le conseguenze e valutare la richiesta risarcitoria.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -352,9 +361,11 @@ export default function RisarcimentoDanniPalermoPage() {
   </h3>
 
   <p className="text-slate-600">
-    Fotografie, testimonianze, referti medici e documentazione relativa alle
-    spese sostenute possono risultare utili per la valutazione del danno subito.
-  </p>
+  Possono essere utili fotografie del luogo, testimonianze, referti medici,
+  verbali e documentazione relativa alle spese sostenute. La raccolta
+  tempestiva degli elementi disponibili può facilitare la ricostruzione
+  dell'evento e la valutazione del danno.
+</p>
 </div>
 
   </div>
