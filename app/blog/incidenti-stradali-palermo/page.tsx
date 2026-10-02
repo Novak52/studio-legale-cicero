@@ -95,26 +95,30 @@ Cosa fare dopo un incidente stradale a Palermo
         <div className="space-y-8 text-lg leading-relaxed text-slate-700">
 
           <p>
-            Dopo un incidente stradale è importante raccogliere tutte le
-            informazioni necessarie per tutelare i propri diritti e agevolare
-            l’eventuale richiesta di risarcimento.
-          </p>
+  Dopo un incidente stradale è importante raccogliere e conservare le
+  informazioni utili a ricostruire la dinamica del sinistro e le eventuali
+  conseguenze subite, soprattutto quando si prospetta una richiesta di
+  risarcimento.
+</p>
 
-          <p>
-            Fotografie del luogo del sinistro, dati dei veicoli coinvolti,
-            testimonianze e documentazione medica possono risultare determinanti
-            nella ricostruzione dei fatti.
-          </p>
+<p>
+  Fotografie del luogo dell'incidente, dati dei veicoli coinvolti,
+  testimonianze, verbali e documentazione medica possono contribuire alla
+  ricostruzione dei fatti e alla valutazione della situazione del soggetto
+  danneggiato.
+</p>
 
           <h2 className="font-serif text-3xl text-[#101826] mb-6">
             Quali documenti conservare
           </h2>
 
           <p>
-            È consigliabile conservare il modulo di constatazione amichevole,
-            i verbali delle autorità intervenute, i certificati medici e ogni
-            documento relativo alle spese sostenute.
-          </p>
+  È utile conservare il modulo di constatazione amichevole, gli eventuali
+  verbali delle autorità intervenute, la documentazione medica e ogni
+  documento relativo alle spese sostenute in conseguenza dell'incidente.
+  Anche fotografie, comunicazioni e altri elementi collegati al sinistro
+  possono essere utili per ricostruire l'accaduto.
+</p>
 
           <h2 className="font-serif text-3xl text-[#101826] mb-6">
             Quando richiedere il risarcimento
@@ -139,8 +143,10 @@ Cosa fare dopo un incidente stradale a Palermo
           </h2>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl">
-            Lo studio può valutare la documentazione e assisterti nella richiesta di risarcimento.
-          </p>
+  Lo studio può esaminare la documentazione relativa al sinistro e offrire
+  assistenza nella valutazione delle responsabilità e nella gestione della
+  richiesta di risarcimento.
+</p>
 
           <a
              href="tel:+393391644668"
@@ -165,8 +171,11 @@ Cosa fare dopo un incidente stradale a Palermo
               </h3>
 
               <p className="text-slate-600">
-                Mettere in sicurezza l’area, raccogliere prove e richiedere assistenza medica se necessario.
-              </p>
+  È importante mettere in sicurezza l'area, raccogliere le informazioni
+  disponibili sul sinistro e richiedere assistenza medica quando necessario.
+  Fotografie, testimonianze e documentazione possono essere utili per la
+  successiva ricostruzione dei fatti.
+</p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -176,8 +185,10 @@ Cosa fare dopo un incidente stradale a Palermo
               </h3>
 
               <p className="text-slate-600">
-                Non è obbligatorio, ma facilita notevolmente la gestione del sinistro.
-              </p>
+  Il modulo di constatazione amichevole può facilitare la raccolta delle
+  informazioni relative al sinistro e la gestione della documentazione
+  necessaria per la richiesta di risarcimento.
+</p>
             </div>
 
             <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -186,8 +197,10 @@ Cosa fare dopo un incidente stradale a Palermo
               </h3>
 
               <p className="text-slate-600">
-                Quando vi sono danni importanti, contestazioni sulla responsabilità o difficoltà nel risarcimento.
-              </p>
+  Può essere utile richiedere assistenza quando vi sono danni rilevanti,
+  contestazioni sulla responsabilità, lesioni personali o difficoltà nella
+  gestione della richiesta di risarcimento.
+</p>
             </div>
 
           </div>
