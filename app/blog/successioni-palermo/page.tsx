@@ -154,10 +154,12 @@ export default function SuccessioniPalermoPage() {
         </div>
 
         <p className="text-xl text-slate-600 leading-relaxed mb-12">
-          La gestione di una successione richiede attenzione agli aspetti
-          patrimoniali, fiscali e familiari per evitare contestazioni e tutelare
-          i diritti degli eredi.
-        </p>
+  La gestione di una successione richiede l'esame della situazione
+  familiare e patrimoniale, della presenza di eventuali disposizioni
+  testamentarie e della documentazione relativa all'eredità. Una corretta
+  ricostruzione della situazione consente di individuare le principali
+  questioni da affrontare e di tutelare i diritti degli eredi.
+</p>
 
         <div className="space-y-12 text-lg leading-relaxed text-slate-700">
 
@@ -167,9 +169,11 @@ export default function SuccessioniPalermoPage() {
             </h2>
 
             <p>
-              La successione si apre al momento della morte della persona e
-              comporta il trasferimento dei rapporti patrimoniali agli eredi.
-            </p>
+  La successione si apre al momento della morte della persona e riguarda
+  i rapporti patrimoniali che possono essere trasmessi agli eredi. La
+  gestione della successione richiede quindi di individuare i soggetti
+  coinvolti e di ricostruire la situazione patrimoniale del defunto.
+</p>
           </section>
 
           <section>
@@ -178,10 +182,18 @@ export default function SuccessioniPalermoPage() {
             </h2>
 
             <p>
-              In presenza di testamento vengono rispettate le disposizioni del
-              defunto nei limiti previsti dalla legge. In assenza di testamento,
-              si applicano le regole della successione legittima.
-            </p>
+  In presenza di un testamento, le disposizioni del defunto devono essere
+  esaminate nel rispetto dei limiti previsti dalla legge. In assenza di
+  testamento, la successione viene regolata dalle disposizioni previste
+  per la successione legittima.
+</p>
+
+<p>
+  La presenza o meno di un testamento può quindi incidere sulla
+  individuazione degli eredi e sulla distribuzione del patrimonio,
+  rendendo importante l'esame della documentazione e della situazione
+  familiare.
+</p>
           </section>
 
           <section>
@@ -190,20 +202,33 @@ export default function SuccessioniPalermoPage() {
             </h2>
 
             <p>
-              Una corretta assistenza legale permette di prevenire controversie,
-              verificare la validità delle disposizioni testamentarie e tutelare
-              la quota spettante agli eredi legittimari.             
-            </p>
+  La tutela dei diritti degli eredi può richiedere la verifica delle
+  disposizioni testamentarie, della composizione del patrimonio e delle
+  quote spettanti ai soggetti coinvolti nella successione.
+</p>
+
+<p>
+  Quando emergono dubbi sulla corretta distribuzione dell'eredità o sulla
+  validità delle disposizioni testamentarie, l'esame della documentazione
+  consente di individuare le questioni che richiedono un ulteriore
+  approfondimento.
+</p>
 
             <h2 className="font-serif text-3xl text-[#101826] mt-12 mb-6">
   Accettazione o rinuncia all'eredità
 </h2>
 
 <p>
-  Gli eredi possono scegliere se accettare o rinunciare all'eredità.
-  L'accettazione comporta l'acquisizione dei diritti e degli obblighi
-  del defunto, mentre la rinuncia consente di evitare il subentro nei
-  rapporti ereditari.
+  Gli eredi possono valutare se accettare o rinunciare all'eredità
+  secondo le modalità previste dalla legge. La scelta deve essere
+  esaminata considerando la situazione patrimoniale e i rapporti
+  ereditari coinvolti.
+</p>
+
+<p>
+  Prima di assumere una decisione può essere utile ricostruire la
+  composizione dell'eredità e verificare la documentazione disponibile,
+  soprattutto quando sono presenti situazioni patrimoniali complesse.
 </p>
 
 <h2 className="font-serif text-3xl text-[#101826] mt-12 mb-6">
@@ -211,10 +236,28 @@ export default function SuccessioniPalermoPage() {
 </h2>
 
 <p>
-  Quando più soggetti ereditano beni in comune possono sorgere
-  controversie relative alla divisione del patrimonio. Una corretta
-  gestione della successione aiuta a ridurre conflitti e tutelare i
-  diritti di tutti gli interessati.
+  Quando più soggetti ereditano beni in comune, può essere necessario
+  procedere alla divisione del patrimonio e disciplinare i rapporti tra
+  i coeredi.
+</p>
+
+<p>
+  La divisione ereditaria può riguardare beni immobili, disponibilità
+  patrimoniali e altri beni appartenenti all'eredità. La documentazione
+  relativa al patrimonio e alle quote dei soggetti coinvolti può essere
+  utile per ricostruire la situazione.
+</p>
+
+<p>
+  Le controversie ereditarie possono rientrare nell'ambito del{" "}
+  <a
+    href="/diritto-civile-palermo"
+    className="underline underline-offset-4"
+  >
+    diritto civile a Palermo
+  </a>
+  , soprattutto quando riguardano divisioni patrimoniali, quote ereditarie
+  e rapporti tra coeredi.
 </p>
 
 <p>
@@ -234,23 +277,23 @@ export default function SuccessioniPalermoPage() {
 </h2>
 
 <p>
-  L'impugnazione di un testamento può essere presa in considerazione quando
-  emergono elementi che fanno dubitare della validità delle disposizioni
+  L'impugnazione di un testamento può essere valutata quando emergono
+  elementi che fanno dubitare della validità delle disposizioni
   testamentarie o quando si ritiene che siano stati lesi i diritti degli
   eredi tutelati dalla legge.
 </p>
 
 <p>
-  Tra le situazioni che possono richiedere una valutazione rientrano
-  eventuali vizi di forma, la possibile incapacità del testatore al momento
-  della redazione del testamento o altre circostanze che incidano sulla
-  validità dell'atto.
+  Tra le situazioni che possono richiedere un approfondimento rientrano
+  eventuali vizi di forma, circostanze che possano incidere sulla validità
+  dell'atto o altri elementi relativi alla capacità del testatore al
+  momento della redazione.
 </p>
 
 <p>
   Ogni vicenda ereditaria presenta caratteristiche differenti e richiede
-  un'analisi della documentazione disponibile, delle disposizioni
-  testamentarie e della situazione familiare complessiva.
+  l'esame della documentazione disponibile, delle disposizioni testamentarie
+  e della situazione familiare complessiva.
 </p>
 
 <p>
@@ -273,17 +316,16 @@ export default function SuccessioniPalermoPage() {
 
 <p>
   La gestione di una successione può richiedere verifiche documentali,
-  analisi delle quote ereditarie e valutazioni relative alla presenza
-  di un testamento. Un'assistenza legale qualificata consente di
-  affrontare correttamente gli adempimenti previsti dalla legge e di
-  prevenire possibili controversie tra gli eredi.
+  analisi delle quote ereditarie, esame della presenza di un testamento
+  e valutazioni relative alla composizione del patrimonio. Un'assistenza
+  legale può aiutare a individuare le questioni da approfondire e a
+  gestire le eventuali controversie tra gli eredi.
 </p>
 
 <p>
-  Un supporto professionale può risultare particolarmente utile nei casi
-  di successioni complesse, patrimoni rilevanti, beni immobili da
-  dividere o contestazioni relative alla validità delle disposizioni
-  testamentarie.
+  Un supporto professionale può essere particolarmente utile quando la
+  successione presenta più eredi, beni immobili da dividere, patrimoni
+  articolati o contestazioni relative alle disposizioni testamentarie.
 </p>
 
 
@@ -304,9 +346,10 @@ export default function SuccessioniPalermoPage() {
           </h2>
 
           <p className="text-white/70 text-lg mb-8 max-w-2xl">
-            Ogni successione presenta aspetti specifici che meritano una
-            valutazione professionale e personalizzata.
-          </p>
+  Ogni successione presenta una situazione familiare e patrimoniale
+  specifica. Lo studio può esaminare la documentazione disponibile e
+  individuare le principali questioni da approfondire.
+</p>
 
           <a
   href="tel:+393391644668"
@@ -329,8 +372,11 @@ export default function SuccessioniPalermoPage() {
         Quando si apre una successione?
       </h3>
       <p className="text-slate-600">
-        La successione si apre al momento della morte della persona e comporta il trasferimento dei rapporti patrimoniali agli eredi.
-      </p>
+  La successione si apre al momento della morte della persona e riguarda
+  i rapporti patrimoniali che possono essere trasmessi agli eredi. La
+  situazione concreta deve essere ricostruita sulla base dei soggetti
+  coinvolti e del patrimonio ereditario.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -338,8 +384,10 @@ export default function SuccessioniPalermoPage() {
         È obbligatorio accettare l'eredità?
       </h3>
       <p className="text-slate-600">
-        No, l'erede può accettare o rinunciare all'eredità secondo le modalità previste dalla legge.
-      </p>
+  No. L'erede può valutare se accettare o rinunciare all'eredità secondo
+  le modalità previste dalla legge. La scelta deve essere esaminata
+  considerando la situazione patrimoniale e i rapporti ereditari coinvolti.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -347,8 +395,11 @@ export default function SuccessioniPalermoPage() {
         Cosa succede se non esiste un testamento?
       </h3>
       <p className="text-slate-600">
-        In assenza di testamento si applicano le regole della successione legittima previste dal Codice Civile.
-      </p>
+  In assenza di testamento si applicano le regole della successione
+  legittima previste dalla legge. L'individuazione degli eredi e delle
+  rispettive posizioni deve essere valutata in relazione alla situazione
+  familiare concreta.
+</p>
     </div>
 
     <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -357,8 +408,11 @@ export default function SuccessioniPalermoPage() {
   </h3>
 
   <p className="text-slate-600">
-    In presenza di irregolarità, vizi di forma o lesione dei diritti degli eredi legittimari può essere possibile contestare la validità del testamento attraverso gli strumenti previsti dalla legge.
-  </p>
+  Può essere possibile contestare un testamento quando emergono elementi
+  relativi alla validità delle disposizioni o alla lesione dei diritti
+  degli eredi tutelati dalla legge. La situazione deve essere esaminata
+  sulla base della documentazione e delle circostanze concrete.
+</p>
 </div>
 
 <div className="bg-white rounded-2xl p-6 border border-black/5">
@@ -367,8 +421,11 @@ export default function SuccessioniPalermoPage() {
   </h3>
 
   <p className="text-slate-600">
-    In generale il diritto di accettare l'eredità si prescrive in dieci anni dall'apertura della successione, salvo particolari situazioni previste dalla legge.
-  </p>
+  In generale il diritto di accettare l'eredità si prescrive in dieci anni
+  dall'apertura della successione, salvo particolari situazioni previste
+  dalla legge. La posizione concreta deve essere verificata considerando
+  le circostanze della successione.
+</p>
 </div>
 
 
