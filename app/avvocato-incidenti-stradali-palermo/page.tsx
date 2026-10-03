@@ -3,9 +3,9 @@ import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   
-  title: "Avvocato Incidenti Stradali Palermo | Studio Legale Palermo",
-  description:
-    "Assistenza legale per incidenti stradali a Palermo. Risarcimento danni, responsabilità civile, tutela del danneggiato e consulenza riservata.",
+  title: "Avvocato Incidenti Stradali a Palermo | Risarcimento Danni",
+description:
+  "Avvocato per incidenti stradali a Palermo: assistenza nella gestione del sinistro, risarcimento danni, responsabilità civile e tutela del danneggiato.",
     alternates: {
   canonical: "/avvocato-incidenti-stradali-palermo",
 },
@@ -46,14 +46,7 @@ const faqSchema = {
         "text": "I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile."
       }
     },
-    {
-      "@type": "Question",
-      "name": "È possibile richiedere il risarcimento per un incidente sul lavoro?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì. È possibile valutare il risarcimento dei danni subiti in conseguenza di infortuni sul lavoro nei casi previsti dalla legge."
-      }
-    },
+    
     {
       "@type": "Question",
       "name": "Come prenotare una consulenza per un incidente stradale?",
@@ -129,14 +122,15 @@ export default function IncidentiStradaliPalermoPage() {
         </p>
 
         <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
-          Avvocato incidenti stradali a Palermo.
-        </h1>
+  Avvocato per incidenti stradali a Palermo.
+</h1>
 
         <p className="text-2xl text-[#334155] leading-relaxed max-w-4xl mb-20">
-          Lo studio offre assistenza legale nelle richieste di risarcimento
-          danni derivanti da incidenti stradali, sinistri, responsabilità
-          civile e tutela del danneggiato.
-        </p>
+  Lo studio offre assistenza legale a Palermo alle persone coinvolte in
+  incidenti stradali, dalla valutazione della responsabilità alla gestione
+  della richiesta di risarcimento dei danni, con particolare attenzione alla
+  tutela del danneggiato.
+</p>
 
         <div className="grid md:grid-cols-2 gap-10 mb-28">
           <div className="bg-white rounded-[2rem] p-10 shadow-sm border border-black/5">
@@ -190,29 +184,27 @@ export default function IncidentiStradaliPalermoPage() {
 
         <section className="mb-28">
           <h2 className="font-serif text-5xl leading-tight max-w-4xl mb-12">
-            Assistenza legale per incidenti stradali a Palermo
-          </h2>
+  Assistenza legale dopo un incidente stradale a Palermo
+</h2>
 
           <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
-            <p>
-  Lo studio offre assistenza legale alle persone coinvolte in incidenti
-  stradali a Palermo, con particolare attenzione alle richieste di
-  risarcimento dei danni, alla gestione delle pratiche assicurative e
-  alla valutazione delle responsabilità connesse al sinistro.
+           <p>
+  Lo studio legale assiste persone coinvolte in incidenti stradali a Palermo,
+  offrendo supporto nella ricostruzione del sinistro, nella valutazione delle
+  responsabilità e nella gestione delle richieste di risarcimento nei confronti
+  dei soggetti e delle compagnie assicurative coinvolte.
 </p>
 
 <p>
-  Ogni pratica viene esaminata sulla base della documentazione disponibile,
-  delle circostanze dell'incidente e delle conseguenze subite, con
-  particolare attenzione alla ricostruzione dei fatti, alla valutazione
-  dei danni e alla gestione dei rapporti con la compagnia assicurativa.
+  La pratica viene esaminata sulla base della documentazione disponibile,
+  delle circostanze dell'incidente e delle conseguenze subite, con attenzione
+  sia ai danni alla persona sia ai danni materiali e patrimoniali.
 </p>
 
 <p>
-  L'assistenza può riguardare incidenti con lesioni personali, danni ai
-  veicoli, investimenti di pedoni e altre situazioni che richiedono una
-  valutazione delle responsabilità e delle possibili richieste risarcitorie,
-  nel territorio di Palermo e della Sicilia.
+  L'assistenza può riguardare sinistri con lesioni personali, danni ai veicoli,
+  investimento di pedoni, responsabilità del conducente e altre controversie
+  relative alla responsabilità civile derivante dalla circolazione stradale.
 </p>
 
 
@@ -249,23 +241,22 @@ export default function IncidentiStradaliPalermoPage() {
 </h2>
 
 <p>
-  Un incidente stradale può comportare conseguenze personali ed economiche
-  che devono essere valutate in relazione alle caratteristiche del caso
-  concreto e alla documentazione disponibile.
+  Un incidente stradale può provocare conseguenze personali ed economiche
+  differenti, che devono essere valutate sulla base della documentazione e
+  delle circostanze concrete del caso.
 </p>
 
 <p>
-  Tra gli aspetti che possono essere oggetto di valutazione rientrano
-  le conseguenze delle lesioni personali, le perdite economiche e le
-  ulteriori conseguenze derivanti dall'incidente, in relazione alla
-  situazione specifica della persona danneggiata.
+  Tra le possibili voci di danno rientrano le conseguenze delle lesioni
+  personali, il danno biologico, le perdite economiche, le spese sostenute e
+  le ulteriori conseguenze patrimoniali e non patrimoniali che possono essere
+  riconosciute secondo la normativa applicabile.
 </p>
 
 <p>
-  La documentazione medica, le spese sostenute, la documentazione relativa
-  al veicolo e gli altri elementi disponibili possono contribuire alla
-  ricostruzione delle conseguenze del sinistro e alla valutazione della
-  richiesta risarcitoria.
+  La valutazione della richiesta risarcitoria richiede quindi un esame
+  complessivo della documentazione medica, delle spese, dei danni materiali
+  e delle conseguenze dell'incidente sulla persona coinvolta.
 </p>
 
 
@@ -275,21 +266,21 @@ export default function IncidentiStradaliPalermoPage() {
 </h2>
 
 <p>
-  La gestione di una richiesta di risarcimento richiede spesso interlocuzioni
-  con compagnie assicurative, periti e altri soggetti coinvolti nella
-  ricostruzione del sinistro.
+  La richiesta di risarcimento conseguente a un incidente stradale può
+  richiedere il confronto con la compagnia assicurativa, la raccolta della
+  documentazione e la ricostruzione delle circostanze del sinistro.
 </p>
 
 <p>
-  Una corretta organizzazione della documentazione e una valutazione accurata
-  delle responsabilità consentono di affrontare con maggiore efficacia le
-  diverse fasi della procedura risarcitoria.
+  Lo studio assiste nella gestione della pratica risarcitoria e nella
+  valutazione della documentazione relativa alla dinamica dell'incidente,
+  ai danni subiti e alle responsabilità dei soggetti coinvolti.
 </p>
 
 <p>
-  Ogni pratica presenta caratteristiche specifiche che richiedono un'analisi
-  personalizzata delle circostanze, dei danni subiti e della documentazione
-  disponibile.
+  Ogni situazione viene valutata sulla base delle circostanze concrete del
+  sinistro, della documentazione disponibile e delle conseguenze riportate
+  dal danneggiato.
 </p>
 
 
@@ -387,15 +378,7 @@ export default function IncidentiStradaliPalermoPage() {
   </p>
 </div>
 
-<div className="border-b border-black/10 pb-10">
-  <h3 className="font-serif text-3xl mb-4">
-    È possibile richiedere il risarcimento per un incidente sul lavoro?
-  </h3>
 
-  <p className="text-xl leading-relaxed text-slate-700">
-    Sì. È possibile valutare il risarcimento dei danni subiti in conseguenza di infortuni sul lavoro nei casi previsti dalla legge.
-  </p>
-</div>
 
 <div className="border-b border-black/10 pb-10">
   <h3 className="font-serif text-3xl mb-4">
