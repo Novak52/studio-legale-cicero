@@ -2,9 +2,9 @@ import Link from "next/link";
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
-  title: "Diritto Civile Palermo | Studio Legale Giuseppina Cicero",
-  description:
-    "Assistenza legale in diritto civile a Palermo. Tutela per risarcimento danni, successioni, responsabilità civile e controversie legali.",
+  title: "Avvocato Civilista Palermo | Diritto Civile | Studio Legale Cicero",
+description:
+  "Avvocato civilista a Palermo per assistenza e tutela nel diritto civile, controversie patrimoniali, contratti, responsabilità civile, recupero crediti e successioni.",
 
     alternates: {
   canonical: "https://www.avvocatocicero.it/diritto-civile-palermo",
@@ -146,29 +146,30 @@ export default function DirittoCivilePalermo() {
   </p>
 
         <h1 className="text-5xl md:text-7xl font-serif leading-[0.95] mb-10">
-          Diritto civile
-          <br />
-          a Palermo.
-        </h1>
+  Avvocato civilista
+  <br />
+  a Palermo.
+</h1>
 
-        <p className="text-xl text-[#5d6470] leading-relaxed max-w-3xl mb-16">
-          Lo studio offre assistenza legale in materia civile con approccio
-          diretto, tutela concreta della persona e gestione rigorosa delle
-          pratiche.
-        </p>
+<p className="text-xl text-[#5d6470] leading-relaxed max-w-3xl mb-16">
+  Assistenza legale in materia di diritto civile a Palermo, con valutazione
+  della situazione concreta, analisi della documentazione e tutela degli
+  interessi personali e patrimoniali, sia in fase stragiudiziale sia giudiziale.
+</p>
 
         <div className="grid md:grid-cols-2 gap-10">
 
           <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-black/5">
             <h2 className="text-3xl font-serif mb-5">
-              Assistenza civile
-            </h2>
+  Assistenza nel diritto civile
+</h2>
 
-            <p className="text-[#5d6470] leading-relaxed">
-              Tutela legale in controversie civili, responsabilità,
-              risarcimento danni, successioni ereditarie, diritto di famiglia
-              e gestione delle problematiche patrimoniali.
-            </p>
+<p className="text-[#5d6470] leading-relaxed">
+  Lo studio offre assistenza come avvocato civilista a Palermo nelle
+  principali controversie tra privati, con particolare attenzione ai
+  rapporti contrattuali, alla responsabilità civile, alla tutela
+  patrimoniale e alle questioni ereditarie.
+</p>
           </div>
 
           <div className="bg-[#0b1220] text-white rounded-[2rem] p-8">
@@ -193,51 +194,57 @@ export default function DirittoCivilePalermo() {
         <section className="mt-28 max-w-4xl">
 
   <h2 className="text-4xl md:text-5xl font-serif leading-tight mb-10">
-    Assistenza legale in diritto civile a Palermo
-  </h2>
-
-  <div className="space-y-8 text-lg leading-relaxed text-[#5d6470]">
-
-    <p>
-  Lo studio legale offre assistenza in materia di diritto civile a Palermo,
-  seguendo controversie patrimoniali, responsabilità civile, richieste di
-  risarcimento danni, successioni ereditarie e tutela dei diritti della
-  persona.
-</p>
-
-<p>
-  Ogni pratica viene esaminata sulla base della documentazione disponibile,
-  delle circostanze del caso e degli interessi da tutelare, con assistenza
-  nelle diverse fasi della gestione della controversia, sia in sede
-  stragiudiziale sia giudiziale.
-</p>
-
-<p>
-  L'assistenza può riguardare problematiche contrattuali, recupero crediti,
-  questioni ereditarie, responsabilità professionale e altre controversie
-  civili, con attività rivolta a clienti di Palermo e del territorio
-  siciliano.
-</p>
-
-    <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
-  In quali ambiti interviene un avvocato civilista?
+  Avvocato civilista a Palermo: assistenza e tutela
 </h2>
 
-<p>
-  Il diritto civile comprende diverse materie che riguardano i rapporti
-  tra persone, famiglie e soggetti privati. L'assistenza legale può
-  riguardare controversie contrattuali, responsabilità civile,
-  successioni ereditarie, recupero crediti, tutela della proprietà e
-  altre problematiche di natura patrimoniale.
-</p>
+<div className="space-y-8 text-lg leading-relaxed text-[#5d6470]">
 
-<p>
-  L'analisi della situazione e della documentazione disponibile consente
-  di individuare le questioni giuridiche da approfondire e di valutare
-  le possibili forme di tutela, sia attraverso una gestione
-  stragiudiziale della controversia sia, quando necessario, attraverso
-  un procedimento giudiziale.
-</p>
+  <p>
+    Lo studio legale offre assistenza in materia di diritto civile a
+    Palermo, occupandosi di controversie e problematiche che riguardano
+    rapporti personali, patrimoniali e contrattuali tra privati.
+  </p>
+
+  <p>
+    Ogni situazione viene valutata sulla base dei fatti, della
+    documentazione disponibile e degli interessi da tutelare, con
+    l'obiettivo di individuare il percorso giuridico più adatto al caso
+    concreto.
+  </p>
+
+  <p>
+    L'attività dell'avvocato civilista può svilupparsi sia nella fase
+    stragiudiziale, attraverso comunicazioni, trattative e accordi, sia
+    nella fase giudiziale quando la controversia richiede l'intervento
+    dell'autorità giudiziaria.
+  </p>
+
+  <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
+    In quali ambiti interviene un avvocato civilista?
+  </h2>
+
+  <p>
+    Il diritto civile comprende numerose situazioni nelle quali è
+    necessario tutelare un diritto o un interesse di natura personale
+    o patrimoniale. Tra queste rientrano controversie contrattuali,
+    responsabilità civile, recupero crediti, tutela della proprietà,
+    questioni ereditarie e altre controversie tra privati.
+  </p>
+
+  <p>
+    Una consulenza legale può essere utile anche prima che sorga una
+    vera e propria controversia, quando è necessario esaminare un
+    contratto, valutare una richiesta, verificare la propria posizione
+    giuridica o individuare le possibili conseguenze di una determinata
+    situazione.
+  </p>
+
+  <p>
+    L'analisi preventiva della vicenda e della documentazione permette
+    di comprendere quali strumenti di tutela possano essere utilizzati
+    e se sia possibile affrontare la questione attraverso una soluzione
+    stragiudiziale oppure attraverso un procedimento giudiziale.
+  </p>
 
   <h2 className="text-4xl md:text-5xl font-serif text-[#101826] leading-tight mt-16 mb-8">
   Responsabilità civile e richieste di risarcimento
