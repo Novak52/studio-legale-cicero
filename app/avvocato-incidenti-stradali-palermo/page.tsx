@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Script from "next/script"
+
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
   
@@ -10,85 +10,7 @@ description:
   canonical: "/avvocato-incidenti-stradali-palermo",
 },
 };
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Cosa fare dopo un incidente stradale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "È importante raccogliere prove, documentazione medica, dati dei veicoli coinvolti e richiedere assistenza legale per la gestione del risarcimento."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quando si ha diritto al risarcimento del danno?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Il risarcimento è riconosciuto quando il danno subito è conseguenza diretta dell'incidente e la responsabilità viene accertata."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Posso ottenere il risarcimento del danno biologico?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì. In presenza di lesioni personali documentate è possibile richiedere il risarcimento del danno biologico."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quanto tempo serve per ottenere il risarcimento?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile."
-      }
-    },
-    
-    {
-      "@type": "Question",
-      "name": "Come prenotare una consulenza per un incidente stradale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "È possibile contattare direttamente lo studio tramite telefono, modulo contatti o WhatsApp per una valutazione del caso."
-      }
-    },
-    {
-  "@type": "Question",
-  "name": "Quali documenti sono utili dopo un incidente stradale?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Fotografie, verbali, testimonianze, documentazione medica e preventivi di riparazione possono risultare utili per la valutazione della pratica risarcitoria."
-  }
-},
-{
-  "@type": "Question",
-  "name": "È possibile ottenere il risarcimento per lesioni personali?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "In presenza di lesioni documentate è possibile valutare le richieste risarcitorie relative ai danni subiti e alle conseguenze dell'incidente."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Cosa succede se le parti non sono d'accordo sulla responsabilità?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "In caso di contestazioni può essere necessario approfondire la ricostruzione dei fatti attraverso documentazione, testimonianze e ulteriori accertamenti."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Quando è opportuno richiedere assistenza legale dopo un incidente?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "È consigliabile richiedere una valutazione tempestiva quando si sono verificati danni alla persona, al veicolo o altre conseguenze che potrebbero dare luogo a richieste risarcitorie."
-  }
-}
-  ]
-};
+
 export default function IncidentiStradaliPalermoPage() {
   return (
     <>
@@ -104,13 +26,7 @@ export default function IncidentiStradaliPalermoPage() {
     },
   ]}
 />
-      <Script
-        id="faq-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(faqSchema),
-        }}
-      />
+      
     
 
 
@@ -358,25 +274,8 @@ export default function IncidentiStradaliPalermoPage() {
               </p>
             </div>
 
-            <div className="border-b border-black/10 pb-10">
-              <h3 className="font-serif text-3xl mb-4">
-                Come prenotare una consulenza?
-              </h3>
-
-              <p className="text-xl leading-relaxed text-slate-700">
-                È possibile contattare lo studio tramite il modulo contatti o
-                WhatsApp per ricevere assistenza diretta e riservata.
-              </p>
-            </div>
-            <div className="border-b border-black/10 pb-10">
-  <h3 className="font-serif text-3xl mb-4">
-    Quanto tempo serve per ottenere il risarcimento?
-  </h3>
-
-  <p className="text-xl leading-relaxed text-slate-700">
-    I tempi dipendono dalla complessità del caso, dalla compagnia assicurativa coinvolta e dalla documentazione disponibile.
-  </p>
-</div>
+            
+           
 
 
 
@@ -400,15 +299,7 @@ export default function IncidentiStradaliPalermoPage() {
   </p>
 </div>
 
-<div className="border-b border-black/10 pb-10">
-  <h3 className="font-serif text-3xl mb-4">
-    È possibile ottenere il risarcimento per lesioni personali?
-  </h3>
 
-  <p className="text-xl leading-relaxed text-slate-700">
-    In presenza di lesioni documentate è possibile valutare le richieste risarcitorie relative ai danni subiti e alle conseguenze dell'incidente.
-  </p>
-</div>
 
 <div className="border-b border-black/10 pb-10">
   <h3 className="font-serif text-3xl mb-4">
