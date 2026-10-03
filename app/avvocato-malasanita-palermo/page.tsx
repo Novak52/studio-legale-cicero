@@ -1,11 +1,10 @@
 import Link from "next/link"
-import Script from "next/script"
+
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
-  title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
-
-  description:
-    "Avvocato esperto in malasanità a Palermo. Assistenza legale per responsabilità medica, errori sanitari, diagnosi errate e richieste di risarcimento danni.",
+  title: "Avvocato Malasanità a Palermo | Responsabilità Medica",
+description:
+  "Avvocato per malasanità a Palermo: assistenza legale per responsabilità medica, errori sanitari, danni e richieste di risarcimento.",
 category: "Servizi legali",
   alternates: {
   canonical: "/avvocato-malasanita-palermo",
@@ -42,117 +41,23 @@ category: "Servizi legali",
   images: ["/images/og/malasanita.jpg"],
 },
 };
-
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Quando si può parlare di malasanità?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Si parla di malasanità quando un errore medico, diagnostico, chirurgico o assistenziale provoca un danno evitabile al paziente. Possono rientrare nei casi di responsabilità sanitaria diagnosi tardive, errori durante interventi chirurgici, terapie inappropriate, omissioni assistenziali e infezioni ospedaliere evitabili."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "È possibile ottenere un risarcimento per errore medico?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sì. Se viene accertata la responsabilità della struttura sanitaria o del professionista medico e il danno subito è conseguenza diretta dell'errore, il paziente può ottenere il risarcimento dei danni patrimoniali, biologici e morali previsti dalla normativa vigente."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quanto tempo ho per agire contro una struttura sanitaria?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "I termini possono variare in base alle caratteristiche del caso e al tipo di responsabilità contestata. Per evitare la perdita dei propri diritti è consigliabile richiedere una valutazione legale e medico-legale il prima possibile dopo la scoperta del danno."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Quali documenti servono per valutare un caso di malasanità?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generalmente sono utili cartelle cliniche, referti medici, esami diagnostici, lettere di dimissione, prescrizioni e ogni documentazione sanitaria relativa alle cure ricevute. L'analisi completa della documentazione consente di verificare eventuali profili di responsabilità medica."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "È necessaria una perizia medico legale?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Nella maggior parte dei casi una valutazione medico-legale è fondamentale per accertare il nesso tra l'errore sanitario e il danno subito dal paziente. La perizia rappresenta uno degli elementi principali per sostenere una richiesta di risarcimento."
-      }
-    },
-    {
-  "@type": "Question",
-  "name": "Quali documenti servono per valutare un errore medico?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Cartelle cliniche, referti, esami diagnostici, lettere di dimissione, prescrizioni e altra documentazione sanitaria consentono di analizzare il caso e verificare eventuali profili di responsabilità medica."
-  }
-},
-{
-  "@type": "Question",
-  "name": "È possibile ottenere il risarcimento per una diagnosi tardiva?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Una diagnosi tardiva può determinare conseguenze rilevanti sulla salute del paziente. In presenza dei presupposti necessari è possibile valutare una richiesta di risarcimento dei danni subiti."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Chi può essere responsabile nei casi di malasanità?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "La responsabilità può riguardare professionisti sanitari, strutture ospedaliere o altri soggetti coinvolti nell'assistenza, a seconda delle circostanze e delle risultanze della documentazione disponibile."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Quanto è importante la perizia medico-legale?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "La perizia medico-legale rappresenta spesso uno degli strumenti principali per valutare il collegamento tra la condotta sanitaria contestata e il danno lamentato dal paziente."
-  }
-},
-{
-  "@type": "Question",
-  "name": "Quando è opportuno richiedere assistenza legale per malasanità?",
-  "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "È consigliabile richiedere una valutazione il prima possibile dopo la scoperta del danno o del presunto errore sanitario, così da analizzare la documentazione disponibile e verificare le possibili azioni di tutela."
-  }
-}
-  ]
-};
-export default function MalasanitaPalermo() {
+export default function AvvocatoMalasanitaPalermoPage() {
   return (
-  <>
-    <BreadcrumbSchema
-      items={[
-        {
-          name: "Home",
-          url: "https://www.avvocatocicero.it",
-        },
-        {
-          name: "Malasanità",
-          url: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
-        },
-      ]}
-    />
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          {
+            name: "Avvocato Malasanità Palermo",
+            url: "/avvocato-malasanita-palermo",
+          },
+        ]}
+      />
+
+      
 
     <main className="bg-[#f5f1ea] text-[#0b1220]">
-<Script
-  id="faq-schema"
-  type="application/ld+json"
-  dangerouslySetInnerHTML={{
-    __html: JSON.stringify(faqSchema),
-  }}
-/>
+
       {/* HERO */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 py-20 md:py-32 overflow-hidden">
 
@@ -161,13 +66,14 @@ export default function MalasanitaPalermo() {
         </p>
 
         <h1 className="font-serif text-4xl md:text-7xl leading-tight max-w-4xl mb-12">
-          Avvocato malasanità a Palermo.
+          Avvocato per malasanità a Palermo.
         </h1>
 
         <p className="text-[#334155] text-xl leading-relaxed max-w-3xl">
-          Lo studio offre assistenza legale nei casi di responsabilità medica,
-          errori sanitari, danni ospedalieri e richieste risarcitorie collegate
-          a malpractice sanitaria.
+          Lo studio offre assistenza legale a Palermo nei casi di presunta
+responsabilità sanitaria, errori medici e danni conseguenti a
+trattamenti sanitari, con valutazione della documentazione e delle
+possibili richieste di tutela e risarcimento.
         </p>
 
         {/* CARDS */}
@@ -232,29 +138,30 @@ export default function MalasanitaPalermo() {
       <section className="max-w-6xl mx-auto px-6 py-24">
 
         <h2 className="font-serif text-4xl md:text-[2.7rem] leading-tight mb-16 max-w-4xl">
-  Assistenza legale per casi di malasanità a Palermo
+  Assistenza legale per responsabilità sanitaria a Palermo
 </h2>
 
         <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl">
 
           <p>
-  Lo studio legale assiste pazienti coinvolti in casi di malasanità a
-  Palermo, offrendo supporto nella valutazione della documentazione
-  sanitaria, nella verifica dei possibili profili di responsabilità e
-  nella gestione delle eventuali richieste risarcitorie.
+  Lo studio legale offre assistenza a Palermo alle persone che ritengono
+  di aver subito un danno in conseguenza di un errore sanitario o di una
+  possibile responsabilità medica, attraverso l'analisi della documentazione
+  e delle circostanze concrete del caso.
 </p>
 
 <p>
-  Ogni pratica viene esaminata considerando la documentazione clinica
-  disponibile, le cure ricevute, le conseguenze lamentate dal paziente
-  e gli eventuali elementi medico-legali utili alla valutazione del caso.
+  La valutazione della pratica riguarda la documentazione sanitaria
+  disponibile, il percorso terapeutico seguito, le conseguenze lamentate
+  dal paziente e gli eventuali elementi medico-legali necessari per
+  approfondire la responsabilità sanitaria.
 </p>
 
 <p>
-  L'assistenza può riguardare situazioni relative a responsabilità
-  chirurgica, errori diagnostici, diagnosi tardive, infezioni ospedaliere
-  e altre problematiche sanitarie che richiedono un'analisi specifica
-  delle circostanze e della documentazione disponibile.
+  L'assistenza può riguardare errori diagnostici, diagnosi tardive,
+  problematiche relative a interventi chirurgici, terapie, assistenza
+  sanitaria e altre situazioni nelle quali sia necessario valutare
+  eventuali profili di responsabilità e le possibili richieste di tutela.
 </p>
 
           <h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
@@ -264,22 +171,21 @@ export default function MalasanitaPalermo() {
 <p>
   La responsabilità sanitaria può essere valutata quando una condotta
   professionale, un'omissione o una modalità di assistenza abbia
-  determinato un danno al paziente e sussistano gli elementi necessari
-  per collegare la condotta alle conseguenze lamentate.
+  determinato un danno al paziente e siano presenti elementi che
+  richiedono un approfondimento della vicenda.
 </p>
 
 <p>
-  La valutazione richiede l'esame della documentazione clinica,
-  delle cure ricevute, delle condizioni del paziente e delle
-  circostanze nelle quali si è verificato il danno, anche attraverso
-  gli elementi medico-legali disponibili.
+  Lo studio esamina la documentazione clinica disponibile, le cure
+  ricevute, le circostanze nelle quali si è verificato il danno e gli
+  eventuali elementi medico-legali utili a valutare il caso concreto.
 </p>
 
 <p>
-  Un'analisi preliminare della documentazione consente di individuare
-  gli eventuali profili di responsabilità sanitaria e di valutare
-  quali ulteriori accertamenti possano essere necessari per esaminare
-  la situazione concreta.
+  L'obiettivo della valutazione è individuare gli eventuali profili di
+  responsabilità sanitaria e verificare quali ulteriori accertamenti
+  possano essere necessari prima di procedere con eventuali richieste
+  di tutela o risarcimento.
 </p>
 
 <h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
@@ -287,24 +193,23 @@ export default function MalasanitaPalermo() {
 </h2>
 
 <p>
-  Tra le situazioni che possono richiedere una valutazione in materia di
-  responsabilità sanitaria rientrano gli errori diagnostici, le diagnosi
-  tardive e le problematiche che possono verificarsi durante interventi
-  chirurgici o altre procedure sanitarie.
+  Errori diagnostici, diagnosi tardive e problematiche relative a
+  interventi chirurgici sono alcune delle situazioni che possono
+  richiedere una valutazione in materia di responsabilità sanitaria.
 </p>
 
 <p>
-  Una diagnosi errata o effettuata con ritardo può avere conseguenze
-  differenti a seconda della patologia, delle condizioni del paziente
-  e delle cure ricevute. Per questo motivo è necessario esaminare
-  la documentazione clinica e la sequenza degli interventi sanitari.
+  Per comprendere se esistano elementi da approfondire è necessario
+  ricostruire il percorso sanitario, esaminare la documentazione
+  disponibile e valutare le conseguenze che il paziente riferisce
+  di aver subito.
 </p>
 
 <p>
-  Anche le problematiche relative agli interventi chirurgici, alle terapie
-  o all'assistenza ricevuta richiedono una valutazione delle circostanze
-  concrete, della documentazione sanitaria e degli eventuali elementi
-  medico-legali disponibili.
+  Lo studio può assistere il paziente nella valutazione della vicenda
+  e nella verifica degli eventuali profili di responsabilità e delle
+  possibili forme di tutela, anche in relazione alla richiesta di
+  risarcimento dei danni.
 </p>
 
 <h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
@@ -312,22 +217,22 @@ export default function MalasanitaPalermo() {
 </h2>
 
 <p>
-  Nei casi di presunta malasanità la documentazione sanitaria rappresenta uno
-  degli elementi più importanti per la valutazione della vicenda. Cartelle
-  cliniche, referti diagnostici, lettere di dimissione, esami e prescrizioni
-  consentono di ricostruire il percorso terapeutico seguito dal paziente.
+  La documentazione sanitaria rappresenta uno degli elementi principali
+  per una prima valutazione di un possibile caso di malasanità. Cartelle
+  cliniche, referti, esami diagnostici, lettere di dimissione e prescrizioni
+  permettono di ricostruire il percorso sanitario seguito dal paziente.
 </p>
 
 <p>
-  L'analisi della documentazione e l'eventuale supporto di una valutazione
-  medico-legale consentono di verificare la presenza di possibili profili di
-  responsabilità e il collegamento tra la condotta sanitaria e il danno
-  lamentato.
+  Lo studio esamina la documentazione disponibile per individuare gli
+  eventuali profili che richiedono un approfondimento e, quando necessario,
+  valuta l'opportunità di acquisire ulteriori elementi medico-legali.
 </p>
 
 <p>
-  Una corretta raccolta dei documenti può agevolare la ricostruzione dei fatti
-  e la successiva valutazione delle richieste risarcitorie.
+  Una raccolta completa e ordinata della documentazione può quindi
+  facilitare la ricostruzione dei fatti e la successiva valutazione
+  delle possibili azioni di tutela e delle richieste risarcitorie.
 </p>
 
 <h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
@@ -335,25 +240,23 @@ export default function MalasanitaPalermo() {
 </h2>
 
 <p>
-  Nei casi in cui venga accertata una responsabilità sanitaria, il paziente
-  può subire conseguenze che devono essere valutate in relazione alla
-  situazione concreta, alla natura del danno e agli effetti prodotti
-  dall'evento sulla sua persona.
+  Quando emergono possibili profili di responsabilità sanitaria, è
+  necessario valutare anche le conseguenze che la vicenda ha prodotto
+  sul paziente, considerando la natura e l'entità dei danni documentati.
 </p>
 
 <p>
   La valutazione può riguardare le conseguenze fisiche e personali
-  lamentate dal paziente, oltre agli eventuali pregiudizi di natura
-  patrimoniale collegati alla situazione verificatasi. Per questo motivo
-  è importante esaminare la documentazione sanitaria e gli elementi utili
-  a ricostruire le conseguenze dell'evento.
+  subite dal paziente e gli eventuali pregiudizi patrimoniali collegati
+  alla situazione concreta. La documentazione sanitaria e gli altri
+  elementi disponibili sono fondamentali per ricostruire le conseguenze
+  dell'evento.
 </p>
 
 <p>
-  L'analisi della documentazione disponibile consente di ricostruire
-  l'accaduto e di valutare, sulla base degli elementi del caso concreto,
-  gli eventuali profili di responsabilità e le conseguenti richieste
-  di tutela e risarcimento.
+  Sulla base degli elementi raccolti è quindi possibile valutare gli
+  eventuali profili di responsabilità e le possibili richieste di tutela
+  e risarcimento.
 </p>
 
 <p>
@@ -374,48 +277,23 @@ export default function MalasanitaPalermo() {
 <p>
   La tutela del paziente nei casi di presunta malasanità richiede una
   ricostruzione precisa del percorso assistenziale e delle circostanze
-  nelle quali si è verificato il danno, considerando sia l'attività dei
-  singoli professionisti sia quella della struttura sanitaria coinvolta.
+  nelle quali si è verificato il danno, considerando la documentazione
+  sanitaria e i soggetti coinvolti.
 </p>
 
 <p>
-  La documentazione clinica, i referti, gli esami e gli altri elementi
-  disponibili possono essere utilizzati per ricostruire le cure ricevute
-  e individuare gli eventuali profili di responsabilità da approfondire.
-  Ogni situazione deve essere valutata sulla base delle circostanze
-  concrete e della documentazione disponibile.
+  L'analisi del caso consente di individuare gli eventuali profili di
+  responsabilità e di valutare, quando ne ricorrono i presupposti, le
+  possibili forme di tutela nei confronti dei soggetti coinvolti.
 </p>
 
 <p>
-  Un'analisi completa del caso consente di individuare le possibili forme
-  di tutela del paziente e di valutare, quando ne ricorrono i presupposti,
-  le eventuali richieste di risarcimento nei confronti dei soggetti
-  coinvolti.
+  Lo studio assiste il paziente nella valutazione della vicenda e nella
+  gestione delle eventuali richieste di risarcimento conseguenti alla
+  responsabilità sanitaria accertata.
 </p>
 
-<h2 className="font-serif text-3xl md:text-[2.7rem] text-[#0b1220] leading-tight mt-16 mb-8">
-  Collegamenti con il diritto civile e la responsabilità sanitaria
-</h2>
 
-<p>
-  I casi di responsabilità sanitaria possono presentare profili collegati
-  al diritto civile, soprattutto nella valutazione del danno subito dal
-  paziente e delle eventuali conseguenze risarcitorie derivanti dalla
-  situazione concreta.
-</p>
-
-<p>
-  L'esame della documentazione sanitaria e degli elementi disponibili
-  permette di ricostruire i fatti e di valutare i possibili rapporti tra
-  la condotta contestata, le conseguenze lamentate e gli eventuali
-  pregiudizi subiti dal paziente.
-</p>
-
-<p>
-  La valutazione complessiva della vicenda consente quindi di esaminare
-  gli eventuali profili di responsabilità sanitaria e le possibili forme
-  di tutela, anche in relazione alle richieste di risarcimento dei danni.
-</p>
 
           <p>
             Lo studio segue anche pratiche collegate al{" "}
@@ -436,7 +314,7 @@ export default function MalasanitaPalermo() {
 
         </div>
         <p>
-  Approfondisci l'argomento nella nostra guida dedicata:
+  Approfondisci il tema nella nostra guida dedicata alla
   {" "}
   <a
     href="/blog/malasanita-palermo"
@@ -453,20 +331,11 @@ export default function MalasanitaPalermo() {
         <h2 className="font-serif text-3xl md:text-[2.3rem] mb-20">
   Domande frequenti
 </h2>
-
         <div className="space-y-16">
 
-          <div className="border-b border-black/10 pb-12">
-            <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
-              Quando si può parlare di malasanità?
-            </h3>
+        
 
-            <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-              È possibile valutare un caso di malasanità quando un errore medico,
-              sanitario o ospedaliero provoca danni fisici, psicologici o
-              patrimoniali al paziente.
-            </p>
-          </div>
+          
 
           <div className="border-b border-black/10 pb-12">
             <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
@@ -480,18 +349,8 @@ export default function MalasanitaPalermo() {
             </p>
           </div>
 
-          <div className="border-b border-black/10 pb-12">
-            <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
-              Quanto tempo ho per agire contro una struttura sanitaria?
-            </h3>
-
-            <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-              I termini possono variare in base alle caratteristiche del caso e al tipo
-di responsabilità contestata. Per evitare la perdita dei propri diritti è
-consigliabile richiedere una valutazione legale il prima possibile dopo la
-scoperta del danno.
-            </p>
-          </div>
+          
+          
 <div className="border-b border-black/10 pb-12">
   <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
     Quali documenti servono per valutare un caso di malasanità?
@@ -508,29 +367,20 @@ scoperta del danno.
 
 <div className="border-b border-black/10 pb-12">
   <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
-    È necessaria una perizia medico-legale?
+    È necessaria una valutazione medico-legale?
   </h3>
 
   <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-    Nella maggior parte dei casi una valutazione medico-legale è uno
-    strumento fondamentale per accertare il collegamento tra l'errore
-    sanitario e il danno subito dal paziente. La perizia aiuta a
-    quantificare il danno e a sostenere eventuali richieste di
-    risarcimento.
+    La valutazione medico-legale può essere importante per esaminare il
+    collegamento tra la condotta sanitaria contestata e il danno lamentato
+    dal paziente. La necessità di ulteriori accertamenti dipende dalle
+    caratteristiche del singolo caso.
   </p>
 </div>
 
-<div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
-    Quali documenti servono per valutare un errore medico?
-  </h3>
 
-  <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-    Cartelle cliniche, referti, esami diagnostici, lettere di dimissione,
-    prescrizioni e altra documentazione sanitaria consentono di analizzare il
-    caso e verificare eventuali profili di responsabilità medica.
-  </p>
-</div>
+
+
 
 <div className="border-b border-black/10 pb-12">
   <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
@@ -556,17 +406,8 @@ scoperta del danno.
   </p>
 </div>
 
-<div className="border-b border-black/10 pb-12">
-  <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
-    Quanto è importante la perizia medico-legale?
-  </h3>
 
-  <p className="text-[#334155] text-xl leading-relaxed max-w-5xl">
-    La perizia medico-legale rappresenta spesso uno degli strumenti principali
-    per valutare il collegamento tra la condotta sanitaria contestata e il
-    danno lamentato dal paziente.
-  </p>
-</div>
+
 
 <div className="border-b border-black/10 pb-12">
   <h3 className="font-serif text-2xl md:text-[1.8rem] mb-6">
@@ -579,12 +420,12 @@ scoperta del danno.
     documentazione disponibile e verificare le possibili azioni di tutela.
   </p>
 </div>
-
-
         </div>
       </section>
-
     </main>
-</>
-);
+    </>
+  );
 }
+
+
+    
