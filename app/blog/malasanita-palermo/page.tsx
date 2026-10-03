@@ -3,9 +3,9 @@ import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
-  title: "Malasanità a Palermo | Guida pratica",
+  title: "Malasanità a Palermo: cosa fare | Guida pratica",
   description:
-    "Quando è possibile ottenere un risarcimento per malasanità a Palermo. Errori medici, responsabilità sanitaria e tutela del paziente.",
+    "Cosa fare dopo un possibile caso di malasanità a Palermo: documentazione sanitaria, ricostruzione dei fatti, valutazione medico-legale e tutela del paziente.",
 
     alternates: {
   canonical: "https://www.avvocatocicero.it/blog/malasanita-palermo",
@@ -129,7 +129,7 @@ Malasanità
 </p>
 
 <h1 className="font-serif text-5xl md:text-7xl text-[#101826] mb-6">
-Cosa fare dopo un caso di malasanità a Palermo
+  Malasanità a Palermo: cosa fare dopo un possibile caso
 </h1>
 
 <div className="flex items-center gap-4 mb-10 text-sm text-slate-500 uppercase tracking-[0.15em]">
