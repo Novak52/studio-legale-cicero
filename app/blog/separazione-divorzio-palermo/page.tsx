@@ -213,9 +213,22 @@ export default function ArticoloSeparazione() {
   collegati alla vita familiare.
 </p>
 
+<p>
+  Per approfondire è possibile richiedere{" "}
+  <Link
+    href="/avvocato-famiglia-palermo"
+    className="text-[#c8a96b] underline hover:text-[#101826]"
+  >
+    assistenza legale per separazione e divorzio a Palermo
+  </Link>
+  .
+</p>
+
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Separazione e successivo divorzio
 </h2>
+
+
 
 <p>
   La separazione e il divorzio sono procedimenti distinti e devono essere

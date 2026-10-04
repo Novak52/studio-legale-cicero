@@ -52,7 +52,7 @@ export default function IncidentiStradaliPalermoPage() {
           url: "https://www.avvocatocicero.it/blog",
         },
         {
-          name: "Successioni ereditarie",
+          name: "Incidenti stradali",
           url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
         },
       ]}
@@ -129,6 +129,17 @@ Cosa fare dopo un incidente stradale a Palermo
             lesioni personali, spese mediche e ulteriori conseguenze derivanti
             dall’incidente.
           </p>
+
+          <p>
+  Per una valutazione della situazione è possibile richiedere{" "}
+  <Link
+    href="/avvocato-incidenti-stradali-palermo"
+    className="text-[#c8a96b] underline hover:text-[#101826]"
+  >
+    assistenza legale per incidenti stradali a Palermo
+  </Link>
+  .
+</p>
 
         </div>
 
