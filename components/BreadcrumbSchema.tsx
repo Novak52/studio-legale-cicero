@@ -12,6 +12,8 @@ type BreadcrumbSchemaProps = {
 export default function BreadcrumbSchema({
   items,
 }: BreadcrumbSchemaProps) {
+  const baseUrl = "https://www.avvocatocicero.it";
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -19,7 +21,9 @@ export default function BreadcrumbSchema({
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: item.url,
+      item: item.url.startsWith("http")
+        ? item.url
+        : `${baseUrl}${item.url}`,
     })),
   };
 
