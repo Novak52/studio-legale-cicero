@@ -6,9 +6,9 @@ export const metadata = {
   title: "Cosa fare dopo un incidente stradale a Palermo",
   description:
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
-image: "https://www.avvocatocicero.it/og-image.jpg",
+image: "https://avvocatocicero.it/og-image.jpg",
     alternates: {
-  canonical: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+  canonical: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
 },
 }
 const articleSchema = {
@@ -17,25 +17,25 @@ const articleSchema = {
   headline: "Cosa fare dopo un incidente stradale a Palermo",
   description:
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
-  url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+  url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-07-08T09:00:00+02:00",
  author: {
   "@type": "Person",
   name: "Avv. Giuseppina Cicero",
-  url: "https://www.avvocatocicero.it",
+  url: "https://avvocatocicero.it",
 },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+    "@id": "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
   },
 };
 export default function IncidentiStradaliPalermoPage() {
@@ -45,15 +45,15 @@ export default function IncidentiStradaliPalermoPage() {
       items={[
         {
           name: "Home",
-          url: "https://www.avvocatocicero.it",
+          url: "https://avvocatocicero.it",
         },
         {
           name: "Blog",
-          url: "https://www.avvocatocicero.it/blog",
+          url: "https://avvocatocicero.it/blog",
         },
         {
           name: "Incidenti stradali",
-          url: "https://www.avvocatocicero.it/blog/incidenti-stradali-palermo",
+          url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
         },
       ]}
     />

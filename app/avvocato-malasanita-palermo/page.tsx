@@ -16,7 +16,7 @@ export const metadata = {
     description:
       "Assistenza legale per responsabilità medica, errori sanitari e richieste di risarcimento danni a Palermo.",
 
-    url: "https://www.avvocatocicero.it/avvocato-malasanita-palermo",
+    url: "https://avvocatocicero.it/avvocato-malasanita-palermo",
 
     siteName: "Studio Legale Giuseppina Cicero",
 

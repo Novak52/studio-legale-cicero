@@ -9,7 +9,7 @@ export const metadata = {
 
   alternates: {
     canonical:
-      "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+      "https://avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
   },
 }
 
@@ -19,27 +19,27 @@ const articleSchema = {
   headline: "Errore medico a Palermo: quando è possibile ottenere un risarcimento?",
   description:
     "Guida pratica sulla responsabilità medica e sul risarcimento danni da errore medico a Palermo.",
-  image: "https://www.avvocatocicero.it/og-image.jpg",
-  url: "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+  image: "https://avvocatocicero.it/og-image.jpg",
+  url: "https://avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-10-03T00:00:00+02:00",
   author: {
     "@type": "Person",
     name: "Avv. Giuseppina Cicero",
-    url: "https://www.avvocatocicero.it",
+    url: "https://avvocatocicero.it",
   },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+      "https://avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
   },
 }
 
@@ -50,15 +50,15 @@ export default function Page() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Blog",
-            url: "https://www.avvocatocicero.it/blog",
+            url: "https://avvocatocicero.it/blog",
           },
           {
             name: "Errore medico",
-            url: "https://www.avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
+            url: "https://avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
           },
         ]}
       />

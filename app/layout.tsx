@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.avvocatocicero.it"),
+  metadataBase: new URL("https://avvocatocicero.it"),
   applicationName: "Studio Legale Giuseppina Cicero",
 
   alternates: {
@@ -126,11 +126,11 @@ export default function RootLayout({
   name: "Avv. Giuseppina Cicero",
 },
       image: [
-  "https://www.avvocatocicero.it/og-image.jpg",
+  "https://avvocatocicero.it/og-image.jpg",
 ],
-logo: "https://www.avvocatocicero.it/og-image.jpg",
-      "@id": "https://www.avvocatocicero.it",
-        url: "https://www.avvocatocicero.it",
+logo: "https://avvocatocicero.it/og-image.jpg",
+      "@id": "https://avvocatocicero.it",
+        url: "https://avvocatocicero.it",
       telephone: "+39 339 1644668",
       email: "studiolegalegiuseppinacicero@gmail.com",
       contactPoint: {

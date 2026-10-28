@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Come valutare un possibile caso di malasanità a Palermo: documentazione sanitaria, ricostruzione dei fatti, responsabilità e valutazione medico-legale.",
   alternates: {
-    canonical: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+    canonical: "https://avvocatocicero.it/blog/malasanita-palermo",
   },
 }
 
@@ -17,26 +17,26 @@ const articleSchema = {
   headline: "Come valutare un caso di malasanità a Palermo",
   description:
     "Come valutare un possibile caso di malasanità a Palermo: documentazione sanitaria, ricostruzione dei fatti, responsabilità e valutazione medico-legale.",
-  image: "https://www.avvocatocicero.it/og-image.jpg",
-  url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+  image: "https://avvocatocicero.it/og-image.jpg",
+  url: "https://avvocatocicero.it/blog/malasanita-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-10-03T00:00:00+02:00",
   author: {
     "@type": "Person",
     name: "Avv. Giuseppina Cicero",
-    url: "https://www.avvocatocicero.it",
+    url: "https://avvocatocicero.it",
   },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.avvocatocicero.it/blog/malasanita-palermo",
+    "@id": "https://avvocatocicero.it/blog/malasanita-palermo",
   },
 }
 
@@ -47,15 +47,15 @@ export default function Page() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Blog",
-            url: "https://www.avvocatocicero.it/blog",
+            url: "https://avvocatocicero.it/blog",
           },
           {
             name: "Malasanità",
-            url: "https://www.avvocatocicero.it/blog/malasanita-palermo",
+            url: "https://avvocatocicero.it/blog/malasanita-palermo",
           },
         ]}
       />

@@ -7,7 +7,7 @@ export const metadata = {
     "Avvocato per risarcimento danni a Palermo: assistenza per danni alla persona, incidenti stradali, responsabilità civile e richieste risarcitorie.",
 
   alternates: {
-    canonical: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+    canonical: "https://avvocatocicero.it/risarcimento-danni-palermo",
   },
 }
 
@@ -18,11 +18,11 @@ export default function RisarcimentoDanniPalermo() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Risarcimento danni",
-            url: "https://www.avvocatocicero.it/risarcimento-danni-palermo",
+            url: "https://avvocatocicero.it/risarcimento-danni-palermo",
           },
         ]}
       />

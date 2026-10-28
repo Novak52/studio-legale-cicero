@@ -7,7 +7,7 @@ export const metadata = {
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
   alternates: {
-    canonical: "https://www.avvocatocicero.it/blog/successioni-palermo",
+    canonical: "https://avvocatocicero.it/blog/successioni-palermo",
   },
 }
 
@@ -17,26 +17,26 @@ const articleSchema = {
   headline: "Successioni ereditarie a Palermo",
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
-  image: "https://www.avvocatocicero.it/og-image.jpg",
-  url: "https://www.avvocatocicero.it/blog/successioni-palermo",
+  image: "https://avvocatocicero.it/og-image.jpg",
+  url: "https://avvocatocicero.it/blog/successioni-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-10-03T00:00:00+02:00",
   author: {
     "@type": "Person",
     name: "Avv. Giuseppina Cicero",
-    url: "https://www.avvocatocicero.it",
+    url: "https://avvocatocicero.it",
   },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.avvocatocicero.it/blog/successioni-palermo",
+    "@id": "https://avvocatocicero.it/blog/successioni-palermo",
   },
 }
 
@@ -47,15 +47,15 @@ export default function SuccessioniPalermoPage() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Blog",
-            url: "https://www.avvocatocicero.it/blog",
+            url: "https://avvocatocicero.it/blog",
           },
           {
             name: "Successioni ereditarie",
-            url: "https://www.avvocatocicero.it/blog/successioni-palermo",
+            url: "https://avvocatocicero.it/blog/successioni-palermo",
           },
         ]}
       />

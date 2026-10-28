@@ -7,7 +7,7 @@ export const metadata = {
     "Avvocato civilista a Palermo per assistenza legale in controversie patrimoniali, contratti, responsabilità civile, successioni e tutela dei diritti.",
 
   alternates: {
-    canonical: "https://www.avvocatocicero.it/diritto-civile-palermo",
+    canonical: "https://avvocatocicero.it/diritto-civile-palermo",
   },
 }
 
@@ -18,11 +18,11 @@ export default function DirittoCivilePalermo() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Diritto civile",
-            url: "https://www.avvocatocicero.it/diritto-civile-palermo",
+            url: "https://avvocatocicero.it/diritto-civile-palermo",
           },
         ]}
       />

@@ -18,11 +18,11 @@ export default function IncidentiStradaliPalermoPage() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Avvocato incidenti stradali",
-            url: "https://www.avvocatocicero.it/avvocato-incidenti-stradali-palermo",
+            url: "https://avvocatocicero.it/avvocato-incidenti-stradali-palermo",
           },
         ]}
       />

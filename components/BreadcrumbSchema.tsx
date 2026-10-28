@@ -12,7 +12,7 @@ type BreadcrumbSchemaProps = {
 export default function BreadcrumbSchema({
   items,
 }: BreadcrumbSchemaProps) {
-  const baseUrl = "https://www.avvocatocicero.it";
+  const baseUrl = "https://avvocatocicero.it";
 
   const schema = {
     "@context": "https://schema.org",

@@ -7,7 +7,7 @@ export const metadata = {
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
 
     alternates: {
-  canonical: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+  canonical: "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
 },
     
   }
@@ -63,27 +63,27 @@ const articleSchema = {
   headline: "Separazione e divorzio a Palermo",
   description:
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
-    image: "https://www.avvocatocicero.it/og-image.jpg",
-  url: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+    image: "https://avvocatocicero.it/og-image.jpg",
+  url: "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-07-08T09:00:00+02:00",
  author: {
   "@type": "Person",
   name: "Avv. Giuseppina Cicero",
-  url: "https://www.avvocatocicero.it",
+  url: "https://avvocatocicero.it",
 },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
     },
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+      "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
   },
 };
 export default function ArticoloSeparazione() {
@@ -93,15 +93,15 @@ export default function ArticoloSeparazione() {
         items={[
           {
             name: "Home",
-            url: "https://www.avvocatocicero.it",
+            url: "https://avvocatocicero.it",
           },
           {
             name: "Blog",
-            url: "https://www.avvocatocicero.it/blog",
+            url: "https://avvocatocicero.it/blog",
           },
           {
             name: "Separazione e divorzio",
-            url: "https://www.avvocatocicero.it/blog/separazione-divorzio-palermo",
+            url: "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
           },
         ]}
       />
