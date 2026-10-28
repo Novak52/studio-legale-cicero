@@ -103,12 +103,12 @@ export default function IncidentiStradaliPalermoPage() {
 
             <div className="space-y-12 text-[#334155] text-xl leading-relaxed max-w-5xl text-justify">
               <p>
-                Lo studio legale assiste persone coinvolte in incidenti
-                stradali a Palermo, offrendo supporto nella ricostruzione del
-                sinistro, nella valutazione delle responsabilità e nella
-                gestione delle richieste di risarcimento nei confronti dei
-                soggetti e delle compagnie assicurative coinvolte.
-              </p>
+  Lo studio offre assistenza come avvocato per incidenti stradali a Palermo,
+  seguendo il danneggiato nella ricostruzione del sinistro stradale, nella
+  valutazione delle responsabilità e nella gestione della richiesta di
+  risarcimento nei confronti della compagnia assicurativa e degli altri
+  soggetti coinvolti.
+</p>
 
               <p>
                 La pratica viene esaminata sulla base della documentazione
@@ -129,14 +129,13 @@ export default function IncidentiStradaliPalermoPage() {
               </h2>
 
               <p>
-                Richiedere una valutazione legale può essere utile quando
-                l&apos;incidente ha provocato lesioni personali, danni rilevanti
-                al veicolo, conseguenze economiche o quando esistono dubbi
-                sulla responsabilità del sinistro. L&apos;assistenza può essere
-                particolarmente importante anche quando la dinamica
-                dell&apos;incidente viene contestata o quando il rapporto con la
-                compagnia assicurativa presenta difficoltà.
-              </p>
+  Rivolgersi a un avvocato dopo un incidente stradale può essere utile quando
+  il sinistro ha provocato lesioni personali, danni rilevanti al veicolo o
+  conseguenze economiche, oppure quando esistono contestazioni sulla
+  responsabilità. L&apos;assistenza legale può essere importante anche nei
+  rapporti con la compagnia assicurativa e nella valutazione della richiesta
+  di risarcimento derivante dall&apos;incidente.
+</p>
 
               <p>
                 Una valutazione della situazione concreta può aiutare a
@@ -207,7 +206,7 @@ export default function IncidentiStradaliPalermoPage() {
               </p>
 
               <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8 text-left">
-                Danno biologico, danno patrimoniale e danno morale
+                Danni e risarcimento dopo un incidente stradale
               </h2>
 
               <p>
@@ -232,22 +231,23 @@ export default function IncidentiStradaliPalermoPage() {
               </p>
 
               <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8 text-left">
-                Compagnie assicurative e gestione della pratica risarcitoria
+                Assicurazione RCA e risarcimento dopo un incidente stradale
               </h2>
 
               <p>
-                La richiesta di risarcimento conseguente a un incidente
-                stradale può richiedere il confronto con la compagnia
-                assicurativa, la raccolta della documentazione e la
-                ricostruzione delle circostanze del sinistro.
-              </p>
+  Dopo un incidente stradale, la richiesta di risarcimento può comportare il
+  confronto con la compagnia assicurativa e la gestione della pratica relativa
+  al sinistro. È importante ricostruire correttamente la dinamica
+  dell&apos;incidente, individuare i soggetti coinvolti e raccogliere la
+  documentazione necessaria per sostenere la richiesta.
+</p>
 
               <p>
-                Lo studio assiste nella gestione della pratica risarcitoria e
-                nella valutazione della documentazione relativa alla dinamica
-                dell&apos;incidente, ai danni subiti e alle responsabilità dei
-                soggetti coinvolti.
-              </p>
+  Lo studio assiste il danneggiato nei rapporti con la compagnia assicurativa,
+  nell&apos;esame della documentazione relativa al sinistro e nella valutazione
+  dei danni alla persona e al veicolo, verificando gli elementi rilevanti ai
+  fini della responsabilità e del risarcimento.
+</p>
 
               <p>
                 Nel corso della pratica possono quindi essere esaminati gli
