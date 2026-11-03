@@ -18,7 +18,7 @@ export const metadata = {
 
     alternates: {
 
-  canonical: "https\://www\.avvocatocicero.it/blog/risarcimento-danni-palermo",
+  canonical: "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
 
 },
 
@@ -44,7 +44,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "Possono essere risarciti danni patrimoniali, danni non patrimoniali, spese mediche, perdita di reddito e altre conseguenze economicamente valutabili."
+        "text": "Possono essere risarciti danni patrimoniali, come spese sostenute e mancati guadagni, e danni non patrimoniali nei casi previsti dalla legge. La risarcibilità e la quantificazione dipendono dai presupposti applicabili e dalle prove disponibili nel caso concreto."
 
       }
 
@@ -132,9 +132,9 @@ const articleSchema = {
 
     "Quando è possibile ottenere un risarcimento danni, quali prove servono e come tutelare i propri diritti.",
 
-  image: "https\://www\.avvocatocicero.it/og-image.jpg",
+  image: "https://avvocatocicero.it/og-image.jpg",
 
-  url: "https\://www\.avvocatocicero.it/blog/risarcimento-danni-palermo",
+  url: "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
 
   datePublished: "2026-07-08T09:00:00+02:00",
 
@@ -146,7 +146,7 @@ const articleSchema = {
 
     name: "Avv. Giuseppina Cicero",
 
-    url: "https\://www\.avvocatocicero.it",
+    url: "https://avvocatocicero.it",
 
   },
 
@@ -160,7 +160,7 @@ const articleSchema = {
 
       "@type": "ImageObject",
 
-      url: "https\://www\.avvocatocicero.it/og-image.jpg",
+      url: "https://avvocatocicero.it/og-image.jpg",
 
     },
 
@@ -170,7 +170,7 @@ const articleSchema = {
 
     "@type": "WebPage",
 
-    "@id": "https\://www\.avvocatocicero.it/blog/risarcimento-danni-palermo",
+    "@id": "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
 
   },
 
@@ -192,7 +192,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
         name: "Home",
 
-        url: "https\://www\.avvocatocicero.it",
+        url: "https://avvocatocicero.it",
 
       },
 
@@ -200,7 +200,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
         name: "Blog",
 
-        url: "https\://www\.avvocatocicero.it/blog",
+        url: "https://avvocatocicero.it/blog",
 
       },
 
@@ -208,7 +208,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
         name: "Risarcimento danni",
 
-        url: "https\://www\.avvocatocicero.it/blog/risarcimento-danni-palermo",
+        url: "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
 
       },
 
@@ -644,11 +644,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
       <p className="text-slate-600 text-justify">
 
-  I termini possono variare in base alla natura del danno, al tipo di
-
-  responsabilità e alle norme applicabili al singolo caso. È quindi
-
-  opportuno valutare la situazione senza attendere inutilmente.
+  Possono essere risarciti danni patrimoniali, come spese sostenute e mancati guadagni, e danni non patrimoniali nei casi previsti dalla legge. La risarcibilità e la quantificazione dipendono dai presupposti applicabili e dalle prove disponibili nel caso concreto.
 
 </p>
 

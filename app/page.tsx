@@ -198,8 +198,8 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  />
  </button>
 
- <button
- onClick={() => (window.location.href = "/blog")}
+ <Link
+ href="/blog"
  className="group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] text-[#101826]"
 >
  BLOG
@@ -207,7 +207,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  <span
  className="absolute -bottom-2 left-0 h-[1px] bg-[#c8a96b] transition-all duration-500 w-0 group-hover:w-full"
  />
-</button>
+</Link>
 
 </nav>
  <button
@@ -275,14 +275,24 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  { label: "Blog", id: "blog" },
 ].map((item, index) => (
 
+ item.id === "blog" ? (
+ <m.a
+ key={item.id}
+ href="/blog"
+ onClick={() => setMenuOpen(false)}
+ initial={{ opacity: 0, y: 30 }}
+ animate={{ opacity: 1, y: 0 }}
+ transition={{ delay: index * 0.08 }}
+ className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10 text-center"
+ >
+ {item.label}
+ </m.a>
+ ) : (
+
  <m.button
  key={item.id}
  onClick={() => {
- if (item.id === "blog") {
- window.location.href = "/blog"
- } else {
  scrollToSection(item.id)
- }
 
  setMenuOpen(false)
 }}
@@ -295,6 +305,7 @@ animate={{ opacity: 1, y: 0 }}
  >
  {item.label}
  </m.button>
+ )
  ))}
 
 
