@@ -20,7 +20,7 @@ export const metadata = {
       "name": "Quanto dura una separazione consensuale?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "I tempi dipendono dal tribunale competente e dalla completezza della documentazione presentata."
+        "text": "I tempi possono dipendere dalla procedura utilizzata, dall'autorità competente e dalla completezza della documentazione necessaria. La durata concreta deve quindi essere valutata in relazione alla situazione specifica."
       }
     },
     {
@@ -28,7 +28,7 @@ export const metadata = {
       "name": "È obbligatorio rivolgersi a un avvocato?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nella maggior parte dei casi è consigliabile per tutelare correttamente i propri diritti e interessi."
+        "text": "La necessità di assistenza legale dipende dalla procedura e dalla situazione concreta. Un avvocato può comunque aiutare a esaminare gli accordi e gli aspetti personali, familiari ed economici coinvolti."
       }
     },
     {
@@ -36,23 +36,7 @@ export const metadata = {
       "name": "Quando si può chiedere il divorzio?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Dopo la separazione e nel rispetto dei termini previsti dalla legge."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Come viene regolato l'affidamento dei figli?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Le modalità di affidamento vengono stabilite considerando l'interesse del minore, la situazione familiare e le esigenze educative e relazionali dei figli."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "È possibile modificare gli accordi dopo la separazione?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "In presenza di cambiamenti significativi nelle condizioni familiari o economiche può essere valutata la revisione degli accordi precedentemente adottati."
+        "text": "Il divorzio può essere richiesto dopo la separazione e nel rispetto dei termini previsti dalla legge. La situazione concreta deve essere verificata considerando la procedura seguita e le circostanze familiari."
       }
     }
   ]

@@ -26,10 +26,10 @@ export const metadata = {
 
     images: [
       {
-        url: "/images/og/malasanita.jpg",
-        width: 1200,
+        url: "/og-image.jpg",
+        width: 945,
         height: 630,
-        alt: "Avvocato Malasanità Palermo",
+        alt: "Studio Legale Giuseppina Cicero",
       },
     ],
   },
@@ -39,7 +39,7 @@ export const metadata = {
     title: "Avvocato Malasanità Palermo | Studio Legale Giuseppina Cicero",
     description:
       "Assistenza legale per responsabilità medica, errori sanitari e richieste di risarcimento danni a Palermo.",
-    images: ["/images/og/malasanita.jpg"],
+    images: ["/og-image.jpg"],
   },
 }
 

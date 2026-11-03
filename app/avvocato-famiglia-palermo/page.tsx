@@ -38,7 +38,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "L'assistenza di un avvocato esperto in diritto di famiglia è importante nei casi di separazione, divorzio, affidamento dei figli, mantenimento e controversie familiari."
+        "text": "L’assistenza di un avvocato esperto in diritto di famiglia è importante in casi di separazione, divorzio, affidamento figli, mantenimento e controversie familiari."
 
       }
 
@@ -48,13 +48,13 @@ const faqSchema = {
 
       "@type": "Question",
 
-      "name": "Come funziona l'affidamento dei figli?",
+      "name": "Come funziona l’affidamento dei figli?",
 
       "acceptedAnswer": {
 
         "@type": "Answer",
 
-        "text": "L'affidamento viene stabilito considerando l'interesse del minore, la situazione familiare e la capacità dei genitori di garantire stabilità e tutela."
+        "text": "L’affidamento viene deciso valutando l’interesse del minore, la situazione familiare e la capacità dei genitori di garantire stabilità e tutela."
 
       }
 
@@ -70,7 +70,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "Sì. Lo studio offre consulenze riservate per separazioni, divorzi, tutela dei minori e gestione delle controversie patrimoniali."
+        "text": "Lo studio offre consulenze legali riservate per questioni familiari, separazioni, tutela dei minori e gestione delle controversie patrimoniali."
 
       }
 
@@ -86,7 +86,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "La durata dipende dalla complessità del caso e dall'eventuale accordo tra le parti. Una separazione consensuale è generalmente più rapida."
+        "text": "La durata varia in base alla complessità della situazione e alla presenza di accordi tra i coniugi."
 
       }
 
@@ -102,7 +102,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "La separazione sospende alcuni effetti del matrimonio, mentre il divorzio scioglie definitivamente il vincolo coniugale."
+        "text": "La separazione regola i rapporti tra i coniugi, mentre il divorzio determina lo scioglimento definitivo del matrimonio."
 
       }
 
@@ -118,7 +118,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "Il mantenimento viene stabilito considerando le esigenze del minore, il tenore di vita e le capacità economiche dei genitori."
+        "text": "Il giudice valuta esigenze dei figli, disponibilità economiche dei genitori e situazione familiare complessiva."
 
       }
 
@@ -206,7 +206,7 @@ export default function AvvocatoFamigliaPalermo() {
 
       name: "Home",
 
-      url: "https\://www\.avvocatocicero.it",
+      url: "https://avvocatocicero.it",
 
     },
 
@@ -214,7 +214,7 @@ export default function AvvocatoFamigliaPalermo() {
 
       name: "Avvocato diritto di famiglia",
 
-      url: "https\://www\.avvocatocicero.it/avvocato-famiglia-palermo",
+      url: "https://avvocatocicero.it/avvocato-famiglia-palermo",
 
     },
 

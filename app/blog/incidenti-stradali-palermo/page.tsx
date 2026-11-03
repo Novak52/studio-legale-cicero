@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
@@ -17,9 +16,8 @@ const articleSchema = {
   headline: "Cosa fare dopo un incidente stradale a Palermo",
   description:
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
+  image: "https://avvocatocicero.it/og-image.jpg",
   url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
-  datePublished: "2026-07-08T09:00:00+02:00",
-  dateModified: "2026-07-08T09:00:00+02:00",
  author: {
   "@type": "Person",
   name: "Avv. Giuseppina Cicero",
@@ -41,6 +39,13 @@ const articleSchema = {
 export default function IncidentiStradaliPalermoPage() {
   return (
   <>
+    <script
+      id="article-schema"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{
+        __html: JSON.stringify(articleSchema).replace(/</g, "\\u003c"),
+      }}
+    />
     <BreadcrumbSchema
       items={[
         {
