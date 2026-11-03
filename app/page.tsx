@@ -4,42 +4,44 @@
 import Image from "next/image"
 import Link from "next/link"
 import { LazyMotion, domAnimation, m, AnimatePresence } from "framer-motion"
-import { useState,useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
 const [activeSection] = useState("home")
+  const pageRef = useRef<HTMLElement>(null)
+  const menuRef = useRef<HTMLDialogElement>(null)
+  const menuButtonRef = useRef<HTMLButtonElement>(null)
+  const closeButtonRef = useRef<HTMLButtonElement>(null)
+  const pendingSectionRef = useRef<string | null>(null)
+
   const scrollToSection = (id: string) => {
-  if (id === "footer-bottom") {
-    window.scrollTo({
-      top: document.documentElement.scrollHeight,
+    const page = pageRef.current
+    const element = document.getElementById(id)
+    if (!page || !element) return
+    const headerHeight = page.querySelector("header")?.getBoundingClientRect().height ?? 0
+    page.scrollTo({
+      top: page.scrollTop + element.getBoundingClientRect().top - page.getBoundingClientRect().top - headerHeight - 16,
       behavior: "smooth",
-    });
-    return;
+    })
   }
 
-  const element = document.getElementById(id);
-
-  if (!element) return;
-
-  element.scrollIntoView({
-    behavior: "smooth",
-    block: "start",
-  });
-};
-
-  
   useEffect(() => {
-  if (menuOpen) {
+    if (!menuOpen) return
+    const menu = menuRef.current
+    if (!menu) return
+    const previousOverflow = document.body.style.overflow
     document.body.style.overflow = "hidden"
-  } else {
-    document.body.style.overflow = "auto"
-  }
+    menu.showModal()
+    closeButtonRef.current?.focus()
+    const desktop = window.matchMedia("(min-width: 1280px)")
+    const closeOnDesktop = () => { if (desktop.matches) setMenuOpen(false) }
+    desktop.addEventListener("change", closeOnDesktop)
+    return () => {
+      document.body.style.overflow = previousOverflow
+      desktop.removeEventListener("change", closeOnDesktop)
+    }
+  }, [menuOpen])
 
-  return () => {
-    document.body.style.overflow = "auto"
-  }
-}, [menuOpen])
-    
   const services = [
     {
       title: 'Diritto di Famiglia',
@@ -71,22 +73,11 @@ const [activeSection] = useState("home")
 
   return (
   <LazyMotion features={domAnimation}>
-    <main className="bg-[#f7f4ee] text-[#101826] overflow-x-hidden">
+    <div className="flex h-dvh flex-col overflow-hidden">
+    <main ref={pageRef} className="min-h-0 flex-1 bg-[#f7f4ee] text-[#101826] overflow-x-hidden overflow-y-auto">
       {/* BACKGROUND EFFECTS */}
       <div className="fixed inset-0 pointer-events-none opacity-40">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-[#c8a96b]/10 blur-3xl rounded-full" />
-      </div>
-
-      {/* WHATSAPP FLOAT */}
-      <div className="fixed bottom-8 right-4 lg:bottom-6 lg:right-6 z-50">
-        <a
-  href="https://wa.me/393391644668"
-  target="_blank"
-  rel="noopener noreferrer"
-className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 max-w-[220px] rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
->
-  WhatsApp Diretto
-</a>
       </div>
 
       {/* TOP BAR */}
@@ -185,7 +176,7 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  </button>
 
  <button
- onClick={() => scrollToSection("footer-bottom")}
+ onClick={() => scrollToSection("contatti")}
  className={`group relative transition-all duration-500 hover:text-[#c8a96b] hover:-translate-y-[2px] ${
  activeSection === "footer" ? "text-[#c8a96b]" : "text-[#101826]"
  }`}
@@ -212,8 +203,12 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
 </nav>
  <button
   onClick={() => setMenuOpen(true)}
+  ref={menuButtonRef}
+  aria-expanded={menuOpen}
+  aria-controls="mobile-navigation"
+  aria-haspopup="dialog"
   aria-label="Apri menu di navigazione"
-  className="xl:hidden flex flex-col gap-1.5"
+  className="xl:hidden shrink-0 flex flex-col gap-1.5 p-3 -m-3"
 >
   <span className="w-6 h-px bg-[#101826]" />
   <span className="w-6 h-px bg-[#101826]" />
@@ -224,109 +219,11 @@ activeSection === "studio" ? "w-full" : "w-0 group-hover:w-full"
  href="tel:+393391644668"
  className="hidden sm:flex bg-[#101826] text-white px-5 py-3 sm:px-6 sm:py-3sm:px-7 sm:py-4 rounded-full hover:bg-[#1d2b42] transition-all duration-300 shadow-[0_12px_40px_rgba(0,0,0,0.12)] uppercase tracking-[0.14em] text-xs items-center justify-center"
 >
- Richiedi Consulenza
+ Chiama lo studio
 </a>
  </div>
  </header>
- <AnimatePresence>
 
- {menuOpen && (
-
- <m.div
- initial={{ opacity: 0 }}
- animate={{ opacity: 1 }}
- exit={{ opacity: 0 }}
- className="fixed inset-0 z-[999] bg-[#0b1220] text-white flex flex-col"
- >
-
- {/* TOP */}
- <div className="flex items-center justify-between px-6 py-6 border-b border-white/10">
-
- <div>
- <h2 className="text-2xl font-serif">
- Studio Legale
- </h2>
-
- <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-[10px] mt-2">
- Giuseppina Cicero
- </p>
- </div>
-
- <button
-  onClick={() => setMenuOpen(false)}
-  aria-label="Chiudi menu"
-  className="text-3xl text-white/70 hover:text-white transition-colors"
->
-  ✕
-
-
- </button>
-
- </div>
- {/* LINKS */}
- <div className="flex-1 flex flex-col justify-start px-8 overflow-y-auto">
-
- {[
- { label: "Home", id: "home" },
- { label: "Studio", id: "studio" },
- { label: "Aree Legali", id: "aree-legali" },
- { label: "Risultati", id: "risultati" },
- { label: "Contatti", id: "cta" },
- { label: "Blog", id: "blog" },
-].map((item, index) => (
-
- item.id === "blog" ? (
- <m.a
- key={item.id}
- href="/blog"
- onClick={() => setMenuOpen(false)}
- initial={{ opacity: 0, y: 30 }}
- animate={{ opacity: 1, y: 0 }}
- transition={{ delay: index * 0.08 }}
- className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10 text-center"
- >
- {item.label}
- </m.a>
- ) : (
-
- <m.button
- key={item.id}
- onClick={() => {
- scrollToSection(item.id)
-
- setMenuOpen(false)
-}}
- initial={{ opacity: 0, y: 30 }}
-animate={{ opacity: 1, y: 0 }}
- transition={{
- delay: index * 0.08
- }}
- className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
- >
- {item.label}
- </m.button>
- )
- ))}
-
-
- </div>
-
- {/* FOOTER */}
- <div className="px-8 pb-12 sm:pb-10">
-
- <a
- href="tel:+393391644668"
- className="block w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs text-center"
->
- Richiedi Consulenza
-</a>
- </div>
-
- </m.div>
-
- )}
-
-</AnimatePresence>
 
 
 
@@ -366,10 +263,10 @@ animate={{ opacity: 1, y: 0 }}
   href="tel:+393391644668"
   className="relative z-20 bg-[#c8a96b] text-[#101826] px-7 py-3 rounded-full hover:scale-[1.015] active:scale-[0.98] hover:shadow-[0_15px_40px_rgba(200,169,107,0.25)] transition-all duration-500 shadow-2xl shadow-black/30 uppercase tracking-[0.08em] text-xs font-medium inline-flex items-center justify-center cursor-pointer"
 >
-  Prenota Consulenza
+  Chiama per una consulenza
 </a>
       <button
-  onClick={() => scrollToSection("footer-bottom")}
+  onClick={() => scrollToSection("contatti")}
   className="border border-white/20 min-w-[220px] py-3 rounded-full text-center"
 >
   CONTATTI
@@ -750,7 +647,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
   href="tel:+393391644668"
   className="relative z-20 bg-[#c8a96b] text-[#101826] px-7 py-3 rounded-full hover:scale-[1.015] active:scale-[0.98] transition-all duration-500 shadow-2xl shadow-black/30 uppercase tracking-[0.08em] text-xs font-medium inline-flex items-center justify-center cursor-pointer"
 >
-  Chiedi Informazioni
+  Chiama per informazioni
 </a>
 
             <a
@@ -833,7 +730,7 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
       
 
       {/* CONTATTI */}
-      <div id="contatti">
+      <div id="contatti" className="min-w-0 break-words">
 
         <h4 className="text-white font-serif text-2xl mb-8">
           Contatti
@@ -926,6 +823,146 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 
 </footer>
         </main>
+      {/* WHATSAPP FLOAT */}
+      <div id="whatsapp-dock" className="relative z-50 shrink-0 flex justify-end bg-[#f7f4ee] px-4 lg:px-6 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] pr-[max(1rem,env(safe-area-inset-right))]">
+        <a
+  href="https://wa.me/393391644668"
+  target="_blank"
+  rel="noopener noreferrer"
+className="relative z-20 bg-[#c8a96b] text-[#101826] px-5 py-3 sm:px-6 sm:py-3 max-w-[220px] rounded-full active:scale-[0.98] shadow-2xl shadow-black/30 hover:scale-105 transition-all duration-500 font-medium tracking-wide inline-flex items-center justify-center"
+>
+  WhatsApp Diretto
+</a>
+      </div>
+
+ <AnimatePresence onExitComplete={() => {
+   menuRef.current?.close()
+   requestAnimationFrame(() => {
+     menuButtonRef.current?.focus({ preventScroll: true })
+     if (pendingSectionRef.current) {
+       scrollToSection(pendingSectionRef.current)
+       pendingSectionRef.current = null
+     }
+   })
+ }}>
+
+ {menuOpen && (
+
+ <m.dialog
+ ref={menuRef}
+ id="mobile-navigation"
+ aria-label="Menu di navigazione"
+ aria-modal="true"
+ onCancel={(event) => { event.preventDefault(); setMenuOpen(false) }}
+ onKeyDown={(event) => {
+   if (event.key !== "Tab") return
+   const items = Array.from(event.currentTarget.querySelectorAll<HTMLElement>('button, a[href]'))
+   const first = items[0]
+   const last = items[items.length - 1]
+   if (event.shiftKey && document.activeElement === first) {
+     event.preventDefault()
+     last?.focus()
+   } else if (!event.shiftKey && document.activeElement === last) {
+     event.preventDefault()
+     first?.focus()
+   }
+ }}
+ initial={{ opacity: 0 }}
+ animate={{ opacity: 1 }}
+ exit={{ opacity: 0 }}
+ className="fixed inset-0 m-0 p-0 border-0 w-full max-w-none h-dvh max-h-none z-[999] bg-[#0b1220] text-white flex flex-col"
+ >
+
+ {/* TOP */}
+ <div className="flex items-center justify-between px-6 py-6 border-b border-white/10">
+
+ <div>
+ <h2 className="text-2xl font-serif">
+ Studio Legale
+ </h2>
+
+ <p className="uppercase tracking-[0.35em] text-[#c8a96b] text-[10px] mt-2">
+ Giuseppina Cicero
+ </p>
+ </div>
+
+ <button
+  onClick={() => setMenuOpen(false)}
+  ref={closeButtonRef}
+  aria-label="Chiudi menu"
+  className="text-3xl text-white/70 hover:text-white transition-colors"
+>
+  ✕
+
+
+ </button>
+
+ </div>
+ {/* LINKS */}
+ <div className="min-h-0 flex-1 flex flex-col justify-start px-8 overflow-y-auto">
+
+ {[
+ { label: "Home", id: "home" },
+ { label: "Studio", id: "studio" },
+ { label: "Aree Legali", id: "aree-legali" },
+ { label: "Risultati", id: "risultati" },
+ { label: "Contatti", id: "contatti" },
+ { label: "Blog", id: "blog" },
+].map((item, index) => (
+
+ item.id === "blog" ? (
+ <m.a
+ key={item.id}
+ href="/blog"
+ onClick={() => setMenuOpen(false)}
+ initial={{ opacity: 0, y: 30 }}
+ animate={{ opacity: 1, y: 0 }}
+ transition={{ delay: index * 0.08 }}
+ className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10 text-center"
+ >
+ {item.label}
+ </m.a>
+ ) : (
+
+ <m.button
+ key={item.id}
+ onClick={() => {
+ pendingSectionRef.current = item.id
+
+ setMenuOpen(false)
+}}
+ initial={{ opacity: 0, y: 30 }}
+animate={{ opacity: 1, y: 0 }}
+ transition={{
+ delay: index * 0.08
+ }}
+ className="text-3xl md:text-4xl font-serif py-5 border-b border-white/10"
+ >
+ {item.label}
+ </m.button>
+ )
+ ))}
+
+
+ </div>
+
+ {/* FOOTER */}
+ <div className="shrink-0 px-8 pt-3 pb-[max(2.5rem,env(safe-area-inset-bottom))]">
+
+ <a
+ href="tel:+393391644668"
+ className="block w-full bg-[#c8a96b] text-[#101826] py-5 rounded-full uppercase tracking-[0.2em] text-xs text-center"
+>
+ Chiama lo studio
+</a>
+ </div>
+
+ </m.dialog>
+
+ )}
+
+</AnimatePresence>
+    </div>
   </LazyMotion>
 )
 }
