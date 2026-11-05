@@ -15,7 +15,7 @@ export default function BlogPage() {
       <div className="max-w-7xl mx-auto">
         <Link
   href="/"
-  className="inline-flex items-center justify-center mb-12 rounded-full border border-[#101826] px-6 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+  className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826] mb-12"
 >
   ← Torna alla Home
 </Link>

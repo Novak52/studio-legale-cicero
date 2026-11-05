@@ -7,6 +7,8 @@ import { LazyMotion, domAnimation, m, AnimatePresence } from "framer-motion"
 import { useState, useEffect, useRef } from "react"
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false)
+  const [whatsappObscured, setWhatsappObscured] = useState(true)
+  const whatsappRef = useRef<HTMLDivElement>(null)
 const [activeSection] = useState("home")
   const pageRef = useRef<HTMLElement>(null)
   const menuRef = useRef<HTMLDialogElement>(null)
@@ -41,6 +43,43 @@ const [activeSection] = useState("home")
       desktop.removeEventListener("change", closeOnDesktop)
     }
   }, [menuOpen])
+
+  useEffect(() => {
+    const page = pageRef.current
+    const dock = whatsappRef.current
+    if (!page || !dock) return
+    let frame = 0
+    const checkOverlap = () => {
+      frame = 0
+      const floating = dock.getBoundingClientRect()
+      const overlaps = Array.from(page.querySelectorAll<HTMLElement>('a[href], button, input, select, textarea, [role="button"]')).some((control) => {
+        const rect = control.getBoundingClientRect()
+        return rect.width > 0 && rect.height > 0 &&
+          rect.left < floating.right + 12 && rect.right > floating.left - 12 &&
+          rect.top < floating.bottom + 12 && rect.bottom > floating.top - 12
+      })
+      setWhatsappObscured(overlaps)
+    }
+    const scheduleCheck = () => {
+      if (!frame) frame = requestAnimationFrame(checkOverlap)
+    }
+    const resizeObserver = new ResizeObserver(scheduleCheck)
+    resizeObserver.observe(page)
+    resizeObserver.observe(dock)
+    page.addEventListener("scroll", scheduleCheck, { passive: true })
+    page.addEventListener("focusin", scheduleCheck)
+    window.addEventListener("resize", scheduleCheck)
+    window.visualViewport?.addEventListener("resize", scheduleCheck)
+    scheduleCheck()
+    return () => {
+      cancelAnimationFrame(frame)
+      resizeObserver.disconnect()
+      page.removeEventListener("scroll", scheduleCheck)
+      page.removeEventListener("focusin", scheduleCheck)
+      window.removeEventListener("resize", scheduleCheck)
+      window.visualViewport?.removeEventListener("resize", scheduleCheck)
+    }
+  }, [])
 
   const services = [
     {
@@ -530,10 +569,10 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
   y: -10,
   scale: 1.015
 }}
-  className="group bg-white border border-black/5 rounded-[2.5rem] overflow-hidden hover:shadow-[0_25px_80px_rgba(0,0,0,0.12)] h-full flex flex-col"
+  className="@container group bg-white border border-black/5 rounded-[2.5rem] overflow-hidden hover:shadow-[0_25px_80px_rgba(0,0,0,0.12)] h-full flex flex-col"
 >
                 <div
-                  className="h-72 relative overflow-hidden bg-cover bg-center"
+                  className="h-72 shrink-0 relative overflow-hidden bg-cover bg-center"
                   style={{
                     backgroundImage:
                       index === 0
@@ -560,12 +599,12 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
                   </div>
                 </div>
 
-                <div className="p-10 flex flex-col h-full">
-                  <h3 className="text-3xl sm:text-4xl font-serif leading-tight mb-8 text-[#101826] group-hover:text-[#75521f] transition-colors duration-300">
+                <div className="flex flex-1 flex-col px-[clamp(1.5rem,10cqw,2.5rem)] py-8">
+                  <h3 className="font-serif text-[clamp(1.25rem,8cqw,1.75rem)] font-normal leading-[1.25] hyphens-none break-normal lg:min-h-[3.75em] mb-6 text-[#101826] group-hover:text-[#75521f] transition-colors duration-300">
                     {service.title}
                   </h3>
 
-                  <p className="text-[#5d6470] text-lg leading-relaxed mb-10 flex-1">
+                  <p className="text-[#5d6470] text-[clamp(1rem,5cqw,1.125rem)] leading-relaxed hyphens-none break-normal mb-8 flex-1">
                     {service.description}
                   </p>
 
@@ -574,7 +613,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
   className="mt-auto"
 >
   <button
-    className="group relative w-full overflow-hidden rounded-full border border-[#c8a96b]/50 bg-white px-7 py-4 text-[#101826] uppercase tracking-[0.22em] text-xs font-semibold transition-all duration-500 hover:text-[#101826]"
+    className="group relative w-full overflow-hidden rounded-full border border-[#c8a96b]/50 bg-white px-3 py-4 text-[#101826] uppercase tracking-[0.12em] text-[clamp(0.625rem,4cqw,0.75rem)] font-semibold transition-all duration-500 hover:text-[#101826]"
   >
     <span className="absolute inset-0 w-0 bg-[#c8a96b] transition-all duration-500 group-hover:w-full"></span>
 
@@ -820,7 +859,12 @@ className="relative py-28 lg:py-36 px-6 bg-[#0b1220] text-white overflow-hidden"
 </footer>
         </main>
       {/* WHATSAPP FLOAT */}
-      <div id="whatsapp-dock" className="relative z-50 shrink-0 flex justify-end bg-[#f7f4ee] px-4 lg:px-6 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] pr-[max(1rem,env(safe-area-inset-right))]">
+      <div
+        ref={whatsappRef}
+        id="whatsapp-dock"
+        className="fixed z-50 bottom-[calc(1rem+env(safe-area-inset-bottom))] right-[calc(1rem+env(safe-area-inset-right))]"
+        style={{ visibility: menuOpen || whatsappObscured ? "hidden" : "visible" }}
+      >
         <a
   href="https://wa.me/393391644668"
   target="_blank"

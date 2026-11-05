@@ -75,16 +75,16 @@ export default function SuccessioniPalermoPage() {
 
             <Link
               href="/"
-              className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
               ← Torna alla Home
             </Link>
 
             <Link
               href="/blog"
-              className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
-              📖 Torna al Blog
+              ← Torna al Blog
             </Link>
 
           </div>
@@ -103,7 +103,7 @@ export default function SuccessioniPalermoPage() {
             <span>1 min lettura</span>
           </div>
 
-          <p className="text-xl text-slate-600 leading-relaxed mb-12 text-justify">
+          <p className="text-xl text-slate-600 leading-relaxed mb-12 text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
             La gestione di una successione richiede l'esame della situazione
             familiare e patrimoniale, della presenza di eventuali disposizioni
             testamentarie e della documentazione relativa all'eredità. Una corretta
@@ -118,7 +118,7 @@ export default function SuccessioniPalermoPage() {
                 Quando si apre una successione
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 La successione si apre al momento della morte della persona e riguarda
                 i rapporti patrimoniali che possono essere trasmessi agli eredi. La
                 gestione della successione richiede quindi di individuare i soggetti
@@ -131,14 +131,14 @@ export default function SuccessioniPalermoPage() {
                 Successione con o senza testamento
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 In presenza di un testamento, le disposizioni del defunto devono essere
                 esaminate nel rispetto dei limiti previsti dalla legge. In assenza di
                 testamento, la successione viene regolata dalle disposizioni previste
                 per la successione legittima.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 La presenza o meno di un testamento può quindi incidere sulla
                 individuazione degli eredi e sulla distribuzione del patrimonio,
                 rendendo importante l'esame della documentazione e della situazione
@@ -151,13 +151,13 @@ export default function SuccessioniPalermoPage() {
                 Tutela dei diritti degli eredi
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 La tutela dei diritti degli eredi può richiedere la verifica delle
                 disposizioni testamentarie, della composizione del patrimonio e delle
                 quote spettanti ai soggetti coinvolti nella successione.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Quando emergono dubbi sulla corretta distribuzione dell'eredità o sulla
                 validità delle disposizioni testamentarie, l'esame della documentazione
                 consente di individuare le questioni che richiedono un ulteriore
@@ -168,14 +168,14 @@ export default function SuccessioniPalermoPage() {
                 Accettazione o rinuncia all'eredità
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Gli eredi possono valutare se accettare o rinunciare all'eredità
                 secondo le modalità previste dalla legge. La scelta deve essere
                 esaminata considerando la situazione patrimoniale e i rapporti
                 ereditari coinvolti.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Prima di assumere una decisione può essere utile ricostruire la
                 composizione dell'eredità e verificare la documentazione disponibile,
                 soprattutto quando sono presenti situazioni patrimoniali complesse.
@@ -185,20 +185,20 @@ export default function SuccessioniPalermoPage() {
                 Divisione ereditaria e controversie tra eredi
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Quando più soggetti ereditano beni in comune, può essere necessario
                 procedere alla divisione del patrimonio e disciplinare i rapporti tra
                 i coeredi.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 La divisione ereditaria può riguardare beni immobili, disponibilità
                 patrimoniali e altri beni appartenenti all'eredità. La documentazione
                 relativa al patrimonio e alle quote dei soggetti coinvolti può essere
                 utile per ricostruire la situazione.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Le controversie ereditarie possono rientrare nell'ambito del{" "}
                 <a
                   href="/diritto-civile-palermo"
@@ -214,27 +214,27 @@ export default function SuccessioniPalermoPage() {
                 Quando è possibile impugnare un testamento
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 L'impugnazione di un testamento può essere valutata quando emergono
                 elementi che fanno dubitare della validità delle disposizioni
                 testamentarie o quando si ritiene che siano stati lesi i diritti degli
                 eredi tutelati dalla legge.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Tra le situazioni che possono richiedere un approfondimento rientrano
                 eventuali vizi di forma, circostanze che possano incidere sulla validità
                 dell'atto o altri elementi relativi alla capacità del testatore al
                 momento della redazione.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Ogni vicenda ereditaria presenta caratteristiche differenti e richiede
                 l'esame della documentazione disponibile, delle disposizioni testamentarie
                 e della situazione familiare complessiva.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Per approfondire gli aspetti legati alle successioni e alla tutela dei
                 diritti degli eredi è possibile consultare la pagina dedicata all{" "}
                 <a
@@ -250,7 +250,7 @@ export default function SuccessioniPalermoPage() {
                 Perché rivolgersi a un avvocato per una successione
               </h2>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 La gestione di una successione può richiedere verifiche documentali,
                 analisi delle quote ereditarie, esame della presenza di un testamento
                 e valutazioni relative alla composizione del patrimonio. Un'assistenza
@@ -258,7 +258,7 @@ export default function SuccessioniPalermoPage() {
                 gestire le eventuali controversie tra gli eredi.
               </p>
 
-              <p className="text-justify">
+              <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
                 Un supporto professionale può essere particolarmente utile quando la
                 successione presenta più eredi, beni immobili da dividere, patrimoni
                 articolati o contestazioni relative alle disposizioni testamentarie.

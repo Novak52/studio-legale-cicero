@@ -264,7 +264,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
     href="/"
 
-    className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
 
   >
 
@@ -278,11 +278,11 @@ export default function RisarcimentoDanniPalermoPage() {
 
     href="/blog"
 
-    className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
 
   >
 
-    📖 Torna al Blog
+    ← Torna al Blog
 
   </Link>
 
@@ -292,7 +292,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-        <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6 text-justify">
+        <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-6">
 
           Risarcimento Danni
 
@@ -320,7 +320,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-        <p className="text-xl text-slate-600 leading-relaxed mb-12 text-justify">
+        <p className="text-xl text-slate-600 leading-relaxed mb-12 text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Chi subisce un danno può valutare una richiesta di risarcimento quando
 
@@ -348,7 +348,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Una richiesta di risarcimento può riguardare, a seconda delle circostanze,
 
@@ -374,7 +374,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
               Documentazione medica, fotografie, testimonianze e documenti
 
@@ -412,7 +412,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-  <p className="text-justify">
+  <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Le richieste di risarcimento possono riguardare anche cadute causate da
 
@@ -424,7 +424,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-<p className="text-justify">
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   In queste situazioni è utile documentare tempestivamente lo stato dei
 
@@ -436,7 +436,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-<p className="text-justify">
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   La valutazione della responsabilità richiede l'esame delle condizioni del
 
@@ -460,7 +460,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-  <p className="text-justify">
+  <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   L'individuazione del soggetto eventualmente responsabile dipende dalle
 
@@ -472,7 +472,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-<p className="text-justify">
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Una corretta ricostruzione dei fatti, delle condizioni del luogo e della
 
@@ -496,7 +496,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-  <p className="text-justify">
+  <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Le controversie relative al risarcimento danni possono rientrare
 
@@ -510,7 +510,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-  <p className="text-justify">
+  <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
     Per maggiori informazioni è possibile consultare la sezione dedicata al{" "}
 
@@ -550,7 +550,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
 
   Una valutazione tempestiva della documentazione può facilitare la
 
@@ -574,7 +574,7 @@ export default function RisarcimentoDanniPalermoPage() {
 
 
 
-          <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-4 text-justify">
+          <p className="uppercase tracking-[0.3em] text-[#c8a96b] text-sm mb-4">
 
             Richiedi una consulenza
 

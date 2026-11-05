@@ -110,16 +110,16 @@ export default function ArticoloSeparazione() {
 
   <Link
     href="/"
-    className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
   >
     ← Torna alla Home
   </Link>
 
   <Link
     href="/blog"
-    className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
   >
-    📖 Torna al Blog
+    ← Torna al Blog
   </Link>
 
 </div>
@@ -138,7 +138,7 @@ export default function ArticoloSeparazione() {
   <span>1 min lettura</span>
 </div>
 
-        <p className="text-xl text-slate-600 leading-relaxed mb-12">
+        <p className="text-xl text-slate-600 leading-relaxed mb-12 text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   La separazione può rappresentare un passaggio importante per disciplinare
   i rapporti personali, familiari ed economici tra i coniugi. La situazione
   deve essere valutata considerando le condizioni della famiglia, gli eventuali
@@ -149,14 +149,14 @@ export default function ArticoloSeparazione() {
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Come funziona la separazione consensuale
 </h2>
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Quando i coniugi raggiungono un accordo sulle principali questioni relative
   alla separazione, è possibile procedere attraverso una separazione
   consensuale. Gli accordi possono riguardare gli aspetti personali,
   familiari ed economici della situazione concreta.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Prima di procedere è importante esaminare attentamente le condizioni
   dell'accordo, soprattutto quando sono presenti figli, questioni relative
   al mantenimento o aspetti patrimoniali da disciplinare.
@@ -165,14 +165,14 @@ export default function ArticoloSeparazione() {
 <h2 className="font-serif text-3xl text-[#101826] mb-6">
   Quando è necessaria la separazione giudiziale
 </h2>
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Quando non è possibile raggiungere un accordo tra i coniugi sulle
   condizioni della separazione, può essere necessario ricorrere alla
   procedura giudiziale per sottoporre le questioni controverse alla
   valutazione dell'autorità competente.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   La separazione giudiziale richiede un esame della situazione familiare,
   delle eventuali questioni patrimoniali e delle esigenze dei figli, quando
   presenti. La documentazione disponibile può essere utile per ricostruire
@@ -184,20 +184,20 @@ export default function ArticoloSeparazione() {
   Affidamento dei figli e rapporti familiari
 </h2>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Quando la separazione riguarda una famiglia con figli, è necessario
   disciplinare gli aspetti relativi all'affidamento e ai rapporti tra i
   genitori e i figli, considerando la situazione familiare e le esigenze
   dei minori.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Le condizioni relative ai figli devono essere valutate con particolare
   attenzione, insieme agli eventuali aspetti economici e organizzativi
   collegati alla vita familiare.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Per approfondire è possibile richiedere{" "}
   <Link
     href="/avvocato-famiglia-palermo"
@@ -214,14 +214,14 @@ export default function ArticoloSeparazione() {
 
 
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   La separazione e il divorzio sono procedimenti distinti e devono essere
   valutati considerando la situazione personale e familiare dei coniugi.
   Il divorzio può essere richiesto dopo la separazione e nel rispetto
   dei termini previsti dalla legge.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   La valutazione della situazione concreta consente di individuare gli
   aspetti personali, familiari ed economici che possono richiedere
   maggiore attenzione nella gestione della procedura.

@@ -78,16 +78,16 @@ export default function Page() {
 
             <Link
               href="/"
-              className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
               ← Torna alla Home
             </Link>
 
             <Link
               href="/blog"
-              className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
-              📖 Torna al Blog
+              ← Torna al Blog
             </Link>
 
           </div>
@@ -106,7 +106,7 @@ export default function Page() {
             <span>1 min lettura</span>
           </div>
 
-          <p className="text-xl text-slate-600 leading-relaxed mb-12 text-justify">
+          <p className="text-xl text-slate-600 leading-relaxed mb-12 text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
             Un possibile errore medico può avere conseguenze rilevanti per il paziente
             e per la sua famiglia. Quando si ritiene che un danno possa essere collegato
             a una condotta sanitaria, è importante esaminare con attenzione la
@@ -119,7 +119,7 @@ export default function Page() {
               Quali sono i casi più frequenti di errore medico?
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Tra le situazioni che possono richiedere una valutazione rientrano diagnosi
               errate o tardive, problematiche durante interventi chirurgici, prescrizioni
               farmacologiche inappropriate, infezioni ospedaliere e situazioni nelle quali
@@ -127,7 +127,7 @@ export default function Page() {
               approfondite.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La presenza di una complicanza o di un esito negativo non consente, da sola,
               di stabilire una responsabilità sanitaria. È quindi necessario esaminare
               la documentazione clinica e le circostanze specifiche del caso.
@@ -137,20 +137,20 @@ export default function Page() {
               Quando è possibile ottenere un risarcimento?
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La possibilità di ottenere un risarcimento deve essere valutata sulla base
               delle circostanze concrete, della documentazione sanitaria disponibile e
               degli elementi utili a ricostruire il rapporto tra la condotta contestata
               e il danno lamentato dal paziente.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La valutazione della situazione deve quindi considerare il percorso
               assistenziale seguito dal paziente, la documentazione clinica disponibile
               e le conseguenze che vengono attribuite alla condotta sanitaria.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Per approfondire i principi generali della tutela risarcitoria è possibile
               consultare la pagina dedicata al{" "}
               <a
@@ -165,25 +165,25 @@ export default function Page() {
               Come viene valutato un possibile errore medico?
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La valutazione di un possibile errore medico parte dall'esame della
               documentazione sanitaria e dalla ricostruzione del percorso assistenziale
               seguito dal paziente.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Referti, cartelle cliniche, esami diagnostici, prescrizioni e altri
               documenti possono contribuire a ricostruire le cure ricevute e le
               circostanze nelle quali si è verificato l'evento contestato.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               È inoltre necessario valutare le conseguenze lamentate dal paziente e
               gli elementi disponibili per verificare l'eventuale collegamento tra
               la condotta sanitaria contestata e il danno subito.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Ogni situazione deve essere quindi esaminata sulla base delle circostanze
               concrete e della documentazione disponibile, senza poter ricondurre
               automaticamente ogni complicanza o esito negativo a una responsabilità
@@ -194,28 +194,28 @@ export default function Page() {
               Cosa fare se si sospetta un errore medico?
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Quando si sospetta un possibile errore medico, è utile raccogliere e
               conservare la documentazione sanitaria relativa al percorso assistenziale,
               compresi referti, esami, cartelle cliniche, prescrizioni e altri documenti
               disponibili.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La documentazione può consentire di ricostruire le cure ricevute e le
               conseguenze lamentate dal paziente. Ogni situazione richiede comunque
               un'analisi specifica, poiché la semplice presenza di una complicanza
               non implica automaticamente una responsabilità della struttura sanitaria.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Quando gli elementi disponibili fanno emergere una possibile questione
               di responsabilità sanitaria, può essere opportuno approfondire la
               situazione e valutare la documentazione con l'assistenza di un
               professionista.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Per approfondire l'assistenza legale specifica in questo ambito è
               possibile consultare la pagina dedicata all'{" "}
               <a

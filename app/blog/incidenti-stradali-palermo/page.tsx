@@ -69,16 +69,16 @@ export default function IncidentiStradaliPalermoPage() {
 
   <Link
     href="/"
-    className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
   >
     ← Torna alla Home
   </Link>
 
   <Link
     href="/blog"
-    className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+    className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
   >
-    📖 Torna al Blog
+    ← Torna al Blog
   </Link>
 
 </div>
@@ -99,14 +99,14 @@ Cosa fare dopo un incidente stradale a Palermo
 
         <div className="space-y-8 text-lg leading-relaxed text-slate-700">
 
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Dopo un incidente stradale è importante raccogliere e conservare le
   informazioni utili a ricostruire la dinamica del sinistro e le eventuali
   conseguenze subite, soprattutto quando si prospetta una richiesta di
   risarcimento.
 </p>
 
-<p>
+<p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Fotografie del luogo dell'incidente, dati dei veicoli coinvolti,
   testimonianze, verbali e documentazione medica possono contribuire alla
   ricostruzione dei fatti e alla valutazione della situazione del soggetto
@@ -117,7 +117,7 @@ Cosa fare dopo un incidente stradale a Palermo
             Quali documenti conservare
           </h2>
 
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   È utile conservare il modulo di constatazione amichevole, gli eventuali
   verbali delle autorità intervenute, la documentazione medica e ogni
   documento relativo alle spese sostenute in conseguenza dell'incidente.
@@ -129,13 +129,13 @@ Cosa fare dopo un incidente stradale a Palermo
             Quando richiedere il risarcimento
           </h2>
 
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
             La richiesta di risarcimento può riguardare danni materiali,
             lesioni personali, spese mediche e ulteriori conseguenze derivanti
             dall’incidente.
           </p>
 
-          <p>
+          <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
   Per una valutazione della situazione è possibile richiedere{" "}
   <Link
     href="/avvocato-incidenti-stradali-palermo"

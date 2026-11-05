@@ -73,16 +73,16 @@ export default function Page() {
           <div className="flex flex-wrap items-center gap-4 mb-12">
             <Link
               href="/"
-              className="inline-flex items-center justify-center rounded-full border border-[#101826] px-5 py-3 text-[#101826] font-medium transition-all duration-300 hover:bg-[#101826] hover:text-white"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
               ← Torna alla Home
             </Link>
 
             <Link
               href="/blog"
-              className="inline-flex items-center justify-center rounded-full border border-[#c8a96b] px-5 py-3 text-[#c8a96b] font-medium transition-all duration-300 hover:bg-[#c8a96b] hover:text-[#101826]"
+              className="inline-flex min-h-11 min-w-[12.5rem] max-w-full items-center justify-center rounded-full border border-[#c8a96b]/50 bg-white px-5 py-3 font-sans text-xs font-semibold uppercase leading-5 tracking-[0.12em] text-[#101826] transition-colors duration-300 hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
             >
-              📖 Torna al Blog
+              ← Torna al Blog
             </Link>
           </div>
 
@@ -102,7 +102,7 @@ export default function Page() {
 
           <div className="space-y-12 text-lg text-slate-700 leading-relaxed">
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Valutare un possibile caso di malasanità richiede di ricostruire
               con attenzione il percorso sanitario seguito, esaminare la
               documentazione disponibile e comprendere quali conseguenze siano
@@ -111,7 +111,7 @@ export default function Page() {
               sanitaria.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               L'analisi deve quindi considerare le circostanze concrete della
               vicenda, le cure ricevute, la documentazione clinica e gli
               eventuali elementi che rendono necessario un approfondimento
@@ -122,7 +122,7 @@ export default function Page() {
               1. Raccogliere la documentazione sanitaria
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Il primo passo consiste nel raccogliere e conservare tutta la
               documentazione relativa al percorso sanitario seguito. Possono
               essere utili cartelle cliniche, referti, esami diagnostici,
@@ -130,7 +130,7 @@ export default function Page() {
               documentazione disponibile.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Una raccolta completa dei documenti permette di ricostruire con
               maggiore precisione le cure ricevute e le diverse fasi del
               percorso assistenziale.
@@ -140,14 +140,14 @@ export default function Page() {
               2. Ricostruire il percorso sanitario
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La ricostruzione del percorso sanitario deve considerare in
               ordine cronologico le visite effettuate, gli accertamenti
               diagnostici, le diagnosi formulate, i trattamenti eseguiti e le
               eventuali variazioni delle condizioni del paziente.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Mettere in relazione questi elementi con la documentazione
               disponibile permette di individuare eventuali passaggi della
               vicenda che richiedono un approfondimento e di comprendere
@@ -158,7 +158,7 @@ export default function Page() {
               3. Valutare le conseguenze del problema sanitario
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Nella valutazione di una possibile responsabilità sanitaria è
               necessario considerare anche le conseguenze riportate dal
               paziente, comprese eventuali nuove condizioni di salute,
@@ -166,7 +166,7 @@ export default function Page() {
               conseguenti alla vicenda.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Le conseguenze devono essere esaminate in relazione alla
               situazione precedente e successiva alle cure, sulla base della
               documentazione sanitaria e degli altri elementi disponibili.
@@ -177,7 +177,7 @@ export default function Page() {
               medico-legale
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Nei casi più complessi può essere necessario esaminare la
               documentazione sanitaria anche attraverso una valutazione
               medico-legale. Questo approfondimento può aiutare a ricostruire
@@ -186,7 +186,7 @@ export default function Page() {
               contestata e il danno lamentato.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La valutazione deve essere effettuata sulla base delle
               circostanze specifiche del caso e della documentazione
               effettivamente disponibile.
@@ -196,7 +196,7 @@ export default function Page() {
               5. Esaminare gli eventuali profili di responsabilità
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Una volta raccolti i documenti e ricostruito il percorso
               sanitario, è possibile esaminare gli eventuali profili di
               responsabilità che emergono dalla vicenda. L'analisi deve tenere
@@ -204,7 +204,7 @@ export default function Page() {
               elementi disponibili.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Non ogni esito negativo di una cura costituisce necessariamente
               un caso di responsabilità sanitaria. È quindi importante
               distinguere il semplice verificarsi di una complicanza o di un
@@ -216,7 +216,7 @@ export default function Page() {
               Quando rivolgersi a un avvocato per un caso di malasanità
             </h2>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Se dalla documentazione emergono elementi che richiedono un
               approfondimento, può essere utile richiedere una valutazione
               legale specifica. L'assistenza professionale consente di
@@ -225,7 +225,7 @@ export default function Page() {
               approfondire.
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               Per informazioni sull'assistenza legale nei casi di
               responsabilità medica e malasanità è possibile consultare anche
               la pagina dedicata all{" "}
@@ -238,7 +238,7 @@ export default function Page() {
               .
             </p>
 
-            <p className="text-justify">
+            <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
               La valutazione di un possibile caso di malasanità dipende sempre
               dalle circostanze concrete, dalla documentazione sanitaria e
               dagli elementi disponibili per ricostruire quanto accaduto.
