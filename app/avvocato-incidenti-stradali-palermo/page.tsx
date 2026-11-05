@@ -205,6 +205,16 @@ export default function IncidentiStradaliPalermoPage() {
                 della richiesta di risarcimento.
               </p>
 
+              <p>
+                Per approfondire, consulta la guida su{" "}
+                <Link
+                  href="/blog/incidenti-stradali-palermo"
+                  className="text-[#75521f] underline underline-offset-4 transition-colors hover:text-[#101826] focus-visible:rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826]"
+                >
+                  cosa fare dopo un incidente stradale a Palermo
+                </Link>.
+              </p>
+
               <h2 className="text-4xl md:text-5xl font-serif text-[#0b1220] leading-tight mt-16 mb-8 text-left">
                 Danni e risarcimento dopo un incidente stradale
               </h2>

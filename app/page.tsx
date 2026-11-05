@@ -629,6 +629,21 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
               </m.div>
             ))}
           </div>
+
+          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row sm:flex-wrap">
+            <Link
+              href="/diritto-civile-palermo"
+              className="inline-flex min-h-14 w-full max-w-72 items-center justify-center rounded-full border border-[#c8a96b]/70 bg-white/80 px-5 py-3 text-center text-sm font-semibold leading-6 tracking-[0.04em] text-[#101826] transition-colors duration-300 hover:border-[#c8a96b] hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826] sm:w-72"
+            >
+              Diritto civile a Palermo
+            </Link>
+            <Link
+              href="/risarcimento-danni-palermo"
+              className="inline-flex min-h-14 w-full max-w-72 items-center justify-center rounded-full border border-[#c8a96b]/70 bg-white/80 px-5 py-3 text-center text-sm font-semibold leading-6 tracking-[0.04em] text-[#101826] transition-colors duration-300 hover:border-[#c8a96b] hover:bg-[#c8a96b] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#101826] sm:w-72"
+            >
+              Risarcimento danni a Palermo
+            </Link>
+          </div>
         </div>
       </section>
 
