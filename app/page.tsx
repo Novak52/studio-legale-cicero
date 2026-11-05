@@ -334,12 +334,12 @@ id="risultati"
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-12 gap-x-8">
 
       <div>
-        <h3 className="text-5xl md:text-6xl font-serif mb-4">
-          20+
+        <h3 className="text-3xl xl:text-4xl font-serif mb-4">
+          Esperienza
         </h3>
 
         <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
-          Anni di esperienza
+          Professionale
         </p>
 
         <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
@@ -348,12 +348,12 @@ id="risultati"
       </div>
 
       <div>
-        <h3 className="text-5xl md:text-6xl font-serif mb-4">
-          2200+
+        <h3 className="text-3xl xl:text-4xl font-serif mb-4">
+          Assistenza
         </h3>
 
         <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
-          Pratiche seguite
+          Personalizzata
         </p>
 
         <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
@@ -362,12 +362,12 @@ id="risultati"
       </div>
 
       <div>
-        <h3 className="text-5xl md:text-6xl font-serif mb-4">
-          98%
+        <h3 className="text-3xl xl:text-4xl font-serif mb-4">
+          Rapporto
         </h3>
 
         <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
-          Gestione diretta
+          Diretto
         </p>
 
         <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
@@ -376,12 +376,12 @@ id="risultati"
       </div>
 
       <div>
-        <h3 className="text-5xl md:text-6xl font-serif mb-4">
+        <h3 className="text-3xl xl:text-4xl font-serif mb-4">
           Palermo
         </h3>
 
         <p className="uppercase tracking-[0.22em] text-[11px] text-[#75521f] mb-3">
-          Operatività
+          Operatività territoriale
         </p>
 
         <p className="text-sm md:text-base text-[#5d6470] leading-relaxed">
@@ -428,6 +428,10 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
 
       <p className="text-[#5d6470] text-xl leading-relaxed">
         Lo studio segue ogni pratica con attenzione diretta, comunicazione chiara e gestione rigorosa delle attività legali.
+      </p>
+
+      <p className="text-[#5d6470] text-base leading-relaxed mt-6">
+        L&apos;Avv. Giuseppina Cicero è iscritta all&apos;Ordine degli Avvocati di Palermo.
       </p>
 
     </div>
@@ -500,7 +504,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
               </p>
 
               <h2 className="text-4xl md:text-5xl lg:text-7xl font-serif leading-[0.98] max-w-4xl text-[#101826]">
-                Aree di specializzazione.
+                Ambiti di attività.
               </h2>
             </div>
 
@@ -589,7 +593,7 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
         </div>
       </section>
 
-      {/* TESTIMONIAL */}
+      {/* METODO DI LAVORO */}
       <section
       
   className="relative py-20 px-6 bg-white overflow-hidden">
@@ -600,22 +604,14 @@ className="relative py-28 px-6 bg-[#fcfaf7] overflow-hidden"
           </p>
 
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif leading-[1.02] mb-16 text-[#101826]">
-            Competenza legale tutela concreta dei diritti e assistenza costante.
+            Professionalità, riservatezza e attenzione alla persona.
           </h2>
 
-          <div className="bg-[#f7f4ee] border border-black/5 rounded-[3rem] p-14 lg:p-20 shadow-[0_25px_80px_rgba(0,0,0,0.06)]">
-            <p className="text-2xl sm:text-3xl lg:text-4xl font-serif leading-relaxed text-[#101826] mb-14">
-              “Professionalità, chiarezza e grande attenzione al cliente.
-              Assistenza impeccabile e gestione strategica dell’intera pratica.”
+          <div className="bg-[#f7f4ee] border border-black/5 rounded-[3rem] p-6 sm:p-14 lg:p-20 shadow-[0_25px_80px_rgba(0,0,0,0.06)]">
+            <p className="text-xl sm:text-3xl lg:text-4xl font-serif leading-relaxed text-[#101826]">
+              Ogni incarico viene affrontato attraverso un&apos;attenta valutazione della documentazione, un confronto diretto con l&apos;assistito e una strategia legale adeguata alle circostanze del caso.
             </p>
 
-            <div>
-              <h3 className="text-2xl font-serif text-[#101826] mb-3">
-                Testimonianza cliente
-              </h3>
-
-              
-            </div>
           </div>
         </div>
       </section>
