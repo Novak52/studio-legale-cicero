@@ -7,6 +7,8 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 
 export const metadata = {
+  authors: null,
+  creator: null,
 
   title: "Risarcimento danni a Palermo | Guida pratica",
 
@@ -139,16 +141,6 @@ const articleSchema = {
   datePublished: "2026-07-08T09:00:00+02:00",
 
   dateModified: "2026-07-08T09:00:00+02:00",
-
-  author: {
-
-    "@type": "Person",
-
-    name: "Avv. Giuseppina Cicero",
-
-    url: "https://avvocatocicero.it",
-
-  },
 
   publisher: {
 

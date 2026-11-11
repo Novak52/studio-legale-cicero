@@ -2,6 +2,8 @@ import Link from "next/link"
 import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 export const metadata = {
+  authors: null,
+  creator: null,
   title: "Separazione e divorzio a Palermo | Guida pratica",
   description:
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
@@ -51,11 +53,6 @@ const articleSchema = {
   url: "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-07-08T09:00:00+02:00",
- author: {
-  "@type": "Person",
-  name: "Avv. Giuseppina Cicero",
-  url: "https://avvocatocicero.it",
-},
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",

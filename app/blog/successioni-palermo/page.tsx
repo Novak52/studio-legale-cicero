@@ -3,6 +3,8 @@ import Script from "next/script"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
+  authors: null,
+  creator: null,
   title: "Successioni ereditarie a Palermo | Guida pratica",
   description:
     "Guida alle successioni ereditarie: documenti necessari, eredi, testamento e tutela dei diritti successori.",
@@ -21,11 +23,6 @@ const articleSchema = {
   url: "https://avvocatocicero.it/blog/successioni-palermo",
   datePublished: "2026-07-08T09:00:00+02:00",
   dateModified: "2026-10-03T00:00:00+02:00",
-  author: {
-    "@type": "Person",
-    name: "Avv. Giuseppina Cicero",
-    url: "https://avvocatocicero.it",
-  },
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",

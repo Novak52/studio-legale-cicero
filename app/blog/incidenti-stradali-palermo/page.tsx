@@ -2,6 +2,8 @@ import Link from "next/link"
 import BreadcrumbSchema from "@/components/BreadcrumbSchema"
 
 export const metadata = {
+  authors: null,
+  creator: null,
   title: "Cosa fare dopo un incidente stradale a Palermo",
   description:
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
@@ -18,11 +20,6 @@ const articleSchema = {
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
   image: "https://avvocatocicero.it/og-image.jpg",
   url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
- author: {
-  "@type": "Person",
-  name: "Avv. Giuseppina Cicero",
-  url: "https://avvocatocicero.it",
-},
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
