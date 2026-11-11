@@ -332,6 +332,17 @@ export default function AvvocatoMalasanitaPalermoPage() {
             </p>
 
             <p className="text-justify">
+              Per approfondire, consulta la{" "}
+              <Link
+                href="/blog/errore-medico-palermo-risarcimento"
+                className="underline underline-offset-4"
+              >
+                guida sull&apos;errore medico a Palermo
+              </Link>
+              .
+            </p>
+
+            <p className="text-justify">
               Lo studio segue anche pratiche collegate al{" "}
               <Link
                 href="/risarcimento-danni-palermo"
