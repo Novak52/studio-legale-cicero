@@ -130,9 +130,15 @@ Cosa fare dopo un incidente stradale a Palermo
           </h2>
 
           <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
-            La richiesta di risarcimento può riguardare danni materiali,
-            lesioni personali, spese mediche e ulteriori conseguenze derivanti
-            dall’incidente.
+            La richiesta di risarcimento può riguardare danni materiali, lesioni
+            personali, spese mediche e ulteriori conseguenze derivanti
+            dall’incidente. La denuncia del sinistro informa la compagnia
+            dell’accaduto e va distinta dalla richiesta di risarcimento, che
+            deve contenere le informazioni e i documenti previsti per la
+            procedura applicabile. È opportuno avvisare tempestivamente la
+            compagnia. I termini per la denuncia e quelli di prescrizione del
+            diritto al risarcimento sono distinti: la loro applicazione dipende
+            dalle circostanze e dalle eccezioni previste dalla legge.
           </p>
 
           <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
@@ -201,9 +207,12 @@ Cosa fare dopo un incidente stradale a Palermo
               </h3>
 
               <p className="text-slate-600">
-  Il modulo di constatazione amichevole può facilitare la raccolta delle
-  informazioni relative al sinistro e la gestione della documentazione
-  necessaria per la richiesta di risarcimento.
+  Il CAI, comunemente chiamato CID, serve a denunciare il sinistro e descriverne
+  le circostanze. Non è necessaria la firma di entrambi i conducenti: in caso di
+  disaccordo può essere compilato singolarmente. Se il modulo non è stato
+  compilato, occorre comunque informare per iscritto la compagnia. La firma
+  congiunta può abbreviare i termini dell’offerta nei casi previsti dalla legge.
+  Il solo CAI non costituisce una richiesta di risarcimento completa.
 </p>
             </div>
 

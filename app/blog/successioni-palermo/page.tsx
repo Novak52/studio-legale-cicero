@@ -169,10 +169,12 @@ export default function SuccessioniPalermoPage() {
               </h2>
 
               <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
-                Gli eredi possono valutare se accettare o rinunciare all'eredità
-                secondo le modalità previste dalla legge. La scelta deve essere
-                esaminata considerando la situazione patrimoniale e i rapporti
-                ereditari coinvolti.
+                Chi è chiamato all’eredità può valutare se accettare o
+                rinunciare nei modi previsti dalla legge, purché non abbia già
+                acquistato la qualità di erede. L’accettazione può essere
+                espressa o tacita. Prima di decidere è quindi importante
+                considerare anche gli atti già compiuti e l’eventuale possesso
+                di beni ereditari.
               </p>
 
               <p className="text-left md:text-justify [text-align-last:left] hyphens-none break-normal">
@@ -323,9 +325,11 @@ export default function SuccessioniPalermoPage() {
                 </h3>
 
                 <p className="text-slate-600 text-justify">
-                  No. L'erede può valutare se accettare o rinunciare all'eredità secondo
-                  le modalità previste dalla legge. La scelta deve essere esaminata
-                  considerando la situazione patrimoniale e i rapporti ereditari coinvolti.
+                  No. Il chiamato all’eredità può rinunciare nelle forme
+                  previste dalla legge, purché non abbia già acquistato la
+                  qualità di erede. Occorre considerare anche l’eventuale
+                  accettazione tacita e le regole sul possesso dei beni
+                  ereditari.
                 </p>
 
               </div>
@@ -367,10 +371,14 @@ export default function SuccessioniPalermoPage() {
                 </h3>
 
                 <p className="text-slate-600 text-justify">
-                  In generale il diritto di accettare l'eredità si prescrive in dieci anni
-                  dall'apertura della successione, salvo particolari situazioni previste
-                  dalla legge. La posizione concreta deve essere verificata considerando
-                  le circostanze della successione.
+                  In generale il diritto di accettare l’eredità si prescrive in
+                  dieci anni dall’apertura della successione, con le eccezioni
+                  previste dalla legge. Il possesso di beni ereditari comporta
+                  termini più brevi per l’inventario e la successiva decisione,
+                  la cui inosservanza può incidere sull’acquisto della qualità
+                  di erede. Anche il giudice può fissare un termine per
+                  accettare o rinunciare. Non è quindi sempre possibile
+                  attendere dieci anni.
                 </p>
 
               </div>
