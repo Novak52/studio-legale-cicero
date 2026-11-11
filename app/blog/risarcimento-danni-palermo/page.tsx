@@ -76,7 +76,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "Sì, documenti, ricevute, fotografie e certificazioni possono risultare fondamentali per dimostrare il danno subito."
+        "text": "Sì. Documenti, ricevute, fotografie, certificazioni e altri elementi collegati all'evento possono essere utili per ricostruire i fatti, documentare le conseguenze e valutare la richiesta risarcitoria."
 
       }
 
@@ -108,7 +108,7 @@ const faqSchema = {
 
         "@type": "Answer",
 
-        "text": "Fotografie, testimonianze, referti medici e documentazione relativa alle spese sostenute possono risultare utili per la valutazione del danno subito."
+        "text": "Possono essere utili fotografie del luogo, testimonianze, referti medici, verbali e documentazione relativa alle spese sostenute. La raccolta tempestiva degli elementi disponibili può facilitare la ricostruzione dell'evento e la valutazione del danno."
 
       }
 
