@@ -138,9 +138,9 @@ const articleSchema = {
 
   url: "https://avvocatocicero.it/blog/risarcimento-danni-palermo",
 
-  datePublished: "2026-07-08T09:00:00+02:00",
+  datePublished: "2026-05-30",
 
-  dateModified: "2026-07-08T09:00:00+02:00",
+  dateModified: "2026-11-03",
 
   publisher: {
 

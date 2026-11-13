@@ -23,8 +23,8 @@ const articleSchema = {
     "Guida pratica sulla responsabilità medica e sul risarcimento danni da errore medico a Palermo.",
   image: "https://avvocatocicero.it/og-image.jpg",
   url: "https://avvocatocicero.it/blog/errore-medico-palermo-risarcimento",
-  datePublished: "2026-07-08T09:00:00+02:00",
-  dateModified: "2026-10-03T00:00:00+02:00",
+  datePublished: "2026-06-17",
+  dateModified: "2026-10-03",
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",

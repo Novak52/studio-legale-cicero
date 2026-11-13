@@ -51,8 +51,8 @@ const articleSchema = {
     "Tempi, costi e aspetti legali della separazione e del divorzio a Palermo.",
     image: "https://avvocatocicero.it/og-image.jpg",
   url: "https://avvocatocicero.it/blog/separazione-divorzio-palermo",
-  datePublished: "2026-07-08T09:00:00+02:00",
-  dateModified: "2026-07-08T09:00:00+02:00",
+  datePublished: "2026-05-30",
+  dateModified: "2026-10-02",
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",

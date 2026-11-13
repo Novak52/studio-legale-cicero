@@ -20,6 +20,8 @@ const articleSchema = {
     "Guida pratica su come comportarsi dopo un incidente stradale, quali documenti conservare e quando richiedere il risarcimento danni.",
   image: "https://avvocatocicero.it/og-image.jpg",
   url: "https://avvocatocicero.it/blog/incidenti-stradali-palermo",
+  datePublished: "2026-06-07",
+  dateModified: "2026-11-11",
   publisher: {
     "@type": "Organization",
     name: "Studio Legale Giuseppina Cicero",
